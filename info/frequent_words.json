@@ -1,0 +1,458 @@
+{
+  "A.1.1 Agua": [
+    "agua", "hídrico", "recurso", "hídrica", "acuífero", "cuenca", "río",
+    "naciente", "manantial", "lluvia", "potable", "saneamiento", "abastecimiento",
+    "riego", "drenaje", "humedal", "laguna", "gestión hídrica", "comunes",
+    "bienes", "saberes", "sostenible", "comunitaria", "verdes", "información"
+  ],
+
+  "A.1.2 Suelo": [
+    "suelo", "tierra", "bienes comunes", "socioambientales", "cuido",
+    "defensa", "desigualdades", "observatorio", "territorios", "erosión",
+    "degradación", "restauración", "uso del suelo", "ordenamiento",
+    "comunal", "tenencia", "propiedad", "parcela", "agrario", "rural"
+  ],
+
+  "A.1.3 Ambiente, Descarbonización y Residuos": [
+    "ambiental", "residuos", "sostenible", "ambiente", "conservación",
+    "manejo", "reciclaje", "desechos", "contaminación", "descarbonización",
+    "emisiones", "carbono", "huella", "basura", "tratamiento", "relleno",
+    "compostaje", "limón", "caribe", "laboratorio", "gestión ambiental"
+  ],
+
+  "A.2.3 Cultura": [
+    "cultural", "patrimonio", "artes", "cultura", "arte", "talleres",
+    "escénico", "danza", "teatro", "música", "expresión", "identidad",
+    "tradición", "manifestación", "festival", "exposición", "muestra",
+    "creación", "artístico", "memoria colectiva", "folclor", "folklórico",
+    "bailes", "literario", "narrativa", "patrimonio inmaterial"
+  ],
+
+  "A.3.1 Ciencia, Tecnología e Innovación": [
+    "ciencia", "tecnología", "innovación", "científico", "ciencias",
+    "habilidades", "secundaria", "laboratorio", "investigación aplicada",
+    "STEM", "robótica", "programación", "ingeniería", "matemáticas",
+    "tecnológico", "experimento", "descubrimiento", "docentes", "capacitación"
+  ],
+
+  "A.3.2 Transportes": [
+    "transporte", "vial", "movilidad", "tránsito", "carretera", "ruta",
+    "tren", "autobús", "bicicleta", "peatonal", "infraestructura vial",
+    "acceso vial", "camino", "seguridad vial", "tráfico", "logística",
+    "conectividad vial", "red vial", "transporte público", "intermodal"
+  ],
+
+  "A.3.3 Vivienda y Hábitat": [
+    "vivienda", "hábitat", "espacios públicos", "espacios", "cantón",
+    "planes reguladores", "reguladores", "activación", "comunal",
+    "asentamiento", "barrio", "urbanización", "habitacional", "hogar",
+    "construcción", "infraestructura", "mejoramiento", "precario",
+    "tugurio", "ordenamiento territorial", "uso del espacio"
+  ],
+
+  "A.4.1 Empleo": [
+    "empleo", "empleabilidad", "trabajo digno", "inserción laboral",
+    "mercado laboral", "desempleo", "ocupación", "oficio", "puesto",
+    "contratación", "trabajadores", "fuerza laboral", "plaza",
+    "capacitación laboral", "competencias laborales", "bolsa de empleo",
+    "búsqueda de empleo", "habilidades laborales", "orientación vocacional"
+  ],
+
+  "A.4.3 Desarrollo Regional": [
+    "regional", "territorial", "local", "comunitario", "produs",
+    "sedes", "zona", "cantonal", "municipio", "desarrollo local",
+    "asociaciones", "organizaciones comunitarias", "descentralización",
+    "periferia", "región", "desarrollo endógeno", "articulación regional",
+    "ucr", "oferta", "seminarios", "cursos regionales"
+  ],
+
+  "A.4.4 Agropecuario": [
+    "agricultura", "agropecuario", "ganadería", "plaguicidas", "agricultores",
+    "cultivo", "cosecha", "siembra", "producción agrícola", "finca",
+    "campesino", "pecuario", "veterinario", "semilla", "suelo agrícola",
+    "manejo", "ministerio", "pymes agrícolas", "heredia", "agrónomo",
+    "extensión agrícola", "sistemas productivos", "agroecología"
+  ],
+
+  "B.1.2 Alimentación sostenible en zonas costeras": [
+    "alimentación", "nutrición", "alimentos", "saludable", "lactancia",
+    "materna", "seguridad alimentaria", "dieta", "hábitos alimentarios",
+    "inocuidad", "costas", "costero", "marino", "pesca", "acuicultura",
+    "envejecimiento", "grupos vulnerables", "vida saludable", "promoción"
+  ],
+
+  "B.2.2 Embarazos adolescentes": [
+    "embarazo", "adolescente", "adolescencia", "sexual", "reproductivo",
+    "salud sexual", "planificación familiar", "maternidad", "paternidad",
+    "jóvenes", "derechos sexuales", "educación sexual", "prevención embarazo",
+    "anticoncepción", "ginecología", "obstetricia", "riesgo adolescente"
+  ],
+
+  "B.3.2 Energía": [
+    "energía", "energético", "renovable", "solar", "eólica", "hidroeléctrica",
+    "eficiencia energética", "consumo energético", "electricidad", "fotovoltaico",
+    "biomasa", "biogás", "combustible", "matriz energética", "ahorro energético",
+    "paneles solares", "transición energética", "generación distribuida"
+  ],
+
+  "B.4.1 Trabajo digno": [
+    "trabajo digno", "derechos laborales", "laborales", "mujeres", "libertad",
+    "organizaciones", "bienestar", "condiciones laborales", "sindical",
+    "negociación colectiva", "salario", "jornada", "discriminación laboral",
+    "trabajadoras", "protección social", "seguridad laboral", "informalidad",
+    "precarización", "acoso laboral", "hostigamiento"
+  ],
+
+  "B.4.2 Industrialización inclusiva": [
+    "mipymes", "industria", "manufactura", "producción", "cadena de valor",
+    "agroalimentario", "servicios", "asesoría", "capacitaciones técnicas",
+    "guanacaste", "ina", "acreditados", "pymes", "empresa", "emprendimiento",
+    "productividad industrial", "valor agregado", "exportación", "comercio"
+  ],
+
+  "B.4.4 Desigualdad": [
+    "equidad", "igualdad", "desigualdad", "inclusión", "violencia",
+    "paz", "discriminación", "exclusión", "vulnerabilidad", "marginación",
+    "brecha", "pobreza", "inequidad", "justicia social", "capri",
+    "encuentro", "reflexión", "derechos humanos", "minorías", "acceso igualitario"
+  ],
+
+  "B.5.1 Comunicación vial": [
+    "comunicación vial", "seguridad vial", "vial", "carretera", "ruta",
+    "camino", "accidente", "tránsito", "señalización", "infraestructura vial",
+    "peatón", "conductor", "velocidad", "educación vial", "comportamiento vial",
+    "convivencia vial", "movilidad segura", "atropello", "colisión"
+  ],
+
+  "B.5.2 Urbanismo": [
+    "urbanismo", "urbano", "ciudad", "planificación urbana", "espacio público",
+    "densificación", "uso de suelo urbano", "barrio", "ordenamiento",
+    "transporte urbano", "movilidad urbana", "infraestructura urbana",
+    "renovación urbana", "paisaje urbano", "equipamiento", "segregación",
+    "centro urbano", "expansión urbana", "metropolitano"
+  ],
+
+  "B.5.3 Contaminación": [
+    "contaminación", "contaminante", "polución", "cica", "residuos",
+    "tóxico", "químico", "desecho", "vertido", "emisión", "ruido",
+    "suelo contaminado", "agua contaminada", "aire", "plomo", "mercurio",
+    "pesticidas", "agroquímicos", "monitoreo ambiental", "calidad ambiental"
+  ],
+
+  "B.5.4 Ambiente y Mares": [
+    "ambiental", "caribe", "conservación", "ambiente", "limón",
+    "naturales", "organizaciones locales", "turismo", "recursos naturales",
+    "marino", "mar", "océano", "costas", "biodiversidad marina",
+    "arrecife", "manglar", "pesca sostenible", "ecosistema marino",
+    "área marina protegida", "contaminación marina"
+  ],
+
+  "B.5.5 Justicia institucional": [
+    "justicia", "ambiental", "conflictos", "caribe", "locales",
+    "solución", "fortalecer", "zonas", "comunitaria", "desafíos",
+    "institucional", "transparencia", "rendición de cuentas", "acceso a justicia",
+    "derechos", "litigio", "defensoría", "mediación", "arbitraje", "tribunal"
+  ],
+
+  "C.1.1 Desarrollo humano integral": [
+    "discapacidad", "humano", "vejez", "mayores", "envejecimiento",
+    "adultas", "universal", "grecia", "recinto", "acceso",
+    "desarrollo humano", "bienestar integral", "calidad de vida",
+    "personas mayores", "adultos mayores", "autonomía", "dignidad",
+    "inclusión social", "ciclo de vida", "personas con discapacidad"
+  ],
+
+  "C.1.2 Costas y zonas fronterizas": [
+    "migrantes", "migrante", "frontera", "fronterizo", "migración",
+    "refugiados", "psicosociales", "tcu", "tutorías", "adolescentes",
+    "niños", "niñas", "acompañamiento", "zona costera", "limítrofe",
+    "binacional", "desplazamiento", "integración migrante", "xenofobia"
+  ],
+
+  "C.2.1 Infraestructura Vial y Educativa": [
+    "vial", "educativas", "instituciones educativas", "seguridad",
+    "buenas prácticas", "comportamientos", "convivencia", "fomentar",
+    "infraestructura", "edificio", "instalaciones", "construcción escolar",
+    "acceso a escuela", "planta física", "equipamiento educativo"
+  ],
+
+  "C.2.2 Logística (multimodal)": [
+    "logística", "multimodal", "cadena de suministro", "distribución",
+    "almacenamiento", "transporte de carga", "puerto", "aduana",
+    "exportación", "importación", "trazabilidad", "eficiencia logística",
+    "intermodal", "última milla", "comercio exterior", "zona franca"
+  ],
+
+  "C.3.1 Educación": [
+    "educación", "educativo", "estudiantes", "capacitación", "docentes",
+    "formación", "talleres", "instituciones educativas", "aprendizaje",
+    "enseñanza", "escuela", "colegio", "secundaria", "primaria",
+    "mediación pedagógica", "currículo", "aula", "pedagógico",
+    "didáctica", "conocimiento", "habilidades", "competencias"
+  ],
+
+  "C.3.2 Innovación": [
+    "innovación", "innovadoras", "laboratorio", "experiencias", "aprendizaje",
+    "espacio", "intercambio", "agrícolas", "propiedad intelectual",
+    "emprendimiento", "startup", "prototipo", "transferencia tecnológica",
+    "creatividad", "solución innovadora", "modelo de negocio", "disrupción",
+    "tecnología aplicada", "investigación e innovación"
+  ],
+
+  "C.4.1 Género": [
+    "género", "mujeres", "violencia", "prevención", "niñas", "niñez",
+    "feminismo", "machismo", "patriarcado", "empoderamiento femenino",
+    "igualdad de género", "equidad de género", "violencia doméstica",
+    "violencia de género", "derechos de las mujeres", "feminicidio",
+    "brecha de género", "división sexual del trabajo", "acoso sexual"
+  ],
+
+  "C.4.2 Salud": [
+    "salud", "promoción", "prevención", "atención", "calidad de vida",
+    "profesionales de salud", "paciente", "clínico", "enfermedad",
+    "hospital", "clínica", "ebais", "nutrición", "mental",
+    "epidemiología", "diagnóstico", "tratamiento", "rehabilitación",
+    "medicina", "enfermería", "odontología", "fisioterapia"
+  ],
+
+  "C.5.1 Economía verde": [
+    "economía verde", "verde", "sostenibilidad económica", "ecoturismo",
+    "servicios ambientales", "pagos por servicios ambientales", "carbono neutro",
+    "huella de carbono", "producción limpia", "certificación ambiental",
+    "empresa sostenible", "mercado verde", "turismo sostenible",
+    "biodiversidad productiva", "aprovechamiento sostenible"
+  ],
+
+  "C.5.2 Producción sofisticada": [
+    "producción", "productores", "semilla", "frijol", "tecnologías",
+    "transferencia", "enseñanza", "inglés", "español", "pacífico",
+    "valor agregado", "cadena productiva", "manufactura avanzada",
+    "exportación", "calidad", "certificación", "norma", "estándar",
+    "agroindustria", "procesamiento", "producto final"
+  ],
+
+  "C.6.1 Economía regenerativa": [
+    "regenerativa", "economía circular", "circular", "restauración",
+    "regeneración", "resiliente", "simbiosis industrial", "reutilización",
+    "reparación", "remanufactura", "biomímesis", "ecosistema económico",
+    "comunidades regenerativas", "producción regenerativa", "suelo regenerativo"
+  ],
+
+  "D.1.1 Descentralizada": [
+    "organizaciones", "grupos", "sostenible", "comunitario", "local",
+    "comunitaria", "brindar", "públicas", "solidaria", "empoderamiento",
+    "economía solidaria", "descentralización", "gobierno local",
+    "municipalidad", "participación ciudadana", "autonomía local",
+    "gestión descentralizada", "poder local", "territorio"
+  ],
+
+  "D.1.2 Digitalizada": [
+    "digitales", "digital", "acceso", "ediciones", "textos", "diseño",
+    "plataforma", "tecnología digital", "internet", "conectividad",
+    "datos", "sistema de información", "repositorio", "virtualidad",
+    "e-learning", "aplicación", "software", "automatización", "TIC"
+  ],
+
+  "D.2.1 Productividad laboral": [
+    "capacitación", "actualización", "continua", "profesionales",
+    "formación", "cursos", "permanente", "profesional", "conocimientos",
+    "productividad", "eficiencia", "rendimiento", "competencias profesionales",
+    "certificación", "especialización", "posgrado", "actualización profesional"
+  ],
+
+  "D.2.3 Desconcentración e innovación productiva": [
+    "desconcentración", "innovación productiva", "sedes regionales",
+    "descentralización productiva", "zonas económicas", "parques industriales",
+    "clústeres", "polos de desarrollo", "región", "territorial",
+    "encadenamientos productivos", "desarrollo productivo regional"
+  ],
+
+  "E.1.1 Regulación Urbana": [
+    "planes reguladores", "regulador", "cantón", "invu", "plan",
+    "reguladores", "uso del suelo", "zonificación", "ordenamiento urbano",
+    "normativa urbana", "construcción", "permiso", "reglamento",
+    "densidad", "altura", "retiro", "uso permitido", "municipalidad"
+  ],
+
+  "E.1.2 Gestión municipal": [
+    "cmes", "corredores", "coto", "brus", "cces", "golfito", "empleo",
+    "emergencias", "informática", "riesgos", "inundación",
+    "municipalidad", "alcaldía", "concejo", "gestión pública",
+    "servicios municipales", "transparencia municipal", "presupuesto municipal"
+  ],
+
+  "E.2.1 Pobreza": [
+    "pobreza", "pobreza extrema", "vulnerabilidad", "exclusión social",
+    "asistencia social", "transferencias", "subsidio", "bono",
+    "familias vulnerables", "precariedad", "indigencia", "imas",
+    "desarrollo social", "superación de pobreza", "comunidades pobres",
+    "bajo índice de desarrollo", "desigualdad económica", "carencia"
+  ],
+
+  "E.2.3 Inseguridad Ciudadana": [
+    "violencia", "prevención", "mujeres", "niñez", "adolescencia",
+    "organizaciones", "libertad", "sensibilización", "acciones",
+    "seguridad ciudadana", "delito", "criminalidad", "drogadicción",
+    "pandilla", "robo", "asalto", "convivencia pacífica", "mediación"
+  ],
+
+  "E.4.1 Inversión en capital": [
+    "inversión", "capital", "financiamiento", "fondos", "presupuesto",
+    "crédito", "banca", "recursos financieros", "rentabilidad",
+    "retorno", "activos", "patrimonio financiero", "fondo de inversión",
+    "capital semilla", "microcrédito", "cooperativa financiera"
+  ],
+
+  "E.4.2 Gestión regional de recursos": [
+    "gestión regional", "recursos regionales", "planificación regional",
+    "mideplan", "región", "cuenca", "gestión de recursos",
+    "administración pública", "presupuesto regional", "inversión regional",
+    "coordinación interinstitucional", "recursos naturales regionales"
+  ],
+
+  "E.5.1 Accesibilidad": [
+    "discapacidad", "accesibilidad", "inclusión", "vulnerabilidad",
+    "situación", "universitario", "apoyo", "equidad", "apoyos",
+    "subproyectos", "acceso universal", "rampa", "braille", "LESCO",
+    "lengua de señas", "audiodescripción", "personas con discapacidad",
+    "barreras de acceso", "diseño universal", "ajuste razonable"
+  ],
+
+  "E.5.2 Conectividad": [
+    "conectividad", "internet", "digital", "brecha digital", "acceso digital",
+    "telecomunicaciones", "banda ancha", "red", "wifi", "fibra óptica",
+    "teléfono", "señal", "cobertura", "infraestructura digital",
+    "plataforma digital", "comunidades rurales conectadas"
+  ],
+
+  "E.6.1 Brecha Servicios de Salud": [
+    "brecha", "servicios de salud", "acceso a salud", "desigualdad en salud",
+    "salud rural", "salud en zonas alejadas", "atención primaria",
+    "ebais", "ccss", "inequidad en salud", "cobertura en salud",
+    "medicina comunitaria", "telemedicina", "salud intercultural"
+  ],
+
+  "E.6.2 Brecha Servicios de Educación": [
+    "brecha educativa", "acceso a educación", "deserción", "rezago escolar",
+    "exclusión educativa", "cobertura educativa", "educación rural",
+    "zonas alejadas", "rendimiento académico", "reprobación",
+    "ausentismo", "extraedad", "necesidades educativas especiales",
+    "educación inclusiva", "apoyo académico", "tutoría"
+  ],
+
+  "F.1.1 Bienestar nacional global": [
+    "bienestar", "discapacidad", "vejez", "mayores", "envejecimiento",
+    "humano", "acceso", "universal", "grecia", "adultas",
+    "calidad de vida nacional", "desarrollo humano", "índice de bienestar",
+    "felicidad", "cohesión social", "convivencia nacional"
+  ],
+
+  "F.1.2 Educación continua y permanente": [
+    "educación continua", "permanente", "actualización", "formación continua",
+    "capacitación", "ambiental", "sostenible", "docentes", "instituciones",
+    "talleres", "organizaciones", "formación profesional continua",
+    "aprendizaje a lo largo de la vida", "educación de adultos",
+    "recalificación", "upskilling", "reskilling"
+  ],
+
+  "F.3.1 Bienestar estudiantil integral": [
+    "bienestar estudiantil", "estudiantil", "becas", "residencias",
+    "comedor estudiantil", "salud estudiantil", "orientación estudiantil",
+    "vida universitaria", "permanencia", "éxito académico",
+    "apoyo psicosocial estudiantil", "deporte universitario",
+    "actividades estudiantiles", "salud mental estudiantil"
+  ],
+
+  "F.4.1 Ampliación de programas, proyectos y actividades en Sedes": [
+    "cursos", "oferta", "ucr", "produs", "territorial", "seminarios",
+    "universidad", "programa", "urbano", "continua", "intercambio",
+    "sedes regionales", "sede", "recinto", "oferta académica",
+    "extensión universitaria", "acción social", "nuevos programas"
+  ],
+
+  "F.7.1 Defensa ambiente sustentable": [
+    "ambiental", "sostenible", "educación ambiental", "conservación",
+    "organizaciones", "local", "fortalecer", "universidad", "comunidad",
+    "sustentable", "defensa ambiental", "activismo ambiental",
+    "protección ambiental", "legislación ambiental", "áreas protegidas",
+    "biodiversidad", "ecosistema", "recursos naturales"
+  ],
+
+  "F.7.2 Descarbonización": [
+    "descarbonización", "carbono", "emisiones", "huella de carbono",
+    "residuos", "ambiental", "sostenible", "conservación", "laboratorio",
+    "manejo", "materiales", "caribe", "limón", "carbono neutro",
+    "gases efecto invernadero", "cambio climático", "neutralidad climática",
+    "energía limpia", "movilidad eléctrica", "bosque"
+  ],
+
+  "F.7.3 Contribuye a la seguridad alimentaria": [
+    "seguridad alimentaria", "alimentaria", "productores", "producción",
+    "cultivos", "agrícolas", "agrícola", "manejo", "semilla",
+    "fortalecer", "sistemas", "soberanía alimentaria", "autosuficiencia",
+    "hambre", "nutrición", "acceso a alimentos", "producción local",
+    "alimento", "cosecha", "siembra"
+  ],
+
+  "G.1.1 Vinculación académico, investigación y la sociedad": [
+    "vinculación", "académico", "investigación", "sociedad", "extensión",
+    "acción social", "transferencia", "comunidad universitaria",
+    "impacto social", "pertinencia", "diálogo de saberes",
+    "universidad comunidad", "investigación aplicada", "conocimiento social",
+    "responsabilidad social universitaria", "colaboración academia"
+  ],
+
+  "G.2.1 Desarrollo territorial integral": [
+    "territorial", "integral", "produs", "ucr", "sostenible",
+    "seminarios", "urbano", "intercambio", "desarrollo local",
+    "planificación territorial", "ordenamiento territorial",
+    "identidad territorial", "arraigo", "comunidades", "municipio",
+    "diagnóstico territorial", "potencial local"
+  ],
+
+  "G.2.2 Fortalecimiento de Sedes que desarrolle las comunidades": [
+    "sedes", "comunidades", "produs", "ucr", "territorial",
+    "recinto", "oferta académica regional", "fortalecimiento",
+    "extensión universitaria", "acción social sede",
+    "vinculación sede comunidad", "desarrollo comunitario desde sede"
+  ],
+
+  "G.3.1 Programas y proyectos para sociedad inclusiva": [
+    "inclusiva", "equidad", "igualdad", "inclusión", "violencia",
+    "paz", "capri", "encuentro", "reflexión", "sociedad inclusiva",
+    "diversidad", "no discriminación", "acceso igualitario",
+    "participación", "integración social", "cohesión"
+  ],
+
+  "H.5.1 Atención cantones del país debajo índice de desarrollo social (IDS)": [
+    "ids", "índice de desarrollo social", "cantones", "desarrollo social",
+    "discapacidad", "envejecimiento", "vejez", "mayores", "equidad",
+    "derechos humanos", "cultura", "comunidad", "acceso",
+    "cantones prioritarios", "zonas rezagadas", "bajo desarrollo",
+    "vulnerabilidad social", "inversión social focalizada"
+  ],
+
+  "H.5.2 Mejora rendimiento académico estudiantes de cantones de bajo IDS": [
+    "rendimiento académico", "cantones", "estudiantes", "educación",
+    "permanente", "actualización", "docentes", "capacitación",
+    "profesional", "continua", "apoyo académico", "tutoría",
+    "rezago", "nivelación", "reforzamiento", "logro educativo",
+    "bajo ids", "éxito escolar", "retención estudiantil"
+  ],
+
+  "H.6.1 Incidencia en la política pública y la transformación social para el desarrollo humano sostenible con coordinación local": [
+    "política pública", "incidencia", "transformación social", "coordinación local",
+    "produs", "ucr", "territorial", "sostenible", "seminarios",
+    "institucional", "agenda pública", "legislación", "decreto",
+    "propuesta de ley", "participación política", "cabildeo",
+    "gobierno", "ministerio", "planificación nacional"
+  ],
+
+  "H.6.3 Fortalecimiento interuniversitario de emprendimientos regionales": [
+    "pymes", "emprendimientos", "propiedad intelectual", "intelectual",
+    "pacifico", "empresas", "organizaciones", "produs", "interuniversitario",
+    "universidades", "emprendedores", "startup regional", "incubadora",
+    "aceleradora", "innovación empresarial", "cadenas productivas regionales",
+    "fortalecimiento empresarial"
+  ]
+}
