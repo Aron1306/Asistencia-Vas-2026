@@ -122,33 +122,3 @@ class Scorer:
         for _, row in df.iterrows():
             rows.append(self.score_proyecto(row.to_dict()))
         return pd.DataFrame(rows, index=df.index)
-
-
-# ── Test rápido ──────────────────────────────────────────────────────────────
-if __name__ == '__main__':
-    import os
-    json_path = Path(__file__).parent / 'bibliotecas_indicadores.json'
-    s = Scorer(str(json_path))
-
-    proyecto_ejemplo = {
-        'Nombre': 'Educación ambiental y gestión de residuos en escuelas primarias',
-        'Descriptores': 'residuos sólidos|reciclaje|educación ambiental|sostenibilidad',
-        'Objetivo general': 'Promover la educación ambiental y el manejo adecuado de residuos en centros educativos.',
-        'Objetivos específicos': 'Capacitar docentes en manejo de residuos. Desarrollar materiales pedagógicos.',
-        'Descripción': 'El proyecto trabaja con estudiantes de primaria para reducir la contaminación mediante talleres de reciclaje.',
-        'Subtemáticas': 'Ambiente : Residuos sólidos',
-        'Temáticas': 'Ambiente',
-    }
-
-    scores = s.score_proyecto(proyecto_ejemplo)
-    pred = s.predict(proyecto_ejemplo, umbral=3.0)
-
-    print("=== Scores (solo > 0) ===")
-    for ind, sc in sorted(scores.items(), key=lambda x: -x[1]):
-        if sc > 0:
-            print(f"  {sc:6.1f}  {ind}")
-
-    print("\n=== Predicciones positivas (umbral=3.0) ===")
-    for ind, val in pred.items():
-        if val == 1:
-            print(f"  ✅ {ind}")
