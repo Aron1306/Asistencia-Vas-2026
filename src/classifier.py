@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # Subcomando: calibrar
     p_cal = subparsers.add_parser('calibrar', help='Calibrar umbrales con datos etiquetados')
     p_cal.add_argument('--etiquetado', required=True, help='Excel con pertinencias ya asignadas')
-    p_cal.add_argument('--output', default='umbrales.json', help='Archivo JSON de salida')
+    p_cal.add_argument('--output', default='thresholds.json', help='Archivo JSON de salida')
 
     # Subcomando: clasificar
     p_cls = subparsers.add_parser('clasificar', help='Clasificar proyectos nuevos')
