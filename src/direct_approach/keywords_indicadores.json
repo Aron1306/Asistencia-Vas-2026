@@ -1,0 +1,269 @@
+{
+  "A.1.1 Agua": [
+    "agua",
+    "rio",
+    "mar",
+    "recurso hidrico",
+    "cuenca"
+  ],
+  "A.1.2 Suelo": [
+    "suelo",
+    "tierra"
+  ],
+  "A.1.3 Ambiente, Descarbonización y Residuos": [
+    "ambiente",
+    "medio ambiente",
+    "descarbonizacion",
+    "carbono neutralidad",
+    "residuos",
+    "residuos solidos",
+    "basura",
+    "manejo de desechos",
+    "naturaleza",
+    "carbono neutral"
+  ],
+  "A.2.3 Cultura": [
+    "cultura",
+    "arte",
+    "musica",
+    "danza",
+    "artes plasticas",
+    "bellas artes",
+    "patrimonio cultural",
+    "patrimonio arquitectonico",
+    "patrimonio arqueologico"
+  ],
+  "A.3.1 Ciencia, Tecnología e Innovación": [
+    "ciencia",
+    "tecnologia",
+    "innovacion",
+    "investigacion y desarrollo",
+    "creatividad"
+  ],
+  "A.3.2 Transportes": [
+    "transporte",
+    "transporte terrestre",
+    "transporte maritimo",
+    "transporte aereo",
+    "infraestructura de transporte"
+  ],
+  "A.3.3 Vivienda y Hábitat": [
+    "vivienda",
+    "habitat",
+    "ciudad",
+    "desarrollo urbano",
+    "urbanizacion",
+    "precarios",
+    "asentamientos informales",
+    "ordenamiento territorial",
+    "planes reguladores"
+  ],
+  "A.4.1 Empleo": [
+    "empleo",
+    "desempleo",
+    "subempleo",
+    "salarios",
+    "empleo informal",
+    "salario"
+  ],
+  "A.4.3 Desarrollo Regional": [
+    "desarrollo regional",
+    "desarrollo local",
+    "desarrollo territorial"
+  ],
+  "A.4.4 Agropecuario": [
+    "agropecuario",
+    "agricultura",
+    "agroalimentario",
+    "agro"
+  ],
+  "B.1.2 Alimentación sostenible en zonas costeras": [
+    "desnutricion",
+    "nutricion"
+  ],
+  "B.2.2 Embarazos adolescentes": [
+    "embarazos adolescentes",
+    "embarazo adolescente"
+  ],
+  "B.3.2 Energía": [
+    "energia",
+    "energia eolica",
+    "energia hidroelectrica",
+    "energia geotermina",
+    "energia solar",
+    "solar",
+    "geotermica",
+    "hidroelectrica",
+    "eolica"
+  ],
+  "B.4.1 Trabajo digno": [
+    "trabajo",
+    "trabajo digno",
+    "trabajo decente",
+    "derechos laborales"
+  ],
+  "B.4.2 Industrialización inclusiva": [
+    "industrializacion",
+    "industrializacion inclusiva"
+  ],
+  "B.4.4 Desigualdad": [
+    "desigualdad",
+    "equidad",
+    "desigualdad de ingresos"
+  ],
+  "B.5.1 Comunicación vial": [
+    "infraestructura vial",
+    "comunicacion vial"
+  ],
+  "B.5.2 Urbanismo": [
+    "urbanismo",
+    "desarrollo urbano"
+  ],
+  "B.5.3 Contaminación": [
+    "contaminacion",
+    "descontaminacion"
+  ],
+  "B.5.4 Ambiente y Mares": [
+    "ambiente",
+    "medio ambiente",
+    "mares",
+    "costas",
+    "marinos"
+  ],
+  "B.5.5 Justicia institucional": [
+    "justicia",
+    "justicia institucional"
+  ],
+  "C.1.1 Desarrollo humano integral": [
+    "desarrollo humano",
+    "desarrollo social"
+  ],
+  "C.1.2 Costas y zonas fronterizas": [
+    "costas",
+    "zonas costeras",
+    "fronteras",
+    "zonas fronterizas"
+  ],
+  "C.2.1 Infraestructura Vial y Educativa": [
+    "infraestructura vial",
+    "infraestructura educativa",
+    "educacion vial"
+  ],
+  "C.2.2 Logística (multimodal)": [
+    "logistica",
+    "corredores logisticos"
+  ],
+  "C.3.1 Educación": [
+    "educacion",
+    "educacion primaria",
+    "educacion secundaria",
+    "educacion terciaria",
+    "educacion tecnica",
+    "educacion preescolar",
+    "educacion universitaria",
+    "formacion profesional",
+    "educacion de adultos",
+    "educacion continua"
+  ],
+  "C.3.2 Innovación": [
+    "innovacion educativa"
+  ],
+  "C.4.1 Género": [
+    "igualdad de genero",
+    "desigualdad de genero",
+    "brechas de genero"
+  ],
+  "C.4.2 Salud": [
+    "salud",
+    "salud humana",
+    "enfermedad",
+    "nutricion"
+  ],
+  "C.5.1 Economía verde": [
+    "economia verde",
+    "economia ambiental"
+  ],
+  "C.5.2 Producción sofisticada": [
+    "produccion",
+    "productividad"
+  ],
+  "C.6.1 Economía regenerativa": [
+    "economia regenerativa"
+  ],
+  "D.1.1 Descentralizada": [
+    "descentralizacion"
+  ],
+  "D.1.2 Digitalizada": [
+    "digitalizacion",
+    "brecha digital",
+    "acceso tecnologia"
+  ],
+  "D.2.1 Productividad laboral": [
+    "productividad laboral"
+  ],
+  "D.2.3 Desconcentración e innovación productiva": [
+    "desconcentracion productiva",
+    "innovacion productiva"
+  ],
+  "E.1.1 Regulación Urbana": [
+    "regulacion urbana",
+    "planes reguladores",
+    "ordenamiento territorial"
+  ],
+  "E.1.2 Gestión municipal": [
+    "gestion municipal",
+    "municipalidades",
+    "municipal",
+    "gobiernos locales"
+  ],
+  "E.2.1 Pobreza": [
+    "pobreza",
+    "pobreza urbana",
+    "pobreza rural"
+  ],
+  "E.2.3 Inseguridad Ciudadana": [
+    "inseguridad",
+    "violencia",
+    "delitos",
+    "crimenes"
+  ],
+  "E.4.1 Inversión en capital": [
+    "inversion de capital",
+    "inversion en infraestructura",
+    "formacion de capital"
+  ],
+  "E.4.2 Gestión regional de recursos": [
+    "gestion regional de recursos"
+  ],
+  "E.5.1 Accesibilidad": [
+    "accesibilidad"
+  ],
+  "E.5.2 Conectividad": [
+    "conectividad"
+  ],
+  "E.6.1 Brecha Servicios de Salud": [
+    "brecha de servicios de salud",
+    "brechas de salud",
+    "servicios de salud"
+  ],
+  "E.6.2 Brecha Servicios de Educación": [
+    "brecha de servicios de educacion",
+    "brechas de educacion",
+    "servicios de educacion"
+  ],
+  "F.1.1 Bienestar nacional global": [],
+  "F.1.2 Educación continua y permanente": [],
+  "F.3.1 Bienestar estudiantil integral": [],
+  "F.4.1 Ampliación de programas, proyectos y actividades en Sedes": [],
+  "F.7.1 Defensa ambiente sustentable": [],
+  "F.7.2 Descarbonización": [],
+  "F.7.3 Contribuye a la seguridad alimentaria": [],
+  "G.1.1 Vinculación académico, investigaci on y la sociedad": [],
+  "G.2.1 Desarrollo territorial integral": [],
+  "G.2.2 Fortalecimiento de Sedes que desarrolle las comunidades": [],
+  "G.3.1 Programas y proyectos para sociedad inclusiva": [],
+  "H.5.1 Atención cantones del país debajo índice de desarrollo social (IDS)": [],
+  "H.5.2 Mejora rendimiento académico estudiantes de cantones de bajo IDS": [],
+  "H.6.1 Incidencia en la política pública y la transformación social para el desarrollo humano sostenible con coordinación local": [],
+  "H.6.3 Fortalecimiento interuniversitario de emprendimientos regionales": []
+}
