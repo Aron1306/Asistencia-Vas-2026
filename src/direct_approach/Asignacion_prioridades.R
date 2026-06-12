@@ -1,5 +1,3 @@
-setwd("C:/Users/User/OneDrive/Escritorio/Mineria texto prioridades")
-
 library(dplyr)
 library(tidyr)
 library(readxl)
