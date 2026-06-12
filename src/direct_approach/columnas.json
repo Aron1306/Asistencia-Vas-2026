@@ -1,0 +1,13 @@
+{
+  "columnas_texto": [
+    "Nombre",
+    "Descriptores", 
+    "Temáticas",
+    "Subtemáticas",
+    "Objetivo general",
+    "Objetivos específicos",
+    "Descripción",
+    "Población"
+  ],
+  "columnas_indicadores_patron": "^[A-Z]\\.[0-9]"
+}
