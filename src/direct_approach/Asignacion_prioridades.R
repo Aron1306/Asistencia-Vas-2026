@@ -2,7 +2,9 @@ library(dplyr)
 library(tidyr)
 library(readxl)
 
-base <- read_excel("EE_EducSup_2024_UCR_VAS_12_para emparejamiento prioridades.xlsx")
+args <- commandArgs(trailingOnly = TRUE)
+ruta_excel <- args[1]
+base <- read_excel(ruta_excel)
 
 data_limpio <- base %>%
   separate_rows(`I.14 (temas)`, sep = ",")
