@@ -20,7 +20,7 @@ normalizar <- function(texto) {
 
 for (indicador in names(keywords)) {
   kws <- keywords[[indicador]]
-  patron <- paste(kws, collapse = "|")
+  patron <- paste0("(^|\\s)", kws, "(\\s|$|[^a-z])", collapse = "|")
   patron <- normalizar(patron)
   
   # Empezar con todos en 0
@@ -40,3 +40,5 @@ for (indicador in names(keywords)) {
   
   base[[indicador]] <- match_final
 }
+
+print(colSums(base[, names(keywords)], na.rm = TRUE))
