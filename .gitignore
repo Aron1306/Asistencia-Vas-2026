@@ -1,2 +1,13 @@
 __pycache__/
 *.py[cod]
+
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Temporales
+*.tmp
+*.log
+
+__pycache__/
