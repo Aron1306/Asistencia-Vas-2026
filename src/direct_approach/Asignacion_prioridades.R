@@ -20,7 +20,14 @@ normalizar <- function(texto) {
 }
 
 for (indicador in names(keywords)) {
+  base[[indicador]] <- 0
+}
+
+for (indicador in names(keywords)) {
   kws <- keywords[[indicador]]
+
+  if (length(kws) == 0) next
+
   patron <- paste0("\\b", kws, "\\b", collapse = "|")
   patron <- normalizar(patron)
   
