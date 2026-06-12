@@ -9,8 +9,9 @@ columnas <- fromJSON("columnas.json")
 keywords <- fromJSON("keywords_indicadores.json")
 
 args <- commandArgs(trailingOnly = TRUE)
-ruta_excel <- args[1]
-base <- read_excel(ruta_excel)
+ruta_entrada <- args[1]
+ruta_salida <- args[2]
+base <- read_excel(ruta_entrada)
 
 normalizar <- function(texto) {
   texto <- stri_trans_general(texto, "Latin-ASCII")  # quita tildes
@@ -20,7 +21,7 @@ normalizar <- function(texto) {
 
 for (indicador in names(keywords)) {
   kws <- keywords[[indicador]]
-  patron <- paste0("(^|\\s)", kws, "(\\s|$|[^a-z])", collapse = "|")
+  patron <- paste0("\\b", kws, "\\b", collapse = "|")
   patron <- normalizar(patron)
   
   # Empezar con todos en 0
@@ -42,3 +43,7 @@ for (indicador in names(keywords)) {
 }
 
 print(colSums(base[, names(keywords)], na.rm = TRUE))
+
+write_xlsx(base, ruta_salida) # Escribir en un excel el resultado
+
+cat("Asignación lista en", ruta_salida, "\n")
