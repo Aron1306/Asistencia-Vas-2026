@@ -1,0 +1,16 @@
+{
+  "columnas_texto": [
+    "Nombre",
+    "Descriptores", 
+    "Temáticas",
+    "Subtemáticas",
+    "Objetivo general",
+    "Objetivos específicos",
+    "Descripción",
+    "Población",
+    "I.03 (nombre proyecto)",
+    "I.14 (temas)",
+    "I.15 (Subtemas)"
+  ],
+  "columnas_indicadores_patron": "^[A-Z]\\.[0-9]"
+}
