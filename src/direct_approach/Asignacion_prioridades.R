@@ -44,7 +44,7 @@ for (indicador in names(keywords)) {
   base[[indicador]] <- 0
 }
 
-cat("Buscando keywords en", ruta_entrada, "y asignando pertinencias...")
+cat("Buscando keywords en", ruta_entrada, "y asignando pertinencias...\n")
 
 # Ciclo principal. 
 # Recorre los keywords de los diferentes indicadores definidos en "keywords_indicadores.json"
