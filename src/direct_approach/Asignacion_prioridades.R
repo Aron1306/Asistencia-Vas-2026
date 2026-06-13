@@ -1,9 +1,11 @@
-library(dplyr)
-library(tidyr)
-library(readxl)
-library(jsonlite)
-library(stringi)
-library(writexl)
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(tidyr)
+  library(readxl)
+  library(jsonlite)
+  library(stringi)
+  library(writexl)
+})
 
 # Archivo JSON con las posibles columnas cualitivas registradas
 columnas <- fromJSON("columnas.json")
@@ -29,6 +31,8 @@ normalizar <- function(texto) {
 for (indicador in names(keywords)) {
   base[[indicador]] <- 0
 }
+
+cat("Buscando keywords en", ruta_entrada, "y asignando pertinencias...")
 
 # Ciclo principal. 
 # Recorre los keywords de los diferentes indicadores definidos en "keywords_indicadores.json"
@@ -70,7 +74,8 @@ for (indicador in names(keywords)) {
 }
 
 # Mostrar resultados de conteos en la consola
-print(colSums(base[, names(keywords)], na.rm = TRUE))
+resultados <- colSums(base[, names(keywords)], na.rm = TRUE)
+print(data.frame(indicador = names(resultados), total = as.integer(resultados)), row.names = FALSE)
 
 # Escribir en un excel el resultado
 write_xlsx(base, ruta_salida)
