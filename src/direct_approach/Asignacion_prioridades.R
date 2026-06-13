@@ -16,6 +16,18 @@ keywords <- fromJSON("keywords_indicadores.json")
 args <- commandArgs(trailingOnly = TRUE)
 ruta_entrada <- args[1] # Path al archivo xlsx de entrada recibido desde línea de comandos
 ruta_salida <- args[2]  # Nombre del archivo xlsx de salida donde se guardarán los resultados
+
+# Manejar argumentos inválidos
+if (length(args) != 2){
+  cat("Argumentos inválidos \nUso: Rscript <Archivo xlsx de entrada> <Nombre del archivo para guardar resultados>\n")
+  quit()
+}
+
+# Manejar caso donde el archivo xlsx de entrada no existe
+if (!file.exists(ruta_entrada)){
+  cat("No se puede encontrar el archivo", ruta_entrada, "\n")
+  quit()
+}
 base <- read_excel(ruta_entrada)
 
 # Procesar el texto para quitar tíldes y convertir todo el texto en minúsculas
