@@ -19,7 +19,7 @@ ruta_salida <- args[2]  # Nombre del archivo xlsx de salida donde se guardarán 
 
 # Manejar argumentos inválidos
 if (length(args) != 2){
-  cat("Argumentos inválidos \nUso: Rscript <Archivo xlsx de entrada> <Nombre del archivo para guardar resultados>\n")
+  cat("Argumentos inválidos \nUso: Rscript Asignacion_prioridades.R <Archivo xlsx de entrada> <Nombre del archivo para guardar resultados>\n")
   quit()
 }
 
