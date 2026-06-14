@@ -22,6 +22,24 @@
     "naturaleza",
     "carbono neutral"
   ],
+  "A.2.1 Salud": [
+    "salud",
+    "salud humana",
+    "enfermedad",
+    "nutricion"
+  ],
+  "A.2.2 Educación": [
+    "educacion",
+    "educacion primaria",
+    "educacion secundaria",
+    "educacion terciaria",
+    "educacion tecnica",
+    "educacion preescolar",
+    "educacion universitaria",
+    "formacion profesional",
+    "educacion de adultos",
+    "educacion continua"
+  ],
   "A.2.3 Cultura": [
     "cultura",
     "arte",
@@ -66,6 +84,11 @@
     "empleo informal",
     "salario"
   ],
+  "A.4.2 Pobreza": [
+    "pobreza",
+    "pobreza urbana",
+    "pobreza rural"
+  ],
   "A.4.3 Desarrollo Regional": [
     "desarrollo regional",
     "desarrollo local",
@@ -77,13 +100,39 @@
     "agroalimentario",
     "agro"
   ],
+  "B.1.1 Pobreza": [
+    "pobreza",
+    "pobreza urbana",
+    "pobreza rural"
+  ],
   "B.1.2 Alimentación sostenible en zonas costeras": [
     "desnutricion",
     "nutricion"
   ],
+  "B.1.3 Planes Reguladores": [
+    "planes reguladores",
+    "ordenamiento territorial"
+  ],
+  "B.2.1 Salud": [
+    "salud",
+    "salud humana",
+    "enfermedad",
+    "nutricion",
+    "desnutricion"
+  ],
   "B.2.2 Embarazos adolescentes": [
     "embarazos adolescentes",
     "embarazo adolescente"
+  ],
+  "B.2.3 Igualdad de genero": [
+    "igualdad de genero",
+    "brechas de genero",
+    "desigualdad de genero"
+  ],
+  "B.3.1 Agua": [
+    "agua",
+    "agua potable",
+    "acueductos"
   ],
   "B.3.2 Energía": [
     "energia",
@@ -105,6 +154,11 @@
   "B.4.2 Industrialización inclusiva": [
     "industrializacion",
     "industrializacion inclusiva"
+  ],
+  "B.4.3 Innovación": [
+    "innovacion",
+    "innovacion productiva",
+    "creatividad"
   ],
   "B.4.4 Desigualdad": [
     "desigualdad",
@@ -179,6 +233,11 @@
     "enfermedad",
     "nutricion"
   ],
+  "C.4.3 Pobreza": [
+    "pobreza",
+    "pobreza urbana",
+    "pobreza rural"
+  ],
   "C.5.1 Economía verde": [
     "economia verde",
     "economia ambiental"
@@ -186,6 +245,11 @@
   "C.5.2 Producción sofisticada": [
     "produccion",
     "productividad"
+  ],
+  "C.5.3 Desigualdad": [
+    "desigualdad",
+    "equidad",
+    "desigualdad de ingresos"
   ],
   "C.6.1 Economía regenerativa": [
     "economia regenerativa"
@@ -198,8 +262,16 @@
     "brecha digital",
     "acceso tecnologia"
   ],
+  "D.1.3 Descarbonizada": [
+    "descarbonizada",
+    "carbono neutralidad",
+    "cero emisiones"
+  ],
   "D.2.1 Productividad laboral": [
     "productividad laboral"
+  ],
+  "D.2.2 Sofisticación": [
+    "sofisticacion"
   ],
   "D.2.3 Desconcentración e innovación productiva": [
     "desconcentracion productiva",
@@ -221,11 +293,25 @@
     "pobreza urbana",
     "pobreza rural"
   ],
+  "E.2.2 Desempleo": [
+    "desempleo"
+  ],
   "E.2.3 Inseguridad Ciudadana": [
     "inseguridad",
     "violencia",
     "delitos",
     "crimenes"
+  ],
+  "E.3.1 Protección Recurso Hídrico": [
+    "agua",
+    "rio",
+    "mar",
+    "recurso hidrico",
+    "cuenca"
+  ],
+  "E.3.2 Suelo": [
+    "suelo",
+    "tierra"
   ],
   "E.4.1 Inversión en capital": [
     "inversion de capital",
@@ -250,91 +336,5 @@
     "brecha de servicios de educacion",
     "brechas de educacion",
     "servicios de educacion"
-  ],
-  "A.2.1 Salud": [
-    "salud",
-    "salud humana",
-    "enfermedad",
-    "nutricion"
-  ],
-  "A.2.2 Educación": [
-    "educacion",
-    "educacion primaria",
-    "educacion secundaria",
-    "educacion terciaria",
-    "educacion tecnica",
-    "educacion preescolar",
-    "educacion universitaria",
-    "formacion profesional",
-    "educacion de adultos",
-    "educacion continua"
-  ],
-  "A.4.2 Pobreza": [
-    "pobreza",
-    "pobreza urbana",
-    "pobreza rural"
-  ],
-  "B.1.1 Pobreza": [
-    "pobreza",
-    "pobreza urbana",
-    "pobreza rural"
-  ],
-  "B.1.3 Planes Reguladores": [
-    "planes reguladores",
-    "ordenamiento territorial"
-  ],
-  "B.2.1 Salud": [
-    "salud",
-    "salud humana",
-    "enfermedad",
-    "nutricion",
-    "desnutricion"
-  ],
-  "B.2.3 Igualdad de genero": [
-    "igualdad de genero",
-    "brechas de genero",
-    "desigualdad de genero"
-  ],
-  "B.3.1 Agua": [
-    "agua",
-    "agua potable",
-    "acueductos"
-  ],
-  "B.4.3 Innovación": [
-    "innovacion",
-    "innovacion productiva",
-    "creatividad"
-  ],
-  "C.4.3 Pobreza": [
-    "pobreza",
-    "pobreza urbana",
-    "pobreza rural"
-  ],
-  "C.5.3 Desigualdad": [
-    "desigualdad",
-    "equidad",
-    "desigualdad de ingresos"
-  ],
-  "D.1.3 Descarbonizada": [
-    "descarbonizada",
-    "carbono neutralidad",
-    "cero emisiones"
-  ],
-  "D.2.2 Sofisticación": [
-    "sofisticacion"
-  ],
-  "E.2.2 Desempleo": [
-    "desempleo"
-  ],
-  "E.3.1 Protección Recurso Hídrico": [
-    "agua",
-    "rio",
-    "mar",
-    "recurso hidrico",
-    "cuenca"
-  ],
-  "E.3.2 Suelo": [
-    "suelo",
-    "tierra"
   ]
 }
