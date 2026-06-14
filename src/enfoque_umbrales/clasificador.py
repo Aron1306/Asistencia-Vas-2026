@@ -6,15 +6,15 @@ from pathlib import Path
 from sklearn.metrics import f1_score
 from scorer import Scorer
 
-JSON_BIBLIOTECAS = Path(__file__).parent / 'frequent_words.json'
+JSON_BIBLIOTECAS = Path(__file__).parent / 'palabras_frecuentes.json'
 
 UMBRALES_CANDIDATOS = [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 5.0, 6.0, 7.0,
                        8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0, 25.0, 30.0]
 
 UMBRAL_FALLBACK = 5.0
 
+# Detecta columnas de indicadores (valores 0/1 únicamente).
 def detectar_indicadores(df):
-    """Detecta columnas de indicadores (valores 0/1 únicamente)."""
     return [
         c for c in df.columns
         if df[c].dropna().isin([0, 1]).all() and df[c].nunique() <= 2
