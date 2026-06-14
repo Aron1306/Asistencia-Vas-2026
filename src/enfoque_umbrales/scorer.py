@@ -1,19 +1,9 @@
-"""
-scorer.py — Clasificador de pertinencias por keyword matching con pesos por campo
-
-Uso:
-    from scorer import Scorer
-    s = Scorer('bibliotecas_indicadores.json')
-    scores = s.score_proyecto(row)   # row es un dict o Series con los campos del proyecto
-    pred   = s.predict(row, umbral=3.0)  # devuelve dict {indicador: 0/1}
-"""
-
 import json
 import re
 from pathlib import Path
 
 
-# ── Pesos por campo ──────────────────────────────────────────────────────────
+# Pesos por campo
 # Mayor peso = más confianza en que una palabra ahí es relevante
 FIELD_WEIGHTS = {
     'Nombre':               1.5,
@@ -38,8 +28,7 @@ class Scorer:
         for indicador, palabras in self.bibliotecas.items():
             self.kw_sets[indicador] = set(self._normalizar(p) for p in palabras)
 
-    # ── Normalización ────────────────────────────────────────────────────────
-
+    #Normalización
     def _normalizar(self, texto: str) -> str:
         """Minúsculas y sin tildes para comparación robusta."""
         texto = texto.lower().strip()
@@ -53,19 +42,8 @@ class Scorer:
         texto = self._normalizar(str(texto))
         return re.findall(r'[a-z]{3,}', texto)
 
-    # ── Scoring ──────────────────────────────────────────────────────────────
-
+    # Scoring
     def score_proyecto(self, row: dict) -> dict[str, float]:
-        """
-        Calcula el score continuo de cada indicador para un proyecto.
-        
-        Retorna: {indicador: score_float}
-        
-        El score acumula pesos cada vez que una keyword del diccionario
-        aparece en algún campo del proyecto. Cada keyword se cuenta
-        UNA SOLA VEZ por campo (no importa cuántas veces repita en ese campo).
-        Una misma keyword puede sumar en múltiples campos.
-        """
         scores = {ind: 0.0 for ind in self.kw_sets}
 
         for field, weight in FIELD_WEIGHTS.items():
@@ -73,7 +51,7 @@ class Scorer:
             if valor is None or (isinstance(valor, float)):
                 continue
 
-            tokens_campo = set(self._tokens(str(valor)))  # set → cada kw cuenta 1 vez por campo
+            tokens_campo = set(self._tokens(str(valor)))  # cada kw cuenta 1 vez por campo
 
             for indicador, kw_set in self.kw_sets.items():
                 # Buscar keywords completas O como subcadena de un token
@@ -95,28 +73,22 @@ class Scorer:
 
         return scores
 
+    # Retorna {indicador: 0/1} usando el umbral dado.
     def predict(self, row: dict, umbral: float = 3.0) -> dict[str, int]:
-        """
-        Retorna {indicador: 0/1} usando el umbral dado.
-        """
         scores = self.score_proyecto(row)
         return {ind: 1 if score >= umbral else 0 for ind, score in scores.items()}
 
+    # Aplica predict a un DataFrame completo.
+    # Retorna un DataFrame con las predicciones (mismas columnas que los indicadores).
     def predict_df(self, df, umbral: float = 3.0):
-        """
-        Aplica predict a un DataFrame completo.
-        Retorna un DataFrame con las predicciones (mismas columnas que los indicadores).
-        """
         import pandas as pd
         rows = []
         for _, row in df.iterrows():
             rows.append(self.predict(row.to_dict(), umbral))
         return pd.DataFrame(rows, index=df.index)
 
+    # Retorna un DataFrame con los scores continuos.
     def score_df(self, df):
-        """
-        Retorna un DataFrame con los scores continuos (útil para calibrar umbrales).
-        """
         import pandas as pd
         rows = []
         for _, row in df.iterrows():

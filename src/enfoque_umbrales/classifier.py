@@ -1,18 +1,3 @@
-"""
-clasificar.py — Calibración de umbrales y clasificación de pertinencias
-
-Pasos:
-  1. Calibrar umbrales por indicador usando el Excel con pertinencias conocidas
-  2. Clasificar un Excel nuevo con los umbrales calibrados
-
-Uso:
-  # Paso 1 — calibrar
-  python clasificar.py calibrar --etiquetado df_final_combinado.xlsx --output umbrales.json
-
-  # Paso 2 — clasificar
-  python clasificar.py clasificar --input proyectos_nuevos.xlsx --umbrales umbrales.json --output resultado.xlsx
-"""
-
 import argparse
 import json
 import numpy as np
@@ -21,17 +6,12 @@ from pathlib import Path
 from sklearn.metrics import f1_score
 from scorer import Scorer
 
-# ── Constantes ───────────────────────────────────────────────────────────────
-
 JSON_BIBLIOTECAS = Path(__file__).parent / 'frequent_words.json'
 
 UMBRALES_CANDIDATOS = [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 5.0, 6.0, 7.0,
                        8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0, 25.0, 30.0]
 
-UMBRAL_FALLBACK = 5.0   # para indicadores sin positivos en el set de calibración
-
-
-# ── Helpers ──────────────────────────────────────────────────────────────────
+UMBRAL_FALLBACK = 5.0
 
 def detectar_indicadores(df):
     """Detecta columnas de indicadores (valores 0/1 únicamente)."""
@@ -41,20 +21,19 @@ def detectar_indicadores(df):
     ]
 
 
-# ── Paso 1: Calibrar ─────────────────────────────────────────────────────────
-
+# Paso 1: Calibrar
 def calibrar(ruta_etiquetado: str, ruta_output: str):
-    print(f"\n📂 Cargando datos etiquetados: {ruta_etiquetado}")
+    print(f"\n Cargando datos etiquetados: {ruta_etiquetado}")
     df = pd.read_excel(ruta_etiquetado)
     ind_cols = detectar_indicadores(df)
     print(f"   {len(df)} proyectos | {len(ind_cols)} indicadores detectados")
 
     scorer = Scorer(str(JSON_BIBLIOTECAS))
 
-    print("\n⏳ Calculando scores...")
+    print("\n Calculando scores...")
     scores_df = scorer.score_df(df)
 
-    print("\n🔍 Calibrando umbral óptimo por indicador...\n")
+    print("\n Calibrando umbral óptimo por indicador...\n")
     print(f"  {'Indicador':<50} {'n_pos':>6} {'Umbral':>8} {'F1':>7} {'Prec':>7} {'Rec':>7}")
     print("  " + "-" * 85)
 
@@ -90,7 +69,6 @@ def calibrar(ruta_etiquetado: str, ruta_output: str):
                                   max(y_true.sum(), 1))
 
         umbrales[ind] = mejor_umbral
-        flag = "  ⚠️" if mejor_f1 < 0.4 else ""
         print(f"  {ind[:50]:<50} {n_pos:>6} {mejor_umbral:>8.1f} "
               f"{mejor_f1:>7.3f} {mejor_prec:>7.3f} {mejor_rec:>7.3f}{flag}")
 
@@ -98,7 +76,7 @@ def calibrar(ruta_etiquetado: str, ruta_output: str):
     with open(ruta_output, 'w', encoding='utf-8') as f:
         json.dump(umbrales, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Umbrales guardados en: {ruta_output}")
+    print(f"\n Umbrales guardados en: {ruta_output}")
 
     # Resumen global
     f1s = []
@@ -109,27 +87,27 @@ def calibrar(ruta_etiquetado: str, ruta_output: str):
         y_pred = (scores_df[ind] >= umbrales[ind]).astype(int).values
         f1s.append(f1_score(y_true, y_pred, zero_division=0))
 
-    print(f"\n📊 F1 macro promedio con umbrales individuales: {np.mean(f1s):.4f}")
+    print(f"\n F1 macro promedio con umbrales individuales: {np.mean(f1s):.4f}")
     print(f"   F1 mediana: {np.median(f1s):.4f}")
     print(f"   Indicadores con F1 >= 0.6: {sum(f >= 0.6 for f in f1s)}/{len(f1s)}")
     print(f"   Indicadores con F1 <  0.4: {sum(f < 0.4 for f in f1s)}/{len(f1s)}")
 
 
-# ── Paso 2: Clasificar ───────────────────────────────────────────────────────
+# Paso 2: Clasificar
 
 def clasificar(ruta_input: str, ruta_umbrales: str, ruta_output: str):
-    print(f"\n📂 Cargando proyectos a clasificar: {ruta_input}")
+    print(f"\n Cargando proyectos a clasificar: {ruta_input}")
     df = pd.read_excel(ruta_input)
     print(f"   {len(df)} proyectos")
 
-    print(f"\n📂 Cargando umbrales: {ruta_umbrales}")
+    print(f"\n Cargando umbrales: {ruta_umbrales}")
     with open(ruta_umbrales, encoding='utf-8') as f:
         umbrales = json.load(f)
     print(f"   {len(umbrales)} indicadores con umbral definido")
 
     scorer = Scorer(str(JSON_BIBLIOTECAS))
 
-    print("\n⏳ Calculando scores y clasificando...")
+    print("\n Calculando scores y clasificando...")
     scores_df = scorer.score_df(df)
 
     # Aplicar umbrales individuales
@@ -140,12 +118,12 @@ def clasificar(ruta_input: str, ruta_umbrales: str, ruta_output: str):
             df[ind] = 0
 
     df.to_excel(ruta_output, index=False)
-    print(f"\n✅ Resultado guardado en: {ruta_output}")
+    print(f"\n Resultado guardado en: {ruta_output}")
 
     # Resumen de clasificación
     ind_cols = list(umbrales.keys())
     ind_presentes = [c for c in ind_cols if c in df.columns]
-    print(f"\n📊 Resumen de pertinencias asignadas:")
+    print(f"\n Resumen de pertinencias asignadas:")
     print(f"  {'Indicador':<52} {'# proyectos con 1':>18} {'%':>6}")
     print("  " + "-" * 80)
     for ind in ind_presentes:
@@ -154,8 +132,7 @@ def clasificar(ruta_input: str, ruta_umbrales: str, ruta_output: str):
         print(f"  {ind[:52]:<52} {n:>18} {pct:>5.1f}%")
 
 
-# ── CLI ──────────────────────────────────────────────────────────────────────
-
+# CLI
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Clasificador de pertinencias UCR')
     subparsers = parser.add_subparsers(dest='comando')
