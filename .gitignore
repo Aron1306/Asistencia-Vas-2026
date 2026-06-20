@@ -5,6 +5,7 @@ __pycache__/
 .Rhistory
 .RData
 .Ruserdata
+*.xlsx
 
 # Temporales
 *.tmp
