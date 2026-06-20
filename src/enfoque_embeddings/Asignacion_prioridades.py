@@ -40,16 +40,18 @@ def main():
 
     # Concatenar columnas cualitativas en un solo texto por proyecto
     # Se usa " | " como separador para que el modelo distinga los campos
-    print("Preparando textos de proyectos...")
     def construir_texto(row):
         partes = []
         for col in columnas["columnas_texto"]:
             if col in base.columns:
-                val = row.get(col, "")
-                if isinstance(val, str) and val.strip():
-                    partes.append(val.strip())
-        return " | ".join(partes)
-
+                valor = row.get(col, "")
+                if isinstance(valor, str) and valor.strip():
+                    # Convertir nombre columna + valor
+                    partes.append(
+                        f"{col}: {valor.strip()}"
+                    )
+        return "\n".join(partes)
+    
     textos_proyectos = base.apply(construir_texto, axis=1).tolist()
 
     # Calcular embeddings de todos los proyectos de una sola vez
