@@ -1,6 +1,7 @@
 library(dplyr)
 library(tidyr)
 library(readxl)
+library(writexl)
 
 base <- read_excel("EE_EducSup_2024_UCR_VAS_12_para emparejamiento prioridades.xlsx")
 
@@ -407,3 +408,5 @@ data_limpio <- data_limpio %>%
       grepl("5/Nutrici on saludable", `I.15 (Subtemas)`, ignore.case = TRUE) ~ 1,
       TRUE ~ `B.1.2 Alimentación sostenible en zonas costeras`)
   )
+
+write_xlsx(data_limpio, "resultado_amram_EE.xlsx")
