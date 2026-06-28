@@ -3,7 +3,14 @@ import json
 import re
 import numpy as np
 import pandas as pd
+import unicodedata
 from sentence_transformers import SentenceTransformer, util
+
+def normalizar(texto):
+    texto = texto.lower()
+    texto = unicodedata.normalize("NFD", texto)
+    texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
+    return texto
 
 DEBUG = True
 
@@ -38,11 +45,11 @@ def fase_keywords(base, textos_proyectos, descripciones):
             print(f"\n=== KEYWORDS {indicador} ===")
 
         for idx, texto in enumerate(textos_proyectos):
-            texto_lower = texto.lower()
+            texto_lower = normalizar(texto)
             coincidencias = []
 
             for palabra in keywords:
-                patron = r"\b" + re.escape(palabra.lower()) + r"\b"
+                patron = r"\b" + re.escape(normalizar(palabra)) + r"\b"
                 if re.search(patron, texto_lower):
                     coincidencias.append(palabra)
 
@@ -85,10 +92,11 @@ def fase_embeddings(base, textos_proyectos, descripciones, matches_keywords):
                 print(f"\n=== {indicador}: todos cubiertos por keywords, skip ===")
             continue
 
-        descripcion = info["descripcion"]
+        keywords = info.get("palabras_clave", [])
+        texto_indicador = " | ".join(keywords) if keywords else info["descripcion"]
+        embedding_indicador = modelo.encode(texto_indicador, convert_to_numpy=True)
+        
         umbral_indicador = info.get("umbral", 0.48)
-
-        embedding_indicador = modelo.encode(descripcion, convert_to_numpy=True)
 
         # Embeddings solo del subconjunto sin match
         embeddings_sub = embeddings_proyectos[sin_match]
@@ -102,8 +110,36 @@ def fase_embeddings(base, textos_proyectos, descripciones, matches_keywords):
             score = float(similitudes[i])
             if score >= umbral_indicador:
                 base.loc[idx_proyecto, indicador] = 1
+
                 if DEBUG:
-                    print(f"  [EMB] Proyecto {idx_proyecto} + 2: score={score:.3f}")
+                    # --- Fragmento más similar (opción 2) ---
+                    oraciones = [s.strip() for s in re.split(r'[.\n|]', textos_proyectos[idx_proyecto]) if s.strip()]
+                    if oraciones:
+                        emb_oraciones = modelo.encode(oraciones, convert_to_numpy=True)
+                        sims_oraciones = util.cos_sim(embedding_indicador, emb_oraciones)[0]
+                        mejor_idx = int(sims_oraciones.argmax())
+                        mejor_frag = oraciones[mejor_idx][:120]
+                    else:
+                        mejor_frag = "(sin fragmento)"
+
+                    # --- Keyword más cercana (opción 3) ---
+                    keywords = info.get("palabras_clave", [])
+                    if keywords:
+                        emb_kws = modelo.encode(keywords, convert_to_numpy=True)
+                        # similitud entre cada keyword del indicador y el texto del proyecto
+                        emb_proyecto = embeddings_proyectos[idx_proyecto]
+                        sims_kws = util.cos_sim(emb_proyecto, emb_kws)[0]
+                        mejor_kw_idx = int(sims_kws.argmax())
+                        mejor_kw = keywords[mejor_kw_idx]
+                        mejor_kw_score = float(sims_kws[mejor_kw_idx])
+                    else:
+                        mejor_kw, mejor_kw_score = "(sin keywords)", 0.0
+
+                    print(
+                        f"  [EMB] Proyecto {idx_proyecto + 2}: score={score:.3f}\n"
+                        f"        Fragmento : {mejor_frag}\n"
+                        f"        Similar a : '{mejor_kw}' ({mejor_kw_score:.3f})\n"
+                    )
 
 
 def mostrar_conteos(base, descripciones, etiqueta):
