@@ -2,6 +2,9 @@
   "A.1.1 Agua": {
     "descripcion": "gestión del recurso hídrico, cuencas hidrográficas, ríos, agua potable, saneamiento y acceso al agua.",
     "palabras_clave": [
+      "oceano",
+      "mar",
+      "agua",
       "recurso hídrico",
       "cuenca hidrográfica",
       "agua potable",
@@ -15,1278 +18,1285 @@
       "calidad del agua",
       "contaminación hídrica",
       "ASADA",
-      "acceso al agua"
-    ],
-    "criterio": "Gestión, protección, acceso o calidad del recurso hídrico."
-  },
-  "A.1.2 Suelo": {
-    "descripcion": "conservación, uso y manejo del suelo, la tierra y todos sus componentes químicos y minerales y procesos de degradación y restauración de suelos.",
-    "palabras_clave": [
-      "suelo",
-      "tierra",
-      "erosión",
-      "degradación del suelo",
-      "restauración de suelos",
-      "uso del suelo",
-      "fertilidad",
-      "minerales",
-      "composición del suelo",
-      "agricultura sostenible",
-      "manejo de tierras",
-      "desertificación"
-    ],
-    "criterio": "Conservación, análisis o restauración del suelo como componente central."
-  },
-  "A.1.3 Ambiente, Descarbonización y Residuos": {
-    "descripcion": "protección ambiental, descarbonización, carbono neutralidad, manejo de residuos sólidos, basura y desechos.",
-    "palabras_clave": [
-      "ambiente",
-      "protección ambiental",
-      "residuos sólidos",
-      "basura",
-      "desechos",
-      "reciclaje",
-      "descarbonización",
-      "carbono neutral",
-      "huella de carbono",
-      "emisiones",
-      "gestión de residuos",
-      "contaminación",
-      "economía circular"
-    ],
-    "criterio": "Protección ambiental, reducción de emisiones o gestión de residuos como finalidad sustantiva."
-  },
-  "A.2.1 Salud": {
-    "descripcion": "salud humana, atención médica, prevención de enfermedades y nutrición.",
-    "palabras_clave": [
-      "salud",
-      "salud humana",
-      "atención médica",
-      "prevención",
-      "enfermedad",
-      "nutrición",
-      "salud pública",
-      "promoción de la salud",
-      "bienestar",
-      "salud comunitaria",
-      "epidemiología",
-      "acceso a servicios de salud"
-    ],
-    "criterio": "Prevención o atención médica como objeto central."
-  },
-  "A.2.2 Educación": {
-    "descripcion": "educación en todos sus niveles, formación profesional y capacitación académica.",
-    "palabras_clave": [
-      "educación",
-      "enseñanza",
-      "aprendizaje",
-      "formación",
-      "capacitación",
-      "escuela",
-      "colegio",
-      "universidad",
-      "docencia",
-      "pedagógico",
-      "currículo",
-      "educación formal",
-      "educación técnica",
-      "formación profesional"
-    ],
-    "criterio": "Educación formal o la formación académica y profesional como eje central"
-  },
-  "A.2.3 Cultura": {
-    "descripcion": "expresiones y manifestaciones culturales y patrimoniales, arte, música, danza, baile, teatro, artes plásticas, bellas artes, patrimonio cultural material e inmaterial, memoria histórica, identidad cultural y herencia de comunidades.",
-    "palabras_clave": [
-      "cultura",
-      "arte",
-      "música",
-      "danza",
-      "teatro",
-      "patrimonio",
-      "identidad cultural",
-      "memoria histórica",
-      "tradición",
-      "expresión cultural",
-      "bellas artes",
-      "patrimonio inmaterial",
-      "herencia cultural"
-    ],
-    "criterio": "Expresiones culturales, patrimoniales o artísticas como componente central."
-  },
-  "A.3.1 Ciencia, Tecnología e Innovación": {
-    "descripcion": "investigación científica, desarrollo tecnológico, innovación y creatividad aplicada.",
-    "palabras_clave": [
-      "ciencia",
-      "tecnología",
-      "innovación",
-      "investigación",
-      "desarrollo tecnológico",
-      "I+D",
-      "creatividad",
-      "prototipo",
-      "laboratorio",
-      "transferencia tecnológica",
-      "innovación aplicada",
-      "solución tecnológica"
-    ],
-    "criterio": "Generación de conocimiento científico, desarrollo tecnológico o innovación aplicada."
-  },
-  "A.3.2 Transportes": {
-    "descripcion": "sistemas de transporte terrestre, marítimo y aéreo, e infraestructura de transporte.",
-    "palabras_clave": [
-      "transporte",
-      "vialidad",
-      "carretera",
-      "ferrocarril",
-      "transporte marítimo",
-      "transporte aéreo",
-      "infraestructura vial",
-      "movilidad",
-      "tránsito",
-      "logística de transporte",
-      "red vial"
-    ],
-    "criterio": "Sistemas de transporte o infraestructura de movilidad como objeto central."
-  },
-  "A.3.3 Vivienda y Hábitat": {
-    "descripcion": "vivienda, hábitat urbano, desarrollo urbano, ordenamiento territorial, asentamientos informales y planes reguladores.",
-    "palabras_clave": [
-      "vivienda",
-      "hábitat",
-      "urbanismo",
-      "asentamiento",
-      "precario",
-      "tugurio",
-      "desarrollo urbano",
-      "ordenamiento territorial",
-      "plan regulador",
-      "espacio urbano",
-      "construcción",
-      "acceso a vivienda"
-    ],
-    "criterio": "Vivienda, hábitat o desarrollo urbano como finalidad sustantiva."
-  },
-  "A.4.1 Empleo": {
-    "descripcion": "generación de empleo, desempleo, condiciones salariales y mercado laboral informal.",
-    "palabras_clave": [
-      "empleo",
-      "desempleo",
-      "trabajo",
-      "mercado laboral",
-      "informalidad laboral",
-      "salario",
-      "condiciones laborales",
-      "inserción laboral",
-      "oportunidades de empleo",
-      "empleo decente",
-      "empleabilidad"
-    ],
-    "criterio": "Generación de empleo, reducción del desempleo o mejora de condiciones laborales."
-  },
-  "A.4.2 Pobreza": {
-    "descripcion": "Reducir la pobreza urbana y rural y mejorar las condiciones de vida de poblaciones vulnerables.",
-    "palabras_clave": [
-      "pobreza",
-      "pobreza extrema",
-      "vulnerabilidad",
-      "condiciones de vida",
-      "exclusión social",
-      "marginalidad",
-      "rezago social",
-      "índice de pobreza",
-      "bienestar social",
-      "atención a poblaciones vulnerables"
-    ],
-    "criterio": "Reducir la pobreza o mejorar condiciones de vida de poblaciones en situación de vulnerabilidad."
-  },
-  "A.4.3 Desarrollo Regional": {
-    "descripcion": "desarrollo regional, local y territorial que buscan fortalecer comunidades y territorios específicos.",
-    "palabras_clave": [
-      "desarrollo regional",
-      "desarrollo local",
-      "desarrollo territorial",
-      "comunidad",
-      "territorio",
-      "fortalecimiento comunitario",
-      "región",
-      "cantón",
-      "municipio",
-      "planificación regional",
-      "descentralización"
-    ],
-    "criterio": "Fortalecer el desarrollo de una región, comunidad o territorio específico."
-  },
-  "A.4.4 Agropecuario": {
-    "descripcion": "agricultura, ganadería, producción agroalimentaria y desarrollo del sector agropecuario.",
-    "palabras_clave": [
-      "agricultura",
-      "ganadería",
-      "agropecuario",
-      "producción agrícola",
-      "cultivo",
-      "cosecha",
-      "agroalimentario",
-      "campo",
-      "productor",
-      "finca",
-      "seguridad alimentaria",
-      "extensión agrícola",
-      "agronomía",
-      "veterinaria"
-    ],
-    "criterio": "Producción agrícola, ganadera o agroalimentaria como objeto central."
-  },
-  "B.1.1 Pobreza": {
-    "descripcion": "Reducir la pobreza y mejorar condiciones de vida en comunidades vulnerables.",
-    "palabras_clave": [
-      "pobreza",
-      "vulnerabilidad",
-      "exclusión social",
-      "condiciones de vida",
-      "bienestar",
-      "rezago",
-      "atención social",
-      "comunidades en riesgo",
-      "pobreza multidimensional",
-      "carencias básicas"
-    ],
-    "criterio": "Reducir pobreza o atender necesidades básicas de comunidades vulnerables."
-  },
-  "B.1.2 Alimentación sostenible en zonas costeras": {
-    "descripcion": "nutrición, seguridad alimentaria y alimentación sostenible especialmente en comunidades costeras.",
-    "palabras_clave": [
-      "alimentación",
-      "nutrición",
-      "seguridad alimentaria",
-      "soberanía alimentaria",
-      "pesca artesanal",
-      "comunidad costera",
-      "alimentos sostenibles",
-      "acceso a alimentos",
-      "dieta",
-      "producción local de alimentos"
-    ],
-    "criterio": "Seguridad alimentaria o alimentación sostenible con énfasis en comunidades costeras o pesqueras."
-  },
-  "B.1.3 Planes Reguladores": {
-    "descripcion": "planes reguladores y ordenamiento territorial para la gestión del uso del suelo.",
-    "palabras_clave": [
-      "plan regulador",
-      "ordenamiento territorial",
-      "uso del suelo",
-      "zonificación",
-      "planificación urbana",
-      "gestión territorial",
-      "municipalidad",
-      "desarrollo urbano",
-      "regulación del territorio"
-    ],
-    "criterio": "Formulación, implementación o evaluación de planes reguladores o herramientas de ordenamiento territorial."
-  },
-  "B.2.1 Salud": {
-    "descripcion": "salud humana, atención médica, prevención de enfermedades, nutrición y desnutrición.",
-    "palabras_clave": [
-      "salud",
-      "atención médica",
-      "prevención",
-      "enfermedad",
-      "nutrición",
-      "desnutrición",
-      "salud pública",
-      "promoción de la salud",
-      "acceso a servicios",
-      "calidad de vida",
-      "salud integral"
-    ],
-    "criterio": "Atención, prevención o promoción de la salud humana."
-  },
-  "B.2.2 Embarazos adolescentes": {
-    "descripcion": "prevención, atención y reducción de embarazos en adolescentes y jóvenes, salud sexual y reproductiva, educación sexual, maternidad temprana y derechos reproductivos de la juventud.",
-    "palabras_clave": [
-      "embarazo adolescente",
-      "maternidad temprana",
-      "salud sexual",
-      "salud reproductiva",
-      "educación sexual",
-      "juventud",
-      "adolescencia",
-      "derechos reproductivos",
-      "prevención del embarazo"
-    ],
-    "criterio": "Embarazo adolescente, salud sexual o reproductiva en población joven."
-  },
-  "B.2.3 Igualdad de genero": {
-    "descripcion": "igualdad de género, reducción de brechas entre hombres y mujeres y equidad de género.",
-    "palabras_clave": [
-      "género",
-      "igualdad de género",
-      "equidad de género",
-      "brecha de género",
-      "mujer",
-      "empoderamiento femenino",
-      "feminismo",
-      "violencia de género",
-      "discriminación",
-      "paridad",
-      "perspectiva de género"
-    ],
-    "criterio": "Igualdad de género o reducción de brechas entre géneros como componente central."
-  },
-  "B.3.1 Agua": {
-    "descripcion": "acceso al agua potable y limpia, acueductos y gestión del recurso hídrico.",
-    "palabras_clave": [
-      "agua potable",
-      "acueducto",
       "acceso al agua",
-      "agua limpia",
-      "saneamiento",
-      "recurso hídrico",
-      "ASADA",
-      "gestión del agua",
-      "calidad del agua",
-      "abastecimiento de agua"
-    ],
-    "criterio": "Acceso, calidad o gestión del agua potable como finalidad central."
-  },
-  "B.3.2 Energía": {
-    "descripcion": "energía renovable, energía solar, eólica, geotérmica e hidroeléctrica y transición energética.",
-    "palabras_clave": [
-      "energía renovable",
-      "energía solar",
-      "energía eólica",
-      "geotérmica",
-      "hidroeléctrica",
-      "transición energética",
-      "eficiencia energética",
-      "acceso a energía",
-      "electrificación",
-      "biomasa",
-      "energía limpia"
-    ],
-    "criterio": "Fuentes de energía renovable, eficiencia energética o transición energética."
-  },
-  "B.4.1 Trabajo digno": {
-    "descripcion": "condiciones de trabajo digno y decente, derechos laborales y bienestar de los trabajadores.",
-    "palabras_clave": [
-      "trabajo digno",
-      "trabajo decente",
-      "derechos laborales",
-      "condiciones laborales",
-      "bienestar del trabajador",
-      "salario justo",
-      "seguridad laboral",
-      "sindicalismo",
-      "protección laboral",
-      "empleo formal"
-    ],
-    "criterio": "Condiciones laborales dignas, derechos de los trabajadores o bienestar laboral."
-  },
-  "B.4.2 Industrialización inclusiva": {
-    "descripcion": "industrialización inclusiva y desarrollo industrial que integre a sectores vulnerables.",
-    "palabras_clave": [
-      "industrialización",
-      "industria inclusiva",
-      "desarrollo industrial",
-      "manufactura",
-      "producción",
-      "inclusión productiva",
-      "sectores vulnerables",
-      "pyme",
-      "encadenamiento productivo"
-    ],
-    "criterio": "Industrialización o desarrollo productivo con enfoque de inclusión social."
-  },
-  "B.4.3 Innovación": {
-    "descripcion": "innovación productiva, creatividad aplicada y desarrollo de nuevas soluciones.",
-    "palabras_clave": [
-      "innovación",
-      "creatividad",
-      "nuevas soluciones",
-      "prototipo",
-      "emprendimiento innovador",
-      "innovación productiva",
-      "desarrollo de productos",
-      "solución creativa",
-      "I+D",
-      "spin-off"
-    ],
-    "criterio": "Innovación o creatividad aplicada a la resolución de problemas como eje central del proyecto."
-  },
-  "B.4.4 Desigualdad": {
-    "descripcion": "reducción de la desigualdad económica, equidad social y distribución del ingreso.",
-    "palabras_clave": [
-      "desigualdad",
-      "equidad",
-      "distribución del ingreso",
-      "brecha económica",
-      "exclusión",
-      "movilidad social",
-      "coeficiente Gini",
-      "redistribución",
-      "justicia social",
-      "equidad económica"
-    ],
-    "criterio": "Reducción de la desigualdad económica o social como objetivo explícito."
-  },
-  "B.5.1 Comunicación vial": {
-    "descripcion": "infraestructura vial y comunicación entre comunidades a través de redes de transporte.",
-    "palabras_clave": [
-      "infraestructura vial",
-      "camino",
-      "carretera",
-      "puente",
-      "red vial",
-      "acceso vial",
-      "conectividad vial",
-      "comunicación entre comunidades",
-      "red de transporte",
-      "vía"
-    ],
-    "criterio": "Infraestructura vial o conectividad entre comunidades a través de redes de transporte."
-  },
-  "B.5.2 Urbanismo": {
-    "descripcion": "planificación urbana, diseño de ciudades y desarrollo de espacios urbanos.",
-    "palabras_clave": [
-      "urbanismo",
-      "planificación urbana",
-      "diseño urbano",
-      "espacio público",
-      "ciudad",
-      "densificación",
-      "movilidad urbana",
-      "infraestructura urbana",
-      "renovación urbana",
-      "barrio"
-    ],
-    "criterio": "Planificación, diseño o desarrollo de espacios urbanos como objeto central."
-  },
-  "B.5.3 Contaminación": {
-    "descripcion": "reducción y control de la contaminación ambiental y procesos de descontaminación.",
-    "palabras_clave": [
-      "contaminación",
-      "descontaminación",
-      "contaminación del aire",
-      "contaminación del agua",
-      "contaminación del suelo",
-      "residuos tóxicos",
-      "emisiones",
-      "calidad ambiental",
-      "remediación ambiental"
-    ],
-    "criterio": "Reducción, control o remediación de la contaminación ambiental."
-  },
-  "B.5.4 Ambiente y Mares": {
-    "descripcion": "conservación y protección de ecosistemas marinos, costeros y oceánicos, biodiversidad marina, manejo de mares, playas, arrecifes y zonas costeras.",
-    "palabras_clave": [
-      "ecosistema marino",
-      "biodiversidad marina",
-      "arrecife",
-      "manglar",
-      "zona costera",
-      "océano",
-      "mar",
-      "pesca sostenible",
-      "conservación marina",
-      "playa",
-      "humedal costero"
-    ],
-    "criterio": "Conservación o gestión de ecosistemas marinos, costeros u oceánicos."
-  },
-  "B.5.5 Justicia institucional": {
-    "descripcion": "justicia, institucionalidad y fortalecimiento del estado de derecho.",
-    "palabras_clave": [
-      "justicia",
-      "estado de derecho",
-      "institucionalidad",
-      "acceso a la justicia",
-      "derechos humanos",
-      "sistema judicial",
-      "legalidad",
-      "transparencia institucional",
-      "democracia",
-      "gobernanza"
-    ],
-    "criterio": "Fortalecimiento de la justicia, la institucionalidad o el acceso a derechos."
-  },
-  "C.1.1 Desarrollo humano integral": {
-    "descripcion": "Atención integral a personas en condición de vulnerabilidad como adultos mayores, personas con discapacidad, niñez o poblaciones en riesgo social, que fortalecen capacidades individuales y comunitarias.",
-    "palabras_clave": [
-      "desarrollo humano",
-      "atención integral",
-      "adulto mayor",
-      "discapacidad",
-      "niñez",
-      "riesgo social",
-      "capacidades humanas",
-      "inclusión social",
-      "bienestar integral",
-      "poblaciones vulnerables"
-    ],
-    "criterio": "Personas en condición de vulnerabilidad fortaleciendo sus capacidades individuales o comunitarias."
-  },
-  "C.1.2 Costas y zonas fronterizas": {
-    "descripcion": "Comunidades costeras, zonas fronterizas y poblaciones en los límites del territorio.",
-    "palabras_clave": [
-      "zona costera",
-      "frontera",
-      "comunidad costera",
-      "zona fronteriza",
-      "límite territorial",
-      "pesca",
-      "poblaciones costeras",
-      "migración fronteriza",
-      "desarrollo costero"
-    ],
-    "criterio": "Comunidades costeras o zonas fronterizas con atención a sus condiciones y necesidades específicas."
-  },
-  "C.2.1 Infraestructura Vial y Educativa": {
-    "descripcion": "infraestructura vial, infraestructura educativa y educación en seguridad vial.",
-    "palabras_clave": [
-      "infraestructura vial",
-      "infraestructura educativa",
-      "seguridad vial",
-      "carretera",
-      "escuela",
-      "colegio",
-      "accesibilidad escolar",
-      "construcción educativa",
-      "red vial",
-      "educación vial"
-    ],
-    "criterio": "Infraestructura vial o educativa, o educación en seguridad vial."
-  },
-  "C.2.2 Logística (multimodal)": {
-    "descripcion": "logística, cadenas de suministro y corredores logísticos multimodales.",
-    "palabras_clave": [
-      "logística",
-      "cadena de suministro",
-      "corredor logístico",
-      "multimodal",
-      "transporte de carga",
-      "distribución",
-      "almacenamiento",
-      "eficiencia logística",
-      "puerto",
-      "aeropuerto"
-    ],
-    "criterio": "Sistemas logísticos, cadenas de suministro o corredores multimodales."
-  },
-  "C.3.1 Educación": {
-    "descripcion": "educación formal en todos sus niveles, desde preescolar hasta universitaria, formación profesional y educación de adultos.",
-    "palabras_clave": [
-      "educación formal",
-      "preescolar",
-      "primaria",
-      "secundaria",
-      "universitaria",
-      "educación de adultos",
-      "formación profesional",
-      "rendimiento académico",
-      "deserción escolar",
-      "acceso a la educación"
-    ],
-    "criterio": "Educación formal en cualquier nivel o formación profesional reglada."
-  },
-  "C.3.2 Innovación": {
-    "descripcion": "innovación educativa y nuevos enfoques pedagógicos en la enseñanza.",
-    "palabras_clave": [
-      "innovación educativa",
-      "pedagogía",
-      "metodología de enseñanza",
-      "enfoque pedagógico",
-      "tecnología educativa",
-      "aprendizaje activo",
-      "didáctica",
-      "modelo educativo",
-      "aprendizaje basado en proyectos"
-    ],
-    "criterio": "Enfoques pedagógicos innovadores o nuevas metodologías de enseñanza."
-  },
-  "C.4.1 Género": {
-    "descripcion": "igualdad de género, reducción de brechas y desigualdades entre géneros.",
-    "palabras_clave": [
-      "género",
-      "igualdad",
-      "equidad de género",
-      "brecha de género",
-      "empoderamiento",
-      "violencia de género",
-      "discriminación",
-      "paridad",
-      "perspectiva de género",
-      "feminismo",
-      "derechos de la mujer"
-    ],
-    "criterio": "Igualdad de género o la reducción de brechas entre géneros como componente sustantivo del proyecto."
-  },
-  "C.4.2 Salud": {
-    "descripcion": "salud humana, atención médica, prevención de enfermedades y nutrición.",
-    "palabras_clave": [
-      "salud",
-      "atención médica",
-      "prevención",
-      "enfermedad",
-      "nutrición",
-      "bienestar",
-      "salud pública",
-      "salud comunitaria",
-      "promoción de la salud",
-      "epidemiología"
-    ],
-    "criterio": "Salud humana, prevención o atención médica como foco central del proyecto."
-  },
-  "C.4.3 Pobreza": {
-    "descripcion": "Reducir la pobreza y mejorar las condiciones de vida de poblaciones vulnerables.",
-    "palabras_clave": [
-      "pobreza",
-      "vulnerabilidad",
-      "exclusión",
-      "condiciones de vida",
-      "rezago social",
-      "bienestar",
-      "carencias",
-      "pobreza extrema",
-      "atención social",
-      "comunidades en riesgo"
-    ],
-    "criterio": "Reducir la pobreza o mejorar las condiciones de vida de poblaciones vulnerables."
-  },
-  "C.5.1 Economía verde": {
-    "descripcion": "modelos económicos sostenibles, ecoturismo, servicios ambientales, producción limpia, certificación ambiental y actividades económicas que reducen el impacto ambiental.",
-    "palabras_clave": [
-      "economía verde",
-      "sostenibilidad",
-      "ecoturismo",
-      "servicios ambientales",
-      "producción limpia",
-      "certificación ambiental",
-      "impacto ambiental",
-      "desarrollo sostenible",
-      "carbono",
-      "huella ecológica"
-    ],
-    "criterio": "Modelos económicos sostenibles o actividades que reduzcan el impacto ambiental."
-  },
-  "C.5.2 Producción sofisticada": {
-    "descripcion": "aumento de la productividad y producción de bienes y servicios de mayor valor agregado.",
-    "palabras_clave": [
-      "valor agregado",
-      "productividad",
-      "sofisticación productiva",
-      "manufactura avanzada",
-      "exportación",
-      "competitividad",
-      "cadena de valor",
-      "bienes sofisticados",
-      "diversificación productiva"
-    ],
-    "criterio": "Incrementar la productividad o sofisticar la producción de bienes y servicios."
-  },
-  "C.5.3 Desigualdad": {
-    "descripcion": "reducción de la desigualdad económica y social y promoción de la equidad.",
-    "palabras_clave": [
-      "desigualdad",
-      "equidad",
-      "brecha social",
-      "justicia social",
-      "distribución del ingreso",
-      "exclusión",
-      "movilidad social",
-      "inequidad",
-      "redistribución"
-    ],
-    "criterio": "Reducción de la desigualdad social o económica como un objetivo explícito y central del proyecto."
-  },
-  "C.6.1 Economía regenerativa": {
-    "descripcion": "economía regenerativa, modelos económicos circulares y restauración de ecosistemas productivos.",
-    "palabras_clave": [
-      "economía regenerativa",
-      "economía circular",
-      "restauración de ecosistemas",
-      "producción regenerativa",
-      "ciclo cerrado",
-      "residuo cero",
-      "regeneración ambiental",
-      "sostenibilidad productiva"
-    ],
-    "criterio": "Promueva modelos económicos regenerativos o circulares con impacto en ecosistemas productivos."
-  },
-  "D.1.1 Descentralizada": {
-    "descripcion": "descentralización del Estado y distribución del poder hacia gobiernos locales y comunidades.",
-    "palabras_clave": [
-      "descentralización",
-      "gobierno local",
-      "municipalidad",
-      "autonomía local",
-      "poder local",
-      "gestión descentralizada",
-      "distribución del poder",
-      "participación ciudadana local",
-      "gobernanza local"
-    ],
-    "criterio": "Descentralización del Estado o el fortalecimiento de gobiernos locales."
-  },
-  "D.1.2 Digitalizada": {
-    "descripcion": "digitalización, reducción de la brecha digital y acceso a tecnología.",
-    "palabras_clave": [
-      "digitalización",
-      "brecha digital",
-      "acceso a tecnología",
-      "internet",
-      "conectividad",
-      "tecnología de la información",
-      "transformación digital",
-      "inclusión digital",
-      "gobierno digital",
-      "tecnología accesible"
-    ],
-    "criterio": "Digitalización de procesos o la reducción de la brecha digital."
-  },
-  "D.1.3 Descarbonizada": {
-    "descripcion": "descarbonización de la economía, carbono neutralidad y reducción de emisiones a cero.",
-    "palabras_clave": [
-      "descarbonización",
-      "carbono neutralidad",
-      "cero emisiones",
-      "huella de carbono",
-      "transición energética",
-      "energía limpia",
-      "gases de efecto invernadero",
-      "economía baja en carbono",
-      "neutralidad climática"
-    ],
-    "criterio": "Descarbonización de la economía o la reducción de emisiones de carbono."
-  },
-  "D.2.1 Productividad laboral": {
-    "descripcion": "mejora de la productividad laboral y eficiencia de los trabajadores.",
-    "palabras_clave": [
-      "productividad laboral",
-      "eficiencia",
-      "rendimiento laboral",
-      "capacitación laboral",
-      "mejora de procesos",
-      "competitividad laboral",
-      "habilidades",
-      "formación para el trabajo"
-    ],
-    "criterio": "Productividad o eficiencia de los trabajadores de forma central."
-  },
-  "D.2.2 Sofisticación": {
-    "descripcion": "sofisticación productiva y desarrollo de capacidades avanzadas de producción.",
-    "palabras_clave": [
-      "sofisticación productiva",
-      "capacidades avanzadas",
-      "manufactura avanzada",
-      "alta tecnología",
-      "valor agregado",
-      "innovación productiva",
-      "industria 4.0",
-      "competitividad"
-    ],
-    "criterio": "Desarrollo de capacidades productivas avanzadas o la sofisticación de sectores económicos."
-  },
-  "D.2.3 Desconcentración e innovación productiva": {
-    "descripcion": "desconcentración productiva e innovación en los procesos de producción.",
-    "palabras_clave": [
-      "desconcentración",
-      "innovación productiva",
-      "distribución territorial de la producción",
-      "descentralización productiva",
-      "parques industriales",
-      "zonas francas",
-      "desarrollo regional productivo"
-    ],
-    "criterio": "Desconcentración de la producción o la innovación en procesos productivos en distintos territorios."
-  },
-  "E.1.1 Regulación Urbana": {
-    "descripcion": "regulación urbana, planes reguladores y ordenamiento territorial en ciudades.",
-    "palabras_clave": [
-      "regulación urbana",
-      "plan regulador",
-      "ordenamiento territorial",
-      "zonificación",
-      "uso del suelo urbano",
-      "normativa urbana",
-      "crecimiento urbano",
-      "densificación",
-      "municipalidad",
-      "reglamento de construcción"
-    ],
-    "criterio": "Regulación urbana, planes reguladores o herramientas de ordenamiento territorial en contextos urbanos."
-  },
-  "E.1.2 Gestión municipal": {
-    "descripcion": "Gestión, planificación y administración de municipalidades y gobiernos locales costarricenses.",
-    "palabras_clave": [
-      "municipalidad",
-      "gestión municipal",
-      "gobierno local",
-      "administración municipal",
-      "planificación municipal",
-      "capacidad institucional",
-      "concejo municipal",
-      "alcaldía",
-      "presupuesto municipal",
-      "servicios municipales"
-    ],
-    "criterio": "Capacidad de gestión o administración de municipalidades."
-  },
-  "E.2.1 Pobreza": {
-    "descripcion": "reducción de la pobreza urbana y rural y atención a comunidades en condición de pobreza.",
-    "palabras_clave": [
-      "pobreza",
-      "pobreza urbana",
-      "pobreza rural",
-      "vulnerabilidad",
-      "exclusión social",
-      "carencias",
-      "condiciones de vida",
-      "atención social",
-      "rezago",
-      "comunidades en pobreza"
-    ],
-    "criterio": "Reducir la pobreza o atender comunidades en condición de pobreza."
-  },
-  "E.2.2 Desempleo": {
-    "descripcion": "reducción del desempleo y generación de oportunidades laborales.",
-    "palabras_clave": [
-      "desempleo",
-      "empleo",
-      "oportunidades laborales",
-      "inserción laboral",
-      "mercado de trabajo",
-      "generación de empleo",
-      "capacitación para el trabajo",
-      "empleabilidad",
-      "informalidad"
-    ],
-    "criterio": "Reducción del desempleo o la generación de oportunidades laborales como objetivo central."
-  },
-  "E.2.3 Inseguridad Ciudadana": {
-    "descripcion": "seguridad ciudadana, reducción de violencia, delitos y crímenes.",
-    "palabras_clave": [
-      "seguridad ciudadana",
-      "violencia",
-      "delincuencia",
-      "crimen",
-      "prevención del delito",
-      "convivencia ciudadana",
-      "policía comunitaria",
-      "inseguridad",
-      "violencia social",
-      "paz ciudadana"
-    ],
-    "criterio": "Seguridad ciudadana, prevención de la violencia o reducción de la delincuencia."
-  },
-  "E.3.1 Protección Recurso Hídrico": {
-    "descripcion": "protección y conservación del recurso hídrico, ríos, mares y cuencas.",
-    "palabras_clave": [
-      "protección hídrica",
-      "conservación del agua",
-      "cuenca hidrográfica",
-      "río",
-      "mar",
-      "acuífero",
-      "zona de recarga",
-      "gestión integrada del agua",
-      "calidad del agua",
-      "caudal ecológico"
-    ],
-    "criterio": "Protección o conservación del recurso hídrico en cualquiera de sus formas."
-  },
-  "E.3.2 Suelo": {
-    "descripcion": "conservación, restauración y uso sostenible del suelo agrícola y natural, prevención de erosión y degradación de suelos.",
-    "palabras_clave": [
-      "conservación del suelo",
-      "restauración de suelos",
-      "erosión",
-      "degradación",
-      "uso sostenible del suelo",
-      "suelo agrícola",
-      "fertilidad del suelo",
-      "manejo de tierras",
-      "cobertura vegetal"
-    ],
-    "criterio": "Conservación, restauración o uso sostenible del suelo como finalidad central."
-  },
-  "E.4.1 Inversión en capital": {
-    "descripcion": "inversión en capital, infraestructura y formación de capital productivo.",
-    "palabras_clave": [
-      "inversión",
-      "capital",
-      "infraestructura productiva",
-      "formación de capital",
-      "activos",
-      "inversión pública",
-      "inversión privada",
-      "infraestructura económica",
-      "capital humano",
-      "capital físico"
-    ],
-    "criterio": "Inversión en capital o infraestructura productiva de forma explícita."
-  },
-  "E.4.2 Gestión regional de recursos": {
-    "descripcion": "planificación y administración eficiente de recursos naturales, hídricos, económicos o institucionales en regiones específicas del país.",
-    "palabras_clave": [
-      "gestión regional",
-      "recursos naturales",
-      "administración regional",
-      "planificación regional",
-      "recursos hídricos regionales",
-      "recursos económicos",
-      "gestión territorial",
-      "eficiencia regional"
-    ],
-    "criterio": "Gestión eficiente de recursos en una región específica del país."
-  },
-  "E.5.1 Accesibilidad": {
-    "descripcion": "accesibilidad universal, inclusión de personas con discapacidad y eliminación de barreras.",
-    "palabras_clave": [
-      "accesibilidad",
-      "accesibilidad universal",
-      "discapacidad",
-      "barreras arquitectónicas",
-      "inclusión",
-      "movilidad reducida",
-      "diseño universal",
-      "adaptación",
-      "rampas",
-      "lengua de señas"
-    ],
-    "criterio": "Accesibilidad universal o inclusión de personas con discapacidad de forma sustantiva."
-  },
-  "E.5.2 Conectividad": {
-    "descripcion": "conectividad digital, internet y acceso a redes de comunicación.",
-    "palabras_clave": [
-      "conectividad",
-      "internet",
-      "banda ancha",
-      "red de comunicación",
-      "acceso digital",
-      "telecomunicaciones",
-      "brecha digital",
-      "WiFi",
-      "fibra óptica",
-      "conectividad rural"
-    ],
-    "criterio": "Conectividad digital o acceso a redes de comunicación como objeto central."
-  },
-  "E.6.1 Brecha Servicios de Salud": {
-    "descripcion": "Brechas de acceso, cobertura y calidad en servicios de salud entre diferentes poblaciones, regiones o grupos socioeconómicos.",
-    "palabras_clave": [
-      "brecha de salud",
-      "acceso a salud",
-      "cobertura en salud",
-      "desigualdad en salud",
-      "calidad de servicios de salud",
-      "equidad en salud",
-      "servicios de salud rurales",
-      "atención primaria"
-    ],
-    "criterio": "Brechas de acceso o calidad en servicios de salud entre poblaciones o regiones."
-  },
-  "E.6.2 Brecha Servicios de Educación": {
-    "descripcion": "Brechas de acceso, cobertura y calidad en servicios educativos formales entre diferentes poblaciones, regiones o grupos socioeconómicos.",
-    "palabras_clave": [
-      "brecha educativa",
-      "acceso a educación",
-      "cobertura educativa",
-      "desigualdad educativa",
-      "calidad educativa",
-      "deserción escolar",
-      "educación rural",
-      "rezago educativo",
-      "equidad educativa"
-    ],
-    "criterio": "Brechas de acceso, cobertura o calidad en servicios educativos entre distintas poblaciones o regiones."
-  },
-  "F.1.1 Educación continua y formación permanente": {
-    "descripcion": "Capacitación, actualización, formación no formal o procesos educativos continuos con actores externos a la universidad.",
-    "palabras_clave": [
-      "curso libre",
-      "capacitación",
-      "taller",
-      "actualización",
-      "mediación pedagógica",
-      "educación no formal",
-      "aprendizaje a lo largo de la vida",
-      "lifelong learning"
-    ],
-    "criterio": "Formación o acompañamiento educativo continuo para públicos externos."
-  },
-  "F.1.2 Vinculación con sectores sociales, Estado y comunidades vulnerables": {
-    "descripcion": "Sectores sociales, instituciones públicas o comunidades vulnerables, con atención explícita de necesidades o derechos.",
-    "palabras_clave": [
-      "comunidad",
-      "vulnerabilidad",
-      "organizaciones sociales",
-      "instituciones públicas",
-      "acompañamiento",
-      "incidencia",
-      "fortalecimiento comunitario",
-      "actores sociales"
-    ],
-    "criterio": "Comunidades vulnerables, instituciones públicas o trabajo con sectores sociales."
-  },
-  "F.1.3 Atención de problemas nacionales": {
-    "descripcion": "Problemas públicos o desafíos nacionales con relevancia social, institucional, cultural, económica o ambiental.",
-    "palabras_clave": [
-      "problemática nacional",
-      "desafío país",
-      "agenda pública",
-      "políticas públicas",
-      "crisis social",
-      "desarrollo nacional",
-      "transformación social"
-    ],
-    "criterio": "Problemática país o de interés nacional."
-  },
-  "F.1.4 Atención de necesidades regionales": {
-    "descripcion": "Necesidades regionales, brechas territoriales o desarrollo regional, con presencia sustantiva en regiones o sedes.",
-    "palabras_clave": [
-      "regionalización",
-      "desarrollo regional",
-      "desarrollo territorial",
-      "sede regional",
-      "cantón",
-      "territorio",
-      "coordinación local",
-      "desigualdad territorial"
-    ],
-    "criterio": "Necesidad regional o territorial concreta."
-  },
-  "F.1.5 Atención a zonas costeras, ruralidad y pueblos originarios": {
-    "descripcion": "Territorios costeros, rurales o pueblos originarios/indígenas, con reconocimiento de sus condiciones, saberes y demandas específicas.",
-    "palabras_clave": [
-      "costa",
-      "rural",
-      "pueblo originario",
-      "pueblo indígena",
-      "territorio indígena",
-      "pesca",
-      "ruralidad",
-      "interculturalidad",
-      "saberes ancestrales"
-    ],
-    "criterio": "Foco explícito en territorios costeros, rurales o pueblos originarios/indígenas."
-  },
-  "F.2.2 Vinculación desde unidades académicas": {
-    "descripcion": "Unidad académica actúa como plataforma de vinculación, extensión o articulación con actores externos.",
-    "palabras_clave": [
-      "unidad académica",
-      "articulación",
-      "vinculación",
-      "extensión",
-      "proyecto académico",
-      "actor externo",
-      "coordinación institucional"
-    ],
-    "criterio": "Unidad académica como mecanismo efectivo de vinculación."
-  },
-  "F.2.5 Integración de tecnologías comunicativas": {
-    "descripcion": "Tecnologías comunicativas o digitales para ampliar acceso, participación o transferencia de conocimiento.",
-    "palabras_clave": [
-      "plataforma",
-      "digital",
-      "comunicación",
-      "tecnología",
-      "mediación virtual",
-      "audiovisual",
-      "repositorio",
-      "contenidos digitales"
-    ],
-    "criterio": "Tecnología como parte sustantiva del modelo de intervención o de difusión del conocimiento."
-  },
-  "F.2.6 Internacionalización de actividades sustantivas": {
-    "descripcion": "Articulación internacional en docencia, investigación o acción social, especialmente cuando amplían capacidades o redes de trabajo.",
-    "palabras_clave": [
-      "cooperación internacional",
-      "movilidad",
-      "red internacional",
-      "intercambio",
-      "alianza internacional",
-      "proyecto internacional"
-    ],
-    "criterio": "Dimensión internacional como componente real del proyecto y no una aspiración general."
-  },
-  "F.3 Multiculturalidad, democratización y equidad": {
-    "descripcion": "Reconocimiento de diversidad cultural, equidad, inclusión y convivencia respetuosa entre grupos diversos.",
-    "palabras_clave": [
-      "diversidad cultural",
-      "multiculturalidad",
-      "interculturalidad",
-      "inclusión",
-      "equidad",
-      "no discriminación",
-      "convivencia"
-    ],
-    "criterio": "Diversidad o la equidad cultural como componente sustantivo del proyecto."
-  },
-  "F.4.1 Salud y bienestar": {
-    "descripcion": "Promoción, prevención, atención o educación en salud y bienestar, dentro o fuera de la universidad.",
-    "palabras_clave": [
-      "salud comunitaria",
-      "prevención",
-      "promoción",
-      "bienestar",
-      "autocuidado",
-      "salud mental",
-      "calidad de vida",
-      "nutrición"
-    ],
-    "criterio": "Salud o bienestar como objeto directo de intervención."
-  },
-  "F.5.1 Valor público de la universidad": {
-    "descripcion": "Aporte universitario al bienestar colectivo, la democratización del conocimiento y la solución de problemas socialmente relevantes.",
-    "palabras_clave": [
-      "valor público",
-      "aporte social",
-      "responsabilidad social universitaria",
-      "impacto público",
-      "bien común"
-    ],
-    "criterio": "Aporte público o social del quehacer universitario."
-  },
-  "F.5.2 Trabajo colaborativo e interdisciplinario": {
-    "descripcion": "Cooperación entre disciplinas, unidades o actores externos, con integración efectiva de capacidades.",
-    "palabras_clave": [
-      "interdisciplinario",
-      "transdisciplinario",
-      "colaborativo",
-      "red de trabajo",
-      "articulación interinstitucional",
-      "cogestión"
-    ],
-    "criterio": "Colaboración interdisciplinaria como rasgo metodológico sustantivo del proyecto."
-  },
-  "F.5.3 Innovación ambiental y gobernanza adaptativa": {
-    "descripcion": "Sostenibilidad, innovación ambiental, adaptación, gobernanza ecológica y respuestas a riesgos ambientales.",
-    "palabras_clave": [
-      "ambiente",
-      "adaptación",
-      "gobernanza ambiental",
-      "sostenibilidad",
-      "resiliencia",
-      "cambio climático",
-      "gestión ambiental"
-    ],
-    "criterio": "Ambiente o adaptación como finalidad sustantiva."
-  },
-  "G.1.1 Enfoque multi, inter y transdisciplinario": {
-    "descripcion": "Enfoques multi, inter o transdisciplinarios para responder a necesidades sociales complejas.",
-    "palabras_clave": [
-      "interdisciplinariedad",
-      "transdisciplinariedad",
-      "integralidad",
-      "necesidades sociales",
-      "problemas complejos",
-      "articulación de saberes"
-    ],
-    "criterio": "Atención integral de necesidades sociales dependiente de varios enfoques integrados."
-  },
-  "G.1.2 Democratización del conocimiento y acceso abierto": {
-    "descripcion": "Proyectos que abren, devuelven, traducen o socializan conocimiento para comunidades, actores sociales y públicos no especializados.",
-    "palabras_clave": [
-      "acceso abierto",
-      "divulgación",
-      "devolución",
-      "socialización del conocimiento",
-      "apropiación social",
-      "repositorio",
-      "ciencia abierta",
-      "saberes compartidos"
-    ],
-    "criterio": "Difusión o devolución de saberes como componente sustantivo del proyecto."
-  },
-  "G.2.2 Internacionalización en todas las áreas sustantivas": {
-    "descripcion": "Proyectos que fortalecen vínculos, cooperación o intercambio internacional en docencia, investigación y acción social.",
-    "palabras_clave": [
-      "internacionalización",
-      "cooperación",
-      "movilidad",
-      "intercambio",
-      "red internacional",
-      "alianza internacional"
-    ],
-    "criterio": "Internacionalización como función sustantiva dentro del proyecto."
-  },
-  "H.1.1 Transformación social con comunidades y sectores externos": {
-    "descripcion": "Marco principal del eje de Extensión y Acción Social del PLANES 2026-2030, orientado a articulación con comunidades y sectores externos.",
-    "palabras_clave": [
-      "comunidades",
-      "sectores externos",
-      "intercambio de experiencias",
-      "valor público",
-      "articulación universidad-sociedad",
-      "transformación social"
-    ],
-    "criterio": "Articulación con actores externos y orientación transformadora o de valor público."
-  },
-  "H.3.1 Acompañamiento a emprendimientos, MIPYMES e iniciativas regionales": {
-    "descripcion": "Iniciativas regionales, emprendimientos o MIPYMES con énfasis en capacidades territoriales y desarrollo regional.",
-    "palabras_clave": [
-      "asesoría",
-      "acompañamiento",
-      "fortalecimiento empresarial",
-      "emprendimiento",
-      "microempresa",
-      "pequeña empresa",
-      "desarrollo regional",
-      "innovación productiva"
-    ],
-    "criterio": "Acompañamiento o fortalecimiento de emprendimientos o actores productivos regionales."
-  },
-  "H.4.1 Iniciativas territoriales articuladas para poblaciones vulnerables": {
-    "descripcion": "Proyectos implementados en territorios específicos mediante articulación entre universidad, sociedad y Estado, orientados a poblaciones vulnerables.",
-    "palabras_clave": [
-      "territorialidad",
-      "articulación local",
-      "población vulnerable",
-      "coordinación con Estado",
-      "intervención territorial",
-      "bienestar comunitario"
-    ],
-    "criterio": "Existencia de territorio, articulación externa y atención de vulnerabilidad."
-  },
-  "H.5.1 Articulación con el sector socioproductivo": {
-    "descripcion": "Proyectos que se articulan de forma estratégica con el sector socioproductivo para transferir capacidades, generar conocimiento aplicado o formar talento humano.",
-    "palabras_clave": [
-      "sector productivo",
-      "sector socioproductivo",
-      "transferencia",
-      "coproductividad",
-      "innovación aplicada",
-      "conocimiento útil",
-      "talento humano",
-      "asesoría"
-    ],
-    "criterio": "Sector socioproductivo o transferencia de capacidades a ese sector."
-  },
-  "H.6.1 Comunicación y divulgación del quehacer universitario": {
-    "descripcion": "Comunicación pública, divulgación o transferencia del conocimiento producido por la universidad.",
-    "palabras_clave": [
-      "divulgación",
-      "comunicación pública",
-      "transferencia de conocimiento",
-      "materiales",
-      "difusión",
-      "repositorio",
-      "programa audiovisual",
-      "acceso abierto"
-    ],
-    "criterio": "Producción o circulación social del conocimiento como función central del proyecto."
-  },
-  "H.7.1 Transformación digital con IA y tecnologías emergentes": {
-    "descripcion": "Incorporación de IA, tecnologías emergentes o transformación digital como parte sustantiva del acceso, mediación o gestión del conocimiento.",
-    "palabras_clave": [
-      "inteligencia artificial",
-      "IA",
-      "transformación digital",
-      "tecnologías emergentes",
-      "innovación digital",
-      "automatización",
-      "ética digital",
-      "inclusión digital"
-    ],
-    "criterio": "Transformación digital o el uso de IA como función central en el proyecto."
+      "acuatica",
+      "acuatico",
+      "acuaticas",
+      "acuaticos"
+    ],
+    "umbral": 0.45
+  },
+
+  "inactivos": {
+    "A.1.2 Suelo": {
+      "descripcion": "conservación, uso y manejo del suelo, la tierra y todos sus componentes químicos y minerales y procesos de degradación y restauración de suelos.",
+      "palabras_clave": [
+        "suelo",
+        "tierra",
+        "erosión",
+        "degradación del suelo",
+        "restauración de suelos",
+        "uso del suelo",
+        "fertilidad",
+        "minerales",
+        "composición del suelo",
+        "agricultura sostenible",
+        "manejo de tierras",
+        "desertificación"
+      ],
+      "criterio": "Conservación, análisis o restauración del suelo como componente central."
+    },
+    "A.1.3 Ambiente, Descarbonización y Residuos": {
+      "descripcion": "protección ambiental, descarbonización, carbono neutralidad, manejo de residuos sólidos, basura y desechos.",
+      "palabras_clave": [
+        "ambiente",
+        "protección ambiental",
+        "residuos sólidos",
+        "basura",
+        "desechos",
+        "reciclaje",
+        "descarbonización",
+        "carbono neutral",
+        "huella de carbono",
+        "emisiones",
+        "gestión de residuos",
+        "contaminación",
+        "economía circular"
+      ],
+      "criterio": "Protección ambiental, reducción de emisiones o gestión de residuos como finalidad sustantiva."
+    },
+    "A.2.1 Salud": {
+      "descripcion": "salud humana, atención médica, prevención de enfermedades y nutrición.",
+      "palabras_clave": [
+        "salud",
+        "salud humana",
+        "atención médica",
+        "prevención",
+        "enfermedad",
+        "nutrición",
+        "salud pública",
+        "promoción de la salud",
+        "bienestar",
+        "salud comunitaria",
+        "epidemiología",
+        "acceso a servicios de salud"
+      ],
+      "criterio": "Prevención o atención médica como objeto central."
+    },
+    "A.2.2 Educación": {
+      "descripcion": "educación en todos sus niveles, formación profesional y capacitación académica.",
+      "palabras_clave": [
+        "educación",
+        "enseñanza",
+        "aprendizaje",
+        "formación",
+        "capacitación",
+        "escuela",
+        "colegio",
+        "universidad",
+        "docencia",
+        "pedagógico",
+        "currículo",
+        "educación formal",
+        "educación técnica",
+        "formación profesional"
+      ],
+      "criterio": "Educación formal o la formación académica y profesional como eje central"
+    },
+    "A.2.3 Cultura": {
+      "descripcion": "expresiones y manifestaciones culturales y patrimoniales, arte, música, danza, baile, teatro, artes plásticas, bellas artes, patrimonio cultural material e inmaterial, memoria histórica, identidad cultural y herencia de comunidades.",
+      "palabras_clave": [
+        "cultura",
+        "arte",
+        "música",
+        "danza",
+        "teatro",
+        "patrimonio",
+        "identidad cultural",
+        "memoria histórica",
+        "tradición",
+        "expresión cultural",
+        "bellas artes",
+        "patrimonio inmaterial",
+        "herencia cultural"
+      ],
+      "criterio": "Expresiones culturales, patrimoniales o artísticas como componente central."
+    },
+    "A.3.1 Ciencia, Tecnología e Innovación": {
+      "descripcion": "investigación científica, desarrollo tecnológico, innovación y creatividad aplicada.",
+      "palabras_clave": [
+        "ciencia",
+        "tecnología",
+        "innovación",
+        "investigación",
+        "desarrollo tecnológico",
+        "I+D",
+        "creatividad",
+        "prototipo",
+        "laboratorio",
+        "transferencia tecnológica",
+        "innovación aplicada",
+        "solución tecnológica"
+      ],
+      "criterio": "Generación de conocimiento científico, desarrollo tecnológico o innovación aplicada."
+    },
+    "A.3.2 Transportes": {
+      "descripcion": "sistemas de transporte terrestre, marítimo y aéreo, e infraestructura de transporte.",
+      "palabras_clave": [
+        "transporte",
+        "vialidad",
+        "carretera",
+        "ferrocarril",
+        "transporte marítimo",
+        "transporte aéreo",
+        "infraestructura vial",
+        "movilidad",
+        "tránsito",
+        "logística de transporte",
+        "red vial"
+      ],
+      "criterio": "Sistemas de transporte o infraestructura de movilidad como objeto central."
+    },
+    "A.3.3 Vivienda y Hábitat": {
+      "descripcion": "vivienda, hábitat urbano, desarrollo urbano, ordenamiento territorial, asentamientos informales y planes reguladores.",
+      "palabras_clave": [
+        "vivienda",
+        "hábitat",
+        "urbanismo",
+        "asentamiento",
+        "precario",
+        "tugurio",
+        "desarrollo urbano",
+        "ordenamiento territorial",
+        "plan regulador",
+        "espacio urbano",
+        "construcción",
+        "acceso a vivienda"
+      ],
+      "criterio": "Vivienda, hábitat o desarrollo urbano como finalidad sustantiva."
+    },
+    "A.4.1 Empleo": {
+      "descripcion": "generación de empleo, desempleo, condiciones salariales y mercado laboral informal.",
+      "palabras_clave": [
+        "empleo",
+        "desempleo",
+        "trabajo",
+        "mercado laboral",
+        "informalidad laboral",
+        "salario",
+        "condiciones laborales",
+        "inserción laboral",
+        "oportunidades de empleo",
+        "empleo decente",
+        "empleabilidad"
+      ],
+      "criterio": "Generación de empleo, reducción del desempleo o mejora de condiciones laborales."
+    },
+    "A.4.2 Pobreza": {
+      "descripcion": "Reducir la pobreza urbana y rural y mejorar las condiciones de vida de poblaciones vulnerables.",
+      "palabras_clave": [
+        "pobreza",
+        "pobreza extrema",
+        "vulnerabilidad",
+        "condiciones de vida",
+        "exclusión social",
+        "marginalidad",
+        "rezago social",
+        "índice de pobreza",
+        "bienestar social",
+        "atención a poblaciones vulnerables"
+      ],
+      "criterio": "Reducir la pobreza o mejorar condiciones de vida de poblaciones en situación de vulnerabilidad."
+    },
+    "A.4.3 Desarrollo Regional": {
+      "descripcion": "desarrollo regional, local y territorial que buscan fortalecer comunidades y territorios específicos.",
+      "palabras_clave": [
+        "desarrollo regional",
+        "desarrollo local",
+        "desarrollo territorial",
+        "comunidad",
+        "territorio",
+        "fortalecimiento comunitario",
+        "región",
+        "cantón",
+        "municipio",
+        "planificación regional",
+        "descentralización"
+      ],
+      "criterio": "Fortalecer el desarrollo de una región, comunidad o territorio específico."
+    },
+    "A.4.4 Agropecuario": {
+      "descripcion": "agricultura, ganadería, producción agroalimentaria y desarrollo del sector agropecuario.",
+      "palabras_clave": [
+        "agricultura",
+        "ganadería",
+        "agropecuario",
+        "producción agrícola",
+        "cultivo",
+        "cosecha",
+        "agroalimentario",
+        "campo",
+        "productor",
+        "finca",
+        "seguridad alimentaria",
+        "extensión agrícola",
+        "agronomía",
+        "veterinaria"
+      ],
+      "criterio": "Producción agrícola, ganadera o agroalimentaria como objeto central."
+    },
+    "B.1.1 Pobreza": {
+      "descripcion": "Reducir la pobreza y mejorar condiciones de vida en comunidades vulnerables.",
+      "palabras_clave": [
+        "pobreza",
+        "vulnerabilidad",
+        "exclusión social",
+        "condiciones de vida",
+        "bienestar",
+        "rezago",
+        "atención social",
+        "comunidades en riesgo",
+        "pobreza multidimensional",
+        "carencias básicas"
+      ],
+      "criterio": "Reducir pobreza o atender necesidades básicas de comunidades vulnerables."
+    },
+    "B.1.2 Alimentación sostenible en zonas costeras": {
+      "descripcion": "nutrición, seguridad alimentaria y alimentación sostenible especialmente en comunidades costeras.",
+      "palabras_clave": [
+        "alimentación",
+        "nutrición",
+        "seguridad alimentaria",
+        "soberanía alimentaria",
+        "pesca artesanal",
+        "comunidad costera",
+        "alimentos sostenibles",
+        "acceso a alimentos",
+        "dieta",
+        "producción local de alimentos"
+      ],
+      "criterio": "Seguridad alimentaria o alimentación sostenible con énfasis en comunidades costeras o pesqueras."
+    },
+    "B.1.3 Planes Reguladores": {
+      "descripcion": "planes reguladores y ordenamiento territorial para la gestión del uso del suelo.",
+      "palabras_clave": [
+        "plan regulador",
+        "ordenamiento territorial",
+        "uso del suelo",
+        "zonificación",
+        "planificación urbana",
+        "gestión territorial",
+        "municipalidad",
+        "desarrollo urbano",
+        "regulación del territorio"
+      ],
+      "criterio": "Formulación, implementación o evaluación de planes reguladores o herramientas de ordenamiento territorial."
+    },
+    "B.2.1 Salud": {
+      "descripcion": "salud humana, atención médica, prevención de enfermedades, nutrición y desnutrición.",
+      "palabras_clave": [
+        "salud",
+        "atención médica",
+        "prevención",
+        "enfermedad",
+        "nutrición",
+        "desnutrición",
+        "salud pública",
+        "promoción de la salud",
+        "acceso a servicios",
+        "calidad de vida",
+        "salud integral"
+      ],
+      "criterio": "Atención, prevención o promoción de la salud humana."
+    },
+    "B.2.2 Embarazos adolescentes": {
+      "descripcion": "prevención, atención y reducción de embarazos en adolescentes y jóvenes, salud sexual y reproductiva, educación sexual, maternidad temprana y derechos reproductivos de la juventud.",
+      "palabras_clave": [
+        "embarazo adolescente",
+        "maternidad temprana",
+        "salud sexual",
+        "salud reproductiva",
+        "educación sexual",
+        "juventud",
+        "adolescencia",
+        "derechos reproductivos",
+        "prevención del embarazo"
+      ],
+      "criterio": "Embarazo adolescente, salud sexual o reproductiva en población joven."
+    },
+    "B.2.3 Igualdad de genero": {
+      "descripcion": "igualdad de género, reducción de brechas entre hombres y mujeres y equidad de género.",
+      "palabras_clave": [
+        "género",
+        "igualdad de género",
+        "equidad de género",
+        "brecha de género",
+        "mujer",
+        "empoderamiento femenino",
+        "feminismo",
+        "violencia de género",
+        "discriminación",
+        "paridad",
+        "perspectiva de género"
+      ],
+      "criterio": "Igualdad de género o reducción de brechas entre géneros como componente central."
+    },
+    "B.3.1 Agua": {
+      "descripcion": "acceso al agua potable y limpia, acueductos y gestión del recurso hídrico.",
+      "palabras_clave": [
+        "agua potable",
+        "acueducto",
+        "acceso al agua",
+        "agua limpia",
+        "saneamiento",
+        "recurso hídrico",
+        "ASADA",
+        "gestión del agua",
+        "calidad del agua",
+        "abastecimiento de agua"
+      ],
+      "criterio": "Acceso, calidad o gestión del agua potable como finalidad central."
+    },
+    "B.3.2 Energía": {
+      "descripcion": "energía renovable, energía solar, eólica, geotérmica e hidroeléctrica y transición energética.",
+      "palabras_clave": [
+        "energía renovable",
+        "energía solar",
+        "energía eólica",
+        "geotérmica",
+        "hidroeléctrica",
+        "transición energética",
+        "eficiencia energética",
+        "acceso a energía",
+        "electrificación",
+        "biomasa",
+        "energía limpia"
+      ],
+      "criterio": "Fuentes de energía renovable, eficiencia energética o transición energética."
+    },
+    "B.4.1 Trabajo digno": {
+      "descripcion": "condiciones de trabajo digno y decente, derechos laborales y bienestar de los trabajadores.",
+      "palabras_clave": [
+        "trabajo digno",
+        "trabajo decente",
+        "derechos laborales",
+        "condiciones laborales",
+        "bienestar del trabajador",
+        "salario justo",
+        "seguridad laboral",
+        "sindicalismo",
+        "protección laboral",
+        "empleo formal"
+      ],
+      "criterio": "Condiciones laborales dignas, derechos de los trabajadores o bienestar laboral."
+    },
+    "B.4.2 Industrialización inclusiva": {
+      "descripcion": "industrialización inclusiva y desarrollo industrial que integre a sectores vulnerables.",
+      "palabras_clave": [
+        "industrialización",
+        "industria inclusiva",
+        "desarrollo industrial",
+        "manufactura",
+        "producción",
+        "inclusión productiva",
+        "sectores vulnerables",
+        "pyme",
+        "encadenamiento productivo"
+      ],
+      "criterio": "Industrialización o desarrollo productivo con enfoque de inclusión social."
+    },
+    "B.4.3 Innovación": {
+      "descripcion": "innovación productiva, creatividad aplicada y desarrollo de nuevas soluciones.",
+      "palabras_clave": [
+        "innovación",
+        "creatividad",
+        "nuevas soluciones",
+        "prototipo",
+        "emprendimiento innovador",
+        "innovación productiva",
+        "desarrollo de productos",
+        "solución creativa",
+        "I+D",
+        "spin-off"
+      ],
+      "criterio": "Innovación o creatividad aplicada a la resolución de problemas como eje central del proyecto."
+    },
+    "B.4.4 Desigualdad": {
+      "descripcion": "reducción de la desigualdad económica, equidad social y distribución del ingreso.",
+      "palabras_clave": [
+        "desigualdad",
+        "equidad",
+        "distribución del ingreso",
+        "brecha económica",
+        "exclusión",
+        "movilidad social",
+        "coeficiente Gini",
+        "redistribución",
+        "justicia social",
+        "equidad económica"
+      ],
+      "criterio": "Reducción de la desigualdad económica o social como objetivo explícito."
+    },
+    "B.5.1 Comunicación vial": {
+      "descripcion": "infraestructura vial y comunicación entre comunidades a través de redes de transporte.",
+      "palabras_clave": [
+        "infraestructura vial",
+        "camino",
+        "carretera",
+        "puente",
+        "red vial",
+        "acceso vial",
+        "conectividad vial",
+        "comunicación entre comunidades",
+        "red de transporte",
+        "vía"
+      ],
+      "criterio": "Infraestructura vial o conectividad entre comunidades a través de redes de transporte."
+    },
+    "B.5.2 Urbanismo": {
+      "descripcion": "planificación urbana, diseño de ciudades y desarrollo de espacios urbanos.",
+      "palabras_clave": [
+        "urbanismo",
+        "planificación urbana",
+        "diseño urbano",
+        "espacio público",
+        "ciudad",
+        "densificación",
+        "movilidad urbana",
+        "infraestructura urbana",
+        "renovación urbana",
+        "barrio"
+      ],
+      "criterio": "Planificación, diseño o desarrollo de espacios urbanos como objeto central."
+    },
+    "B.5.3 Contaminación": {
+      "descripcion": "reducción y control de la contaminación ambiental y procesos de descontaminación.",
+      "palabras_clave": [
+        "contaminación",
+        "descontaminación",
+        "contaminación del aire",
+        "contaminación del agua",
+        "contaminación del suelo",
+        "residuos tóxicos",
+        "emisiones",
+        "calidad ambiental",
+        "remediación ambiental"
+      ],
+      "criterio": "Reducción, control o remediación de la contaminación ambiental."
+    },
+    "B.5.4 Ambiente y Mares": {
+      "descripcion": "conservación y protección de ecosistemas marinos, costeros y oceánicos, biodiversidad marina, manejo de mares, playas, arrecifes y zonas costeras.",
+      "palabras_clave": [
+        "ecosistema marino",
+        "biodiversidad marina",
+        "arrecife",
+        "manglar",
+        "zona costera",
+        "océano",
+        "mar",
+        "pesca sostenible",
+        "conservación marina",
+        "playa",
+        "humedal costero"
+      ],
+      "criterio": "Conservación o gestión de ecosistemas marinos, costeros u oceánicos."
+    },
+    "B.5.5 Justicia institucional": {
+      "descripcion": "justicia, institucionalidad y fortalecimiento del estado de derecho.",
+      "palabras_clave": [
+        "justicia",
+        "estado de derecho",
+        "institucionalidad",
+        "acceso a la justicia",
+        "derechos humanos",
+        "sistema judicial",
+        "legalidad",
+        "transparencia institucional",
+        "democracia",
+        "gobernanza"
+      ],
+      "criterio": "Fortalecimiento de la justicia, la institucionalidad o el acceso a derechos."
+    },
+    "C.1.1 Desarrollo humano integral": {
+      "descripcion": "Atención integral a personas en condición de vulnerabilidad como adultos mayores, personas con discapacidad, niñez o poblaciones en riesgo social, que fortalecen capacidades individuales y comunitarias.",
+      "palabras_clave": [
+        "desarrollo humano",
+        "atención integral",
+        "adulto mayor",
+        "discapacidad",
+        "niñez",
+        "riesgo social",
+        "capacidades humanas",
+        "inclusión social",
+        "bienestar integral",
+        "poblaciones vulnerables"
+      ],
+      "criterio": "Personas en condición de vulnerabilidad fortaleciendo sus capacidades individuales o comunitarias."
+    },
+    "C.1.2 Costas y zonas fronterizas": {
+      "descripcion": "Comunidades costeras, zonas fronterizas y poblaciones en los límites del territorio.",
+      "palabras_clave": [
+        "zona costera",
+        "frontera",
+        "comunidad costera",
+        "zona fronteriza",
+        "límite territorial",
+        "pesca",
+        "poblaciones costeras",
+        "migración fronteriza",
+        "desarrollo costero"
+      ],
+      "criterio": "Comunidades costeras o zonas fronterizas con atención a sus condiciones y necesidades específicas."
+    },
+    "C.2.1 Infraestructura Vial y Educativa": {
+      "descripcion": "infraestructura vial, infraestructura educativa y educación en seguridad vial.",
+      "palabras_clave": [
+        "infraestructura vial",
+        "infraestructura educativa",
+        "seguridad vial",
+        "carretera",
+        "escuela",
+        "colegio",
+        "accesibilidad escolar",
+        "construcción educativa",
+        "red vial",
+        "educación vial"
+      ],
+      "criterio": "Infraestructura vial o educativa, o educación en seguridad vial."
+    },
+    "C.2.2 Logística (multimodal)": {
+      "descripcion": "logística, cadenas de suministro y corredores logísticos multimodales.",
+      "palabras_clave": [
+        "logística",
+        "cadena de suministro",
+        "corredor logístico",
+        "multimodal",
+        "transporte de carga",
+        "distribución",
+        "almacenamiento",
+        "eficiencia logística",
+        "puerto",
+        "aeropuerto"
+      ],
+      "criterio": "Sistemas logísticos, cadenas de suministro o corredores multimodales."
+    },
+    "C.3.1 Educación": {
+      "descripcion": "educación formal en todos sus niveles, desde preescolar hasta universitaria, formación profesional y educación de adultos.",
+      "palabras_clave": [
+        "educación formal",
+        "preescolar",
+        "primaria",
+        "secundaria",
+        "universitaria",
+        "educación de adultos",
+        "formación profesional",
+        "rendimiento académico",
+        "deserción escolar",
+        "acceso a la educación"
+      ],
+      "criterio": "Educación formal en cualquier nivel o formación profesional reglada."
+    },
+    "C.3.2 Innovación": {
+      "descripcion": "innovación educativa y nuevos enfoques pedagógicos en la enseñanza.",
+      "palabras_clave": [
+        "innovación educativa",
+        "pedagogía",
+        "metodología de enseñanza",
+        "enfoque pedagógico",
+        "tecnología educativa",
+        "aprendizaje activo",
+        "didáctica",
+        "modelo educativo",
+        "aprendizaje basado en proyectos"
+      ],
+      "criterio": "Enfoques pedagógicos innovadores o nuevas metodologías de enseñanza."
+    },
+    "C.4.1 Género": {
+      "descripcion": "igualdad de género, reducción de brechas y desigualdades entre géneros.",
+      "palabras_clave": [
+        "género",
+        "igualdad",
+        "equidad de género",
+        "brecha de género",
+        "empoderamiento",
+        "violencia de género",
+        "discriminación",
+        "paridad",
+        "perspectiva de género",
+        "feminismo",
+        "derechos de la mujer"
+      ],
+      "criterio": "Igualdad de género o la reducción de brechas entre géneros como componente sustantivo del proyecto."
+    },
+    "C.4.2 Salud": {
+      "descripcion": "salud humana, atención médica, prevención de enfermedades y nutrición.",
+      "palabras_clave": [
+        "salud",
+        "atención médica",
+        "prevención",
+        "enfermedad",
+        "nutrición",
+        "bienestar",
+        "salud pública",
+        "salud comunitaria",
+        "promoción de la salud",
+        "epidemiología"
+      ],
+      "criterio": "Salud humana, prevención o atención médica como foco central del proyecto."
+    },
+    "C.4.3 Pobreza": {
+      "descripcion": "Reducir la pobreza y mejorar las condiciones de vida de poblaciones vulnerables.",
+      "palabras_clave": [
+        "pobreza",
+        "vulnerabilidad",
+        "exclusión",
+        "condiciones de vida",
+        "rezago social",
+        "bienestar",
+        "carencias",
+        "pobreza extrema",
+        "atención social",
+        "comunidades en riesgo"
+      ],
+      "criterio": "Reducir la pobreza o mejorar las condiciones de vida de poblaciones vulnerables."
+    },
+    "C.5.1 Economía verde": {
+      "descripcion": "modelos económicos sostenibles, ecoturismo, servicios ambientales, producción limpia, certificación ambiental y actividades económicas que reducen el impacto ambiental.",
+      "palabras_clave": [
+        "economía verde",
+        "sostenibilidad",
+        "ecoturismo",
+        "servicios ambientales",
+        "producción limpia",
+        "certificación ambiental",
+        "impacto ambiental",
+        "desarrollo sostenible",
+        "carbono",
+        "huella ecológica"
+      ],
+      "criterio": "Modelos económicos sostenibles o actividades que reduzcan el impacto ambiental."
+    },
+    "C.5.2 Producción sofisticada": {
+      "descripcion": "aumento de la productividad y producción de bienes y servicios de mayor valor agregado.",
+      "palabras_clave": [
+        "valor agregado",
+        "productividad",
+        "sofisticación productiva",
+        "manufactura avanzada",
+        "exportación",
+        "competitividad",
+        "cadena de valor",
+        "bienes sofisticados",
+        "diversificación productiva"
+      ],
+      "criterio": "Incrementar la productividad o sofisticar la producción de bienes y servicios."
+    },
+    "C.5.3 Desigualdad": {
+      "descripcion": "reducción de la desigualdad económica y social y promoción de la equidad.",
+      "palabras_clave": [
+        "desigualdad",
+        "equidad",
+        "brecha social",
+        "justicia social",
+        "distribución del ingreso",
+        "exclusión",
+        "movilidad social",
+        "inequidad",
+        "redistribución"
+      ],
+      "criterio": "Reducción de la desigualdad social o económica como un objetivo explícito y central del proyecto."
+    },
+    "C.6.1 Economía regenerativa": {
+      "descripcion": "economía regenerativa, modelos económicos circulares y restauración de ecosistemas productivos.",
+      "palabras_clave": [
+        "economía regenerativa",
+        "economía circular",
+        "restauración de ecosistemas",
+        "producción regenerativa",
+        "ciclo cerrado",
+        "residuo cero",
+        "regeneración ambiental",
+        "sostenibilidad productiva"
+      ],
+      "criterio": "Promueva modelos económicos regenerativos o circulares con impacto en ecosistemas productivos."
+    },
+    "D.1.1 Descentralizada": {
+      "descripcion": "descentralización del Estado y distribución del poder hacia gobiernos locales y comunidades.",
+      "palabras_clave": [
+        "descentralización",
+        "gobierno local",
+        "municipalidad",
+        "autonomía local",
+        "poder local",
+        "gestión descentralizada",
+        "distribución del poder",
+        "participación ciudadana local",
+        "gobernanza local"
+      ],
+      "criterio": "Descentralización del Estado o el fortalecimiento de gobiernos locales."
+    },
+    "D.1.2 Digitalizada": {
+      "descripcion": "digitalización, reducción de la brecha digital y acceso a tecnología.",
+      "palabras_clave": [
+        "digitalización",
+        "brecha digital",
+        "acceso a tecnología",
+        "internet",
+        "conectividad",
+        "tecnología de la información",
+        "transformación digital",
+        "inclusión digital",
+        "gobierno digital",
+        "tecnología accesible"
+      ],
+      "criterio": "Digitalización de procesos o la reducción de la brecha digital."
+    },
+    "D.1.3 Descarbonizada": {
+      "descripcion": "descarbonización de la economía, carbono neutralidad y reducción de emisiones a cero.",
+      "palabras_clave": [
+        "descarbonización",
+        "carbono neutralidad",
+        "cero emisiones",
+        "huella de carbono",
+        "transición energética",
+        "energía limpia",
+        "gases de efecto invernadero",
+        "economía baja en carbono",
+        "neutralidad climática"
+      ],
+      "criterio": "Descarbonización de la economía o la reducción de emisiones de carbono."
+    },
+    "D.2.1 Productividad laboral": {
+      "descripcion": "mejora de la productividad laboral y eficiencia de los trabajadores.",
+      "palabras_clave": [
+        "productividad laboral",
+        "eficiencia",
+        "rendimiento laboral",
+        "capacitación laboral",
+        "mejora de procesos",
+        "competitividad laboral",
+        "habilidades",
+        "formación para el trabajo"
+      ],
+      "criterio": "Productividad o eficiencia de los trabajadores de forma central."
+    },
+    "D.2.2 Sofisticación": {
+      "descripcion": "sofisticación productiva y desarrollo de capacidades avanzadas de producción.",
+      "palabras_clave": [
+        "sofisticación productiva",
+        "capacidades avanzadas",
+        "manufactura avanzada",
+        "alta tecnología",
+        "valor agregado",
+        "innovación productiva",
+        "industria 4.0",
+        "competitividad"
+      ],
+      "criterio": "Desarrollo de capacidades productivas avanzadas o la sofisticación de sectores económicos."
+    },
+    "D.2.3 Desconcentración e innovación productiva": {
+      "descripcion": "desconcentración productiva e innovación en los procesos de producción.",
+      "palabras_clave": [
+        "desconcentración",
+        "innovación productiva",
+        "distribución territorial de la producción",
+        "descentralización productiva",
+        "parques industriales",
+        "zonas francas",
+        "desarrollo regional productivo"
+      ],
+      "criterio": "Desconcentración de la producción o la innovación en procesos productivos en distintos territorios."
+    },
+    "E.1.1 Regulación Urbana": {
+      "descripcion": "regulación urbana, planes reguladores y ordenamiento territorial en ciudades.",
+      "palabras_clave": [
+        "regulación urbana",
+        "plan regulador",
+        "ordenamiento territorial",
+        "zonificación",
+        "uso del suelo urbano",
+        "normativa urbana",
+        "crecimiento urbano",
+        "densificación",
+        "municipalidad",
+        "reglamento de construcción"
+      ],
+      "criterio": "Regulación urbana, planes reguladores o herramientas de ordenamiento territorial en contextos urbanos."
+    },
+    "E.1.2 Gestión municipal": {
+      "descripcion": "Gestión, planificación y administración de municipalidades y gobiernos locales costarricenses.",
+      "palabras_clave": [
+        "municipalidad",
+        "gestión municipal",
+        "gobierno local",
+        "administración municipal",
+        "planificación municipal",
+        "capacidad institucional",
+        "concejo municipal",
+        "alcaldía",
+        "presupuesto municipal",
+        "servicios municipales"
+      ],
+      "criterio": "Capacidad de gestión o administración de municipalidades."
+    },
+    "E.2.1 Pobreza": {
+      "descripcion": "reducción de la pobreza urbana y rural y atención a comunidades en condición de pobreza.",
+      "palabras_clave": [
+        "pobreza",
+        "pobreza urbana",
+        "pobreza rural",
+        "vulnerabilidad",
+        "exclusión social",
+        "carencias",
+        "condiciones de vida",
+        "atención social",
+        "rezago",
+        "comunidades en pobreza"
+      ],
+      "criterio": "Reducir la pobreza o atender comunidades en condición de pobreza."
+    },
+    "E.2.2 Desempleo": {
+      "descripcion": "reducción del desempleo y generación de oportunidades laborales.",
+      "palabras_clave": [
+        "desempleo",
+        "empleo",
+        "oportunidades laborales",
+        "inserción laboral",
+        "mercado de trabajo",
+        "generación de empleo",
+        "capacitación para el trabajo",
+        "empleabilidad",
+        "informalidad"
+      ],
+      "criterio": "Reducción del desempleo o la generación de oportunidades laborales como objetivo central."
+    },
+    "E.2.3 Inseguridad Ciudadana": {
+      "descripcion": "seguridad ciudadana, reducción de violencia, delitos y crímenes.",
+      "palabras_clave": [
+        "seguridad ciudadana",
+        "violencia",
+        "delincuencia",
+        "crimen",
+        "prevención del delito",
+        "convivencia ciudadana",
+        "policía comunitaria",
+        "inseguridad",
+        "violencia social",
+        "paz ciudadana"
+      ],
+      "criterio": "Seguridad ciudadana, prevención de la violencia o reducción de la delincuencia."
+    },
+    "E.3.1 Protección Recurso Hídrico": {
+      "descripcion": "protección y conservación del recurso hídrico, ríos, mares y cuencas.",
+      "palabras_clave": [
+        "protección hídrica",
+        "conservación del agua",
+        "cuenca hidrográfica",
+        "río",
+        "mar",
+        "acuífero",
+        "zona de recarga",
+        "gestión integrada del agua",
+        "calidad del agua",
+        "caudal ecológico"
+      ],
+      "criterio": "Protección o conservación del recurso hídrico en cualquiera de sus formas."
+    },
+    "E.3.2 Suelo": {
+      "descripcion": "conservación, restauración y uso sostenible del suelo agrícola y natural, prevención de erosión y degradación de suelos.",
+      "palabras_clave": [
+        "conservación del suelo",
+        "restauración de suelos",
+        "erosión",
+        "degradación",
+        "uso sostenible del suelo",
+        "suelo agrícola",
+        "fertilidad del suelo",
+        "manejo de tierras",
+        "cobertura vegetal"
+      ],
+      "criterio": "Conservación, restauración o uso sostenible del suelo como finalidad central."
+    },
+    "E.4.1 Inversión en capital": {
+      "descripcion": "inversión en capital, infraestructura y formación de capital productivo.",
+      "palabras_clave": [
+        "inversión",
+        "capital",
+        "infraestructura productiva",
+        "formación de capital",
+        "activos",
+        "inversión pública",
+        "inversión privada",
+        "infraestructura económica",
+        "capital humano",
+        "capital físico"
+      ],
+      "criterio": "Inversión en capital o infraestructura productiva de forma explícita."
+    },
+    "E.4.2 Gestión regional de recursos": {
+      "descripcion": "planificación y administración eficiente de recursos naturales, hídricos, económicos o institucionales en regiones específicas del país.",
+      "palabras_clave": [
+        "gestión regional",
+        "recursos naturales",
+        "administración regional",
+        "planificación regional",
+        "recursos hídricos regionales",
+        "recursos económicos",
+        "gestión territorial",
+        "eficiencia regional"
+      ],
+      "criterio": "Gestión eficiente de recursos en una región específica del país."
+    },
+    "E.5.1 Accesibilidad": {
+      "descripcion": "accesibilidad universal, inclusión de personas con discapacidad y eliminación de barreras.",
+      "palabras_clave": [
+        "accesibilidad",
+        "accesibilidad universal",
+        "discapacidad",
+        "barreras arquitectónicas",
+        "inclusión",
+        "movilidad reducida",
+        "diseño universal",
+        "adaptación",
+        "rampas",
+        "lengua de señas"
+      ],
+      "criterio": "Accesibilidad universal o inclusión de personas con discapacidad de forma sustantiva."
+    },
+    "E.5.2 Conectividad": {
+      "descripcion": "conectividad digital, internet y acceso a redes de comunicación.",
+      "palabras_clave": [
+        "conectividad",
+        "internet",
+        "banda ancha",
+        "red de comunicación",
+        "acceso digital",
+        "telecomunicaciones",
+        "brecha digital",
+        "WiFi",
+        "fibra óptica",
+        "conectividad rural"
+      ],
+      "criterio": "Conectividad digital o acceso a redes de comunicación como objeto central."
+    },
+    "E.6.1 Brecha Servicios de Salud": {
+      "descripcion": "Brechas de acceso, cobertura y calidad en servicios de salud entre diferentes poblaciones, regiones o grupos socioeconómicos.",
+      "palabras_clave": [
+        "brecha de salud",
+        "acceso a salud",
+        "cobertura en salud",
+        "desigualdad en salud",
+        "calidad de servicios de salud",
+        "equidad en salud",
+        "servicios de salud rurales",
+        "atención primaria"
+      ],
+      "criterio": "Brechas de acceso o calidad en servicios de salud entre poblaciones o regiones."
+    },
+    "E.6.2 Brecha Servicios de Educación": {
+      "descripcion": "Brechas de acceso, cobertura y calidad en servicios educativos formales entre diferentes poblaciones, regiones o grupos socioeconómicos.",
+      "palabras_clave": [
+        "brecha educativa",
+        "acceso a educación",
+        "cobertura educativa",
+        "desigualdad educativa",
+        "calidad educativa",
+        "deserción escolar",
+        "educación rural",
+        "rezago educativo",
+        "equidad educativa"
+      ],
+      "criterio": "Brechas de acceso, cobertura o calidad en servicios educativos entre distintas poblaciones o regiones."
+    },
+    "F.1.1 Educación continua y formación permanente": {
+      "descripcion": "Capacitación, actualización, formación no formal o procesos educativos continuos con actores externos a la universidad.",
+      "palabras_clave": [
+        "curso libre",
+        "capacitación",
+        "taller",
+        "actualización",
+        "mediación pedagógica",
+        "educación no formal",
+        "aprendizaje a lo largo de la vida",
+        "lifelong learning"
+      ],
+      "criterio": "Formación o acompañamiento educativo continuo para públicos externos."
+    },
+    "F.1.2 Vinculación con sectores sociales, Estado y comunidades vulnerables": {
+      "descripcion": "Sectores sociales, instituciones públicas o comunidades vulnerables, con atención explícita de necesidades o derechos.",
+      "palabras_clave": [
+        "comunidad",
+        "vulnerabilidad",
+        "organizaciones sociales",
+        "instituciones públicas",
+        "acompañamiento",
+        "incidencia",
+        "fortalecimiento comunitario",
+        "actores sociales"
+      ],
+      "criterio": "Comunidades vulnerables, instituciones públicas o trabajo con sectores sociales."
+    },
+    "F.1.3 Atención de problemas nacionales": {
+      "descripcion": "Problemas públicos o desafíos nacionales con relevancia social, institucional, cultural, económica o ambiental.",
+      "palabras_clave": [
+        "problemática nacional",
+        "desafío país",
+        "agenda pública",
+        "políticas públicas",
+        "crisis social",
+        "desarrollo nacional",
+        "transformación social"
+      ],
+      "criterio": "Problemática país o de interés nacional."
+    },
+    "F.1.4 Atención de necesidades regionales": {
+      "descripcion": "Necesidades regionales, brechas territoriales o desarrollo regional, con presencia sustantiva en regiones o sedes.",
+      "palabras_clave": [
+        "regionalización",
+        "desarrollo regional",
+        "desarrollo territorial",
+        "sede regional",
+        "cantón",
+        "territorio",
+        "coordinación local",
+        "desigualdad territorial"
+      ],
+      "criterio": "Necesidad regional o territorial concreta."
+    },
+    "F.1.5 Atención a zonas costeras, ruralidad y pueblos originarios": {
+      "descripcion": "Territorios costeros, rurales o pueblos originarios/indígenas, con reconocimiento de sus condiciones, saberes y demandas específicas.",
+      "palabras_clave": [
+        "costa",
+        "rural",
+        "pueblo originario",
+        "pueblo indígena",
+        "territorio indígena",
+        "pesca",
+        "ruralidad",
+        "interculturalidad",
+        "saberes ancestrales"
+      ],
+      "criterio": "Foco explícito en territorios costeros, rurales o pueblos originarios/indígenas."
+    },
+    "F.2.2 Vinculación desde unidades académicas": {
+      "descripcion": "Unidad académica actúa como plataforma de vinculación, extensión o articulación con actores externos.",
+      "palabras_clave": [
+        "unidad académica",
+        "articulación",
+        "vinculación",
+        "extensión",
+        "proyecto académico",
+        "actor externo",
+        "coordinación institucional"
+      ],
+      "criterio": "Unidad académica como mecanismo efectivo de vinculación."
+    },
+    "F.2.5 Integración de tecnologías comunicativas": {
+      "descripcion": "Tecnologías comunicativas o digitales para ampliar acceso, participación o transferencia de conocimiento.",
+      "palabras_clave": [
+        "plataforma",
+        "digital",
+        "comunicación",
+        "tecnología",
+        "mediación virtual",
+        "audiovisual",
+        "repositorio",
+        "contenidos digitales"
+      ],
+      "criterio": "Tecnología como parte sustantiva del modelo de intervención o de difusión del conocimiento."
+    },
+    "F.2.6 Internacionalización de actividades sustantivas": {
+      "descripcion": "Articulación internacional en docencia, investigación o acción social, especialmente cuando amplían capacidades o redes de trabajo.",
+      "palabras_clave": [
+        "cooperación internacional",
+        "movilidad",
+        "red internacional",
+        "intercambio",
+        "alianza internacional",
+        "proyecto internacional"
+      ],
+      "criterio": "Dimensión internacional como componente real del proyecto y no una aspiración general."
+    },
+    "F.3 Multiculturalidad, democratización y equidad": {
+      "descripcion": "Reconocimiento de diversidad cultural, equidad, inclusión y convivencia respetuosa entre grupos diversos.",
+      "palabras_clave": [
+        "diversidad cultural",
+        "multiculturalidad",
+        "interculturalidad",
+        "inclusión",
+        "equidad",
+        "no discriminación",
+        "convivencia"
+      ],
+      "criterio": "Diversidad o la equidad cultural como componente sustantivo del proyecto."
+    },
+    "F.4.1 Salud y bienestar": {
+      "descripcion": "Promoción, prevención, atención o educación en salud y bienestar, dentro o fuera de la universidad.",
+      "palabras_clave": [
+        "salud comunitaria",
+        "prevención",
+        "promoción",
+        "bienestar",
+        "autocuidado",
+        "salud mental",
+        "calidad de vida",
+        "nutrición"
+      ],
+      "criterio": "Salud o bienestar como objeto directo de intervención."
+    },
+    "F.5.1 Valor público de la universidad": {
+      "descripcion": "Aporte universitario al bienestar colectivo, la democratización del conocimiento y la solución de problemas socialmente relevantes.",
+      "palabras_clave": [
+        "valor público",
+        "aporte social",
+        "responsabilidad social universitaria",
+        "impacto público",
+        "bien común"
+      ],
+      "criterio": "Aporte público o social del quehacer universitario."
+    },
+    "F.5.2 Trabajo colaborativo e interdisciplinario": {
+      "descripcion": "Cooperación entre disciplinas, unidades o actores externos, con integración efectiva de capacidades.",
+      "palabras_clave": [
+        "interdisciplinario",
+        "transdisciplinario",
+        "colaborativo",
+        "red de trabajo",
+        "articulación interinstitucional",
+        "cogestión"
+      ],
+      "criterio": "Colaboración interdisciplinaria como rasgo metodológico sustantivo del proyecto."
+    },
+    "F.5.3 Innovación ambiental y gobernanza adaptativa": {
+      "descripcion": "Sostenibilidad, innovación ambiental, adaptación, gobernanza ecológica y respuestas a riesgos ambientales.",
+      "palabras_clave": [
+        "ambiente",
+        "adaptación",
+        "gobernanza ambiental",
+        "sostenibilidad",
+        "resiliencia",
+        "cambio climático",
+        "gestión ambiental"
+      ],
+      "criterio": "Ambiente o adaptación como finalidad sustantiva."
+    },
+    "G.1.1 Enfoque multi, inter y transdisciplinario": {
+      "descripcion": "Enfoques multi, inter o transdisciplinarios para responder a necesidades sociales complejas.",
+      "palabras_clave": [
+        "interdisciplinariedad",
+        "transdisciplinariedad",
+        "integralidad",
+        "necesidades sociales",
+        "problemas complejos",
+        "articulación de saberes"
+      ],
+      "criterio": "Atención integral de necesidades sociales dependiente de varios enfoques integrados."
+    },
+    "G.1.2 Democratización del conocimiento y acceso abierto": {
+      "descripcion": "Proyectos que abren, devuelven, traducen o socializan conocimiento para comunidades, actores sociales y públicos no especializados.",
+      "palabras_clave": [
+        "acceso abierto",
+        "divulgación",
+        "devolución",
+        "socialización del conocimiento",
+        "apropiación social",
+        "repositorio",
+        "ciencia abierta",
+        "saberes compartidos"
+      ],
+      "criterio": "Difusión o devolución de saberes como componente sustantivo del proyecto."
+    },
+    "G.2.2 Internacionalización en todas las áreas sustantivas": {
+      "descripcion": "Proyectos que fortalecen vínculos, cooperación o intercambio internacional en docencia, investigación y acción social.",
+      "palabras_clave": [
+        "internacionalización",
+        "cooperación",
+        "movilidad",
+        "intercambio",
+        "red internacional",
+        "alianza internacional"
+      ],
+      "criterio": "Internacionalización como función sustantiva dentro del proyecto."
+    },
+    "H.1.1 Transformación social con comunidades y sectores externos": {
+      "descripcion": "Marco principal del eje de Extensión y Acción Social del PLANES 2026-2030, orientado a articulación con comunidades y sectores externos.",
+      "palabras_clave": [
+        "comunidades",
+        "sectores externos",
+        "intercambio de experiencias",
+        "valor público",
+        "articulación universidad-sociedad",
+        "transformación social"
+      ],
+      "criterio": "Articulación con actores externos y orientación transformadora o de valor público."
+    },
+    "H.3.1 Acompañamiento a emprendimientos, MIPYMES e iniciativas regionales": {
+      "descripcion": "Iniciativas regionales, emprendimientos o MIPYMES con énfasis en capacidades territoriales y desarrollo regional.",
+      "palabras_clave": [
+        "asesoría",
+        "acompañamiento",
+        "fortalecimiento empresarial",
+        "emprendimiento",
+        "microempresa",
+        "pequeña empresa",
+        "desarrollo regional",
+        "innovación productiva"
+      ],
+      "criterio": "Acompañamiento o fortalecimiento de emprendimientos o actores productivos regionales."
+    },
+    "H.4.1 Iniciativas territoriales articuladas para poblaciones vulnerables": {
+      "descripcion": "Proyectos implementados en territorios específicos mediante articulación entre universidad, sociedad y Estado, orientados a poblaciones vulnerables.",
+      "palabras_clave": [
+        "territorialidad",
+        "articulación local",
+        "población vulnerable",
+        "coordinación con Estado",
+        "intervención territorial",
+        "bienestar comunitario"
+      ],
+      "criterio": "Existencia de territorio, articulación externa y atención de vulnerabilidad."
+    },
+    "H.5.1 Articulación con el sector socioproductivo": {
+      "descripcion": "Proyectos que se articulan de forma estratégica con el sector socioproductivo para transferir capacidades, generar conocimiento aplicado o formar talento humano.",
+      "palabras_clave": [
+        "sector productivo",
+        "sector socioproductivo",
+        "transferencia",
+        "coproductividad",
+        "innovación aplicada",
+        "conocimiento útil",
+        "talento humano",
+        "asesoría"
+      ],
+      "criterio": "Sector socioproductivo o transferencia de capacidades a ese sector."
+    },
+    "H.6.1 Comunicación y divulgación del quehacer universitario": {
+      "descripcion": "Comunicación pública, divulgación o transferencia del conocimiento producido por la universidad.",
+      "palabras_clave": [
+        "divulgación",
+        "comunicación pública",
+        "transferencia de conocimiento",
+        "materiales",
+        "difusión",
+        "repositorio",
+        "programa audiovisual",
+        "acceso abierto"
+      ],
+      "criterio": "Producción o circulación social del conocimiento como función central del proyecto."
+    },
+    "H.7.1 Transformación digital con IA y tecnologías emergentes": {
+      "descripcion": "Incorporación de IA, tecnologías emergentes o transformación digital como parte sustantiva del acceso, mediación o gestión del conocimiento.",
+      "palabras_clave": [
+        "inteligencia artificial",
+        "IA",
+        "transformación digital",
+        "tecnologías emergentes",
+        "innovación digital",
+        "automatización",
+        "ética digital",
+        "inclusión digital"
+      ],
+      "criterio": "Transformación digital o el uso de IA como función central en el proyecto."
+    }
   }
 }
