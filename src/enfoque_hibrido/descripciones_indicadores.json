@@ -1,6 +1,6 @@
 {
   "A.1.1 Agua": {
-    "descripcion": "gestión del recurso hídrico, cuencas hidrográficas, ríos, agua potable, saneamiento y acceso al agua.",
+    "descripcion": "recurso hídrico, cuencas hidrográficas, ríos, agua potable, saneamiento y acceso al agua.",
     "palabras_clave": [
       "oceano",
       "mar",
@@ -10,7 +10,6 @@
       "agua potable",
       "acueducto",
       "alcantarillado",
-      "saneamiento",
       "río",
       "naciente",
       "manantial",
