@@ -64,10 +64,15 @@ def fase_keywords(base, textos_proyectos, descripciones):
 
 
 """
-    Segunda fase: calcula similitud semántica solo para los proyectos que
-    NO tuvieron match de keywords en cada indicador.
+    Segunda fase: sugiere proyectos candidatos para enriquecer el diccionario
+    de keywords. NO asigna valores — solo imprime en consola para revisión.
+
+    El objetivo de esta fase es dar opciones al usuario/desarrollador de posibles
+    keywords o frases similares utilizando el JSON de descripciones_indicadores,
+    esto con el objetivo del enriquecimiento del diccionario a la vez de evitar
+    asignaciones abstractas de parte del modelo
 """
-def fase_embeddings(base, textos_proyectos, descripciones, matches_keywords):
+def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
     total_proyectos = len(textos_proyectos)
     indices_todos = set(range(total_proyectos))
 
@@ -95,7 +100,7 @@ def fase_embeddings(base, textos_proyectos, descripciones, matches_keywords):
         keywords = info.get("palabras_clave", [])
         texto_indicador = " | ".join(keywords) if keywords else info["descripcion"]
         embedding_indicador = modelo.encode(texto_indicador, convert_to_numpy=True)
-        
+
         umbral_indicador = info.get("umbral", 0.48)
 
         # Embeddings solo del subconjunto sin match
@@ -109,8 +114,6 @@ def fase_embeddings(base, textos_proyectos, descripciones, matches_keywords):
         for i, idx_proyecto in enumerate(sin_match):
             score = float(similitudes[i])
             if score >= umbral_indicador:
-                base.loc[idx_proyecto, indicador] = 1
-
                 if DEBUG:
                     # --- Fragmento más similar (opción 2) ---
                     oraciones = [s.strip() for s in re.split(r'[.\n|]', textos_proyectos[idx_proyecto]) if s.strip()]
