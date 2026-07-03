@@ -58,7 +58,7 @@ def fase_keywords(base, textos_proyectos, descripciones):
                 base.loc[idx, indicador] = 1
 
                 if DEBUG:
-                    print(f"  [KW] Proyecto {idx}: {coincidencias}")
+                    print(f"  [KW] Proyecto {idx + 2}: {coincidencias}")
 
     return matches_por_indicador
 
@@ -76,7 +76,7 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
     total_proyectos = len(textos_proyectos)
     indices_todos = set(range(total_proyectos))
 
-    print("\n--- Fase 2: Embeddings (refuerzo) ---")
+    print("\n--- Fase 2: Embeddings ---")
     print(f"Calculando embeddings de {total_proyectos} proyectos...")
 
     embeddings_proyectos = modelo.encode(
@@ -115,7 +115,7 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
             score = float(similitudes[i])
             if score >= umbral_indicador:
                 if DEBUG:
-                    # --- Fragmento más similar (opción 2) ---
+                    # Fragmento más similar
                     oraciones = [s.strip() for s in re.split(r'[.\n|]', textos_proyectos[idx_proyecto]) if s.strip()]
                     if oraciones:
                         emb_oraciones = modelo.encode(oraciones, convert_to_numpy=True)
@@ -125,7 +125,7 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
                     else:
                         mejor_frag = "(sin fragmento)"
 
-                    # --- Keyword más cercana (opción 3) ---
+                    # Keyword más cercana 
                     keywords = info.get("palabras_clave", [])
                     if keywords:
                         emb_kws = modelo.encode(keywords, convert_to_numpy=True)
@@ -192,8 +192,7 @@ def main():
     mostrar_conteos(base, descripciones, "después de keywords")
 
     # Fase 2: embeddings solo donde no hubo match
-    fase_embeddings(base, textos_proyectos, descripciones, matches_keywords)
-    mostrar_conteos(base, descripciones, "después de embeddings")
+    fase_embeddings(textos_proyectos, descripciones, matches_keywords)
 
     base.to_excel(ruta_salida, index=False)
     print(f"\nAsignación lista en {ruta_salida}")
