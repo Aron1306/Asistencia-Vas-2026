@@ -4,7 +4,7 @@ import re
 import numpy as np
 import pandas as pd
 import unicodedata
-from sentence_transformers import SentenceTransformer, util
+import argparse
 
 def normalizar(texto):
     texto = texto.lower()
@@ -14,8 +14,18 @@ def normalizar(texto):
 
 DEBUG = True
 
-# Modelo preentrenado
-modelo = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+
+_modelo = None
+
+# Cargar modelo solo si se indica como argumento
+def cargar_modelo():
+    global _modelo, util
+    if _modelo is None:
+        print("Cargando modelo de embeddings...")
+        from sentence_transformers import SentenceTransformer, util
+        # Modelo preentrenado
+        _modelo = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+    return _modelo
 
 """Concatena las columnas cualitativas de un proyecto en un solo texto."""
 def construir_texto(row, columnas_texto, columnas_disponibles):
@@ -73,6 +83,7 @@ def fase_keywords(base, textos_proyectos, descripciones):
     asignaciones abstractas de parte del modelo
 """
 def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
+    modelo = cargar_modelo()
     total_proyectos = len(textos_proyectos)
     indices_todos = set(range(total_proyectos))
 
@@ -153,12 +164,18 @@ def mostrar_conteos(base, descripciones, etiqueta):
 
 
 def main():
-    if len(sys.argv) != 3:
-        print("Uso: python3 Asignacion_prioridades.py <archivo xlsx de entrada> <archivo xlsx de salida>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Asignación de prioridades a proyectos")
+    parser.add_argument("entrada", help="Archivo xlsx de entrada")
+    parser.add_argument("salida", help="Archivo xlsx de salida")
+    parser.add_argument(
+        "--embeddings", "-e",
+        metavar="INDICADOR",
+        help="Activa la fase 2 (embeddings) solo para el indicador dado, ej: --embeddings 'A.1.1 Agua'"
+    )
+    args = parser.parse_args()
 
-    ruta_entrada = sys.argv[1]
-    ruta_salida  = sys.argv[2]
+    ruta_entrada = args.entrada
+    ruta_salida  = args.salida
 
     try:
         base = pd.read_excel(ruta_entrada)
@@ -173,6 +190,10 @@ def main():
         descripciones = json.load(f)
 
     descripciones.pop("inactivos", None)
+
+    if args.embeddings and args.embeddings not in descripciones:
+        print(f"El indicador '{args.embeddings}' no existe en descripciones_indicadores.json")
+        sys.exit(1)
 
     # Inicializar todas las columnas de indicadores en 0
     for indicador in descripciones:
@@ -191,8 +212,10 @@ def main():
     matches_keywords = fase_keywords(base, textos_proyectos, descripciones)
     mostrar_conteos(base, descripciones, "después de keywords")
 
-    # Fase 2: embeddings solo donde no hubo match
-    fase_embeddings(textos_proyectos, descripciones, matches_keywords)
+    # Fase 2: embeddings, solo si se pidió y solo para ese indicador
+    if args.embeddings:
+        descripciones_emb = {args.embeddings: descripciones[args.embeddings]}
+        fase_embeddings(textos_proyectos, descripciones_emb, matches_keywords)
 
     base.to_excel(ruta_salida, index=False)
     print(f"\nAsignación lista en {ruta_salida}")
