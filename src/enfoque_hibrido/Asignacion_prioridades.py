@@ -149,11 +149,12 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
                     else:
                         mejor_kw, mejor_kw_score = "(sin keywords)", 0.0
 
-                    print(
-                        f"  [EMB] Proyecto {idx_proyecto + 2}: score={score:.3f}\n"
-                        f"        Fragmento : {mejor_frag}\n"
-                        f"        Similar a : '{mejor_kw}' ({mejor_kw_score:.3f})\n"
-                    )
+                    if mejor_kw_score > 0.5:
+                        print(
+                            f"  [EMB] Proyecto {idx_proyecto + 2}: score={score:.3f}\n"
+                            f"        Fragmento : {mejor_frag}\n"
+                            f"        Similar a : '{mejor_kw}' ({mejor_kw_score:.3f})\n"
+                        )
 
 
 def mostrar_conteos(base, descripciones, etiqueta):
