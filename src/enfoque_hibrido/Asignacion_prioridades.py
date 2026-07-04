@@ -14,6 +14,12 @@ def normalizar(texto):
 
 DEBUG = True
 
+# Umbral para "cosechar" los proyectos al menos un 40% similitud con el conjunto de keywords
+PRIMER_UMBRAL = 0.5
+
+# Umbral para mostrar en terminal los fragmentos del proyecto con similitud de al menos un 50% con la keyword más similar.
+SEGUNDO_UMBRAL = 0.5
+
 
 _modelo = None
 
@@ -112,8 +118,6 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
         texto_indicador = " | ".join(keywords) if keywords else info["descripcion"]
         embedding_indicador = modelo.encode(texto_indicador, convert_to_numpy=True)
 
-        umbral_indicador = info.get("umbral", 0.48)
-
         # Embeddings solo del subconjunto sin match
         embeddings_sub = embeddings_proyectos[sin_match]
 
@@ -124,7 +128,7 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
 
         for i, idx_proyecto in enumerate(sin_match):
             score = float(similitudes[i])
-            if score >= umbral_indicador:
+            if score >= PRIMER_UMBRAL:
                 if DEBUG:
                     # Fragmento más similar
                     oraciones = [s.strip() for s in re.split(r'[.\n|]', textos_proyectos[idx_proyecto]) if s.strip()]
@@ -149,7 +153,7 @@ def fase_embeddings(textos_proyectos, descripciones, matches_keywords):
                     else:
                         mejor_kw, mejor_kw_score = "(sin keywords)", 0.0
 
-                    if mejor_kw_score > 0.5:
+                    if mejor_kw_score > SEGUNDO_UMBRAL:
                         print(
                             f"  [EMB] Proyecto {idx_proyecto + 2}: score={score:.3f}\n"
                             f"        Fragmento : {mejor_frag}\n"
