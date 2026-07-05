@@ -1,31 +1,35 @@
 {
   "A.1.1 Agua": {
     "palabras_clave": [
-      "oceano",
-      "mar",
       "agua",
-      "recurso hídrico",
-      "cuenca hidrográfica",
-      "agua potable",
-      "acueducto",
-      "alcantarillado",
+      "aguas",
       "rio",
-      "naciente",
+      "rios",
+      "mar",
+      "mares",
+      "recurso hídrico",
+      "cuenca",
+      "cuencas",
+      "potable",
+      "acueducto",
+      "acueductos",
+      "alcantarillado",
+      "alcantarillados",
       "manantial",
-      "gestión del agua",
-      "calidad del agua",
-      "contaminación hídrica",
-      "ASADA",
-      "acceso al agua",
-      "cuenca"
+      "manantiales",
+      "oceano",
+      "oceanos",
+      "acuatica",
+      "acuaticas",
+      "acuatico",
+      "acuaticos"
     ],
-    "umbral": 0.5
-  },
-  "inactivos": {
     "A.1.2 Suelo": [
       "suelo",
       "tierra"
-    ],
+    ]
+  },
+  "inactivos": {
     "A.1.3 Ambiente, Descarbonización y Residuos": [
       "ambiente",
       "medio ambiente",
