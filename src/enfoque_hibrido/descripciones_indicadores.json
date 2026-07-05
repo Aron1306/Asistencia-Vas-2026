@@ -23,14 +23,23 @@
       "acuaticas",
       "acuatico",
       "acuaticos"
-    ],
-    "A.1.2 Suelo": [
-      "suelo",
-      "tierra"
     ]
   },
-  "inactivos": {
-    "A.1.3 Ambiente, Descarbonización y Residuos": [
+  "A.1.2 Suelo": {
+    "palabras_clave":[
+      "suelo",
+      "suelos",
+      "tierra",
+      "tierras",
+      "erosión",
+      "fertilidad",
+      "mineral",
+      "minerales",
+      "sequía"
+    ]
+  },
+  "A.1.3 Ambiente, Descarbonización y Residuos": { 
+    "palabras_clave": [
       "ambiente",
       "medio ambiente",
       "descarbonizacion",
@@ -40,15 +49,30 @@
       "basura",
       "manejo de desechos",
       "naturaleza",
-      "carbono neutral"
-    ],
-    "A.2.1 Salud": [
+      "carbono neutral",
+      "ambiental",
+      "contaminacion"
+    ]
+  },
+  "A.2.1 Salud": {
+    "palabras_clave": [
       "salud",
       "salud humana",
       "enfermedad",
-      "nutricion"
-    ],
-    "A.2.2 Educación": [
+      "enfermedades",
+      "nutricion",
+      "bienestar",
+      "sanidad",
+      "salubridad",
+      "hospital",
+      "hospitales",
+      "clinica",
+      "clinicas",
+      "ebais"
+    ]
+  },
+  "A.2.2 Educación": {
+    "palabras_clave": [
       "educacion",
       "educacion primaria",
       "educacion secundaria",
@@ -58,8 +82,20 @@
       "educacion universitaria",
       "formacion profesional",
       "educacion de adultos",
-      "educacion continua"
-    ],
+      "educacion continua",
+      "aprendizaje",
+      "docencia",
+      "tutoria",
+      "capacitacion",
+      "educativo",
+      "socio-educativo",
+      "escuela",
+      "escuelas",
+      "estudiante",
+      "estudiantes"
+    ]
+  },
+  "inactivos": {
     "A.2.3 Cultura": [
       "cultura",
       "arte",
