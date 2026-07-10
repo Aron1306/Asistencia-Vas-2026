@@ -95,8 +95,8 @@
       "estudiantes"
     ]
   },
-  "inactivos": {
-    "A.2.3 Cultura": [
+  "A.2.3 Cultura": {
+    "palabras_clave": [
       "cultura",
       "arte",
       "musica",
@@ -105,23 +105,57 @@
       "bellas artes",
       "patrimonio cultural",
       "patrimonio arquitectonico",
-      "patrimonio arqueologico"
-    ],
-    "A.3.1 Ciencia, Tecnología e Innovación": [
+      "patrimonio arqueologico",
+      "patrimonio",
+      "cultural",
+      "culturas",
+      "culturales",
+      "artes",
+      "lengua",
+      "literatura"
+    ]
+  },
+  "A.3.1 Ciencia, Tecnología e Innovación": { 
+    "palabras_clave":[
       "ciencia",
       "tecnologia",
       "innovacion",
       "investigacion y desarrollo",
-      "creatividad"
-    ],
-    "A.3.2 Transportes": [
+      "creatividad",
+      "laboratorio",
+      "laboratorios",
+      "ciencias",
+      "tecnologias",
+      "innovar",
+      "cientifico",
+      "cientificos",
+      "cientifica",
+      "cientificas",
+      "centro de investigacion",
+      "neurociencia",
+      "neurociencias",
+      "tecnologico",
+      "tecnologica",
+      "tecnologicos",
+      "tecnologicas"
+    ]
+  },
+  "A.3.2 Transportes": { 
+    "palabras_clave": [
       "transporte",
       "transporte terrestre",
       "transporte maritimo",
       "transporte aereo",
-      "infraestructura de transporte"
-    ],
-    "A.3.3 Vivienda y Hábitat": [
+      "infraestructura de transporte",
+      "transportes",
+      "ferrocarril",
+      "ferrocarriles",
+      "carretera",
+      "carreteras"
+    ]
+  },
+  "A.3.3 Vivienda y Hábitat": { 
+    "palabras_clave":[
       "vivienda",
       "habitat",
       "ciudad",
@@ -130,8 +164,22 @@
       "precarios",
       "asentamientos informales",
       "ordenamiento territorial",
-      "planes reguladores"
-    ],
+      "planes reguladores",
+      "tugurio",
+      "tugurios",
+      "asentamiento",
+      "asentamientos",
+      "urbano",
+      "urbana",
+      "urbanos",
+      "urbanas",
+      "suburbano",
+      "suburbana",
+      "suburbanos",
+      "suburbanas"
+    ]
+  },
+  "inactivos": {
     "A.4.1 Empleo": [
       "empleo",
       "desempleo",
