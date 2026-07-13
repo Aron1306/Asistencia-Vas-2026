@@ -288,49 +288,123 @@
       "alimenticio"
     ]
   },
-  "inactivos": {
-    "B.1.3 Planes Reguladores": [
+  "B.1.3 Planes Reguladores": { 
+    "palabras_clave": [
       "planes reguladores",
-      "ordenamiento territorial"
-    ],
-    "B.2.1 Salud": [
+      "ordenamiento territorial",
+      "plan territorial",
+      "gestion territorial"
+    ]
+  },
+  "B.2.1 Salud": {
+    "palabras_clave": [
       "salud",
       "salud humana",
       "enfermedad",
+      "enfermedades",
       "nutricion",
-      "desnutricion"
-    ],
-    "B.2.2 Embarazos adolescentes": [
+      "bienestar",
+      "sanidad",
+      "salubridad",
+      "hospital",
+      "hospitales",
+      "clinica",
+      "clinicas",
+      "ebais"
+    ]
+  },
+  "B.2.2 Embarazos adolescentes": { 
+    "palabras_clave":[
       "embarazos adolescentes",
-      "embarazo adolescente"
-    ],
-    "B.2.3 Igualdad de genero": [
+      "embarazo adolescente",
+      "embarazo juvenil",
+      "embarazos juveniles",
+      "maternidad temprana",
+      "embarazo prematuro",
+      "embarazos prematuros",
+      "maternidad adolescente",
+      "madre adolescente",
+      "madres adolescentes",
+      "gestacion adolescente"
+    ]
+  },
+  "B.2.3 Igualdad de genero": { 
+    "palabras_clave":[
       "igualdad de genero",
+      "equidad de genero",
       "brechas de genero",
-      "desigualdad de genero"
-    ],
-    "B.3.1 Agua": [
+      "desigualdad de genero",
+      "feminismo",
+      "discriminacion de la mujer",
+      "discriminacion de genero",
+      "violencia de genero",
+      "estereotipos de genero",
+      "empoderamiento femenino",
+      "violencia contra las mujeres",
+      "violencia contra la mujer",
+      "derechos de la mujer",
+      "normas de genero",
+      "participacion de la mujer",
+      "mujeres empobrecidas",
+      "mujeres en situación de vulnerabilidad",
+      "empresarialidad femenina",
+      "brecha de genero",
+      "perspectiva de genero"
+    ]
+  },
+  "B.3.1 Agua": {
+    "palabras_clave":[
       "agua",
-      "agua potable",
-      "acueductos"
-    ],
-    "B.3.2 Energía": [
+      "aguas",
+      "rio",
+      "rios",
+      "mar",
+      "mares",
+      "recurso hídrico",
+      "cuenca",
+      "cuencas",
+      "potable",
+      "acueducto",
+      "acueductos",
+      "alcantarillado",
+      "alcantarillados",
+      "manantial",
+      "manantiales",
+      "oceano",
+      "oceanos",
+      "acuatica",
+      "acuaticas",
+      "acuatico",
+      "acuaticos"
+    ]
+  },
+  "B.3.2 Energía": {
+    "palabras_clave":[
       "energia",
       "energia eolica",
       "energia hidroelectrica",
-      "energia geotermina",
+      "energia geotermica",
       "energia solar",
       "solar",
       "geotermica",
       "hidroelectrica",
-      "eolica"
-    ],
-    "B.4.1 Trabajo digno": [
+      "eolica",
+      "energias",
+      "eolicas",
+      "hidroelectricas",
+      "geotermicas",
+      "solares"
+    ]
+  },
+  "B.4.1 Trabajo digno": { 
+    "palabras_clave":[
       "trabajo",
       "trabajo digno",
       "trabajo decente",
       "derechos laborales"
-    ],
+    ]
+  },
+  "inactivos": {
     "B.4.2 Industrialización inclusiva": [
       "industrializacion",
       "industrializacion inclusiva"
