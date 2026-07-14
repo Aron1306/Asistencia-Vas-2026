@@ -398,50 +398,151 @@
   },
   "B.4.1 Trabajo digno": { 
     "palabras_clave":[
-      "trabajo",
       "trabajo digno",
       "trabajo decente",
-      "derechos laborales"
+      "derechos laborales",
+      "condiciones laborales",
+      "bienestar del trabajador",
+      "salario justo",
+      "seguridad laboral",
+      "proteccion laboral",
+      "sindicato",
+      "sindicatos",
+      "sindicalismo",
+      "capacidades laborales",
+      "capacidad laboral",
+      "satisfaccion en el trabajo",
+      "educacion y empleo",
+      "comercios justos",
+      "comercio justo",
+      "economia social",
+      "mercado laboral",
+      "condiciones de empleabilidad",
+      "migracion laboral",
+      "crecimiento económico",
+      "actualizacion profesional",
+      "economia del trabajo",
+      "trabajo informal",
+      "trabajos informales",
+      "mejor remunerado",
+      "mejor remunerados",
+      "ambiente de trabajo"
+    ]
+  },
+  "B.4.2 Industrialización inclusiva": { 
+    "palabras_clave":[
+      "industrializacion",
+      "industrializacion inclusiva"
+    ]
+  },
+  "B.4.3 Innovación": {
+    "palabras_clave":[
+      "innovacion",
+      "innovacion productiva",
+      "creatividad",
+      "investigacion y desarrollo",
+      "innovar",
+      "solucion creativa",
+      "soluciones creativas",
+      "modernizacion",
+      "modernizar",
+      "innovador",
+      "innovadores",
+      "adopcion de tecnologias",
+      "ciencia y tecnologia"
+    ]
+  },
+  "B.4.4 Desigualdad": {
+    "palabras_clave":[
+      "desigualdad",
+      "equidad",
+      "desigualdad de ingresos",
+      "brecha",
+      "brechas",
+      "exclusion",
+      "exclusiones",
+      "justicia social",
+      "igualdad",
+      "desigualdades",
+      "discriminacion",
+      "politica social",
+      "limitaciones economicas",
+      "economia social",
+      "valores sociales",
+      "derechos humanos",
+      "derecho humano",
+      "vulnerabilidad"
+    ]
+  },
+  "B.5.1 Comunicación vial":{ 
+    "palabras_clave":[
+      "infraestructura vial",
+      "comunicacion vial",
+      "carretera",
+      "puente",
+      "vial",
+      "transporte",
+      "via",
+      "calle",
+      "calles",
+      "carreteras",
+      "puentes",
+      "vias"
+    ]
+  },
+  "B.5.2 Urbanismo": {
+    "palabras_clave":[
+      "urbanismo",
+      "desarrollo urbano",
+      "planificacion urbana",
+      "diseño urbano",
+      "espacio publico",
+      "densificacion",
+      "movilidad urbana",
+      "infraestructura",
+      "renovacion urbana",
+      "espacio urbano",
+      "espacios publicos"
+    ]
+  },
+  "B.5.3 Contaminación":{ 
+    "palabras_clave":[
+      "contaminacion",
+      "descontaminacion",
+      "residuos",
+      "emisiones",
+      "calidad ambiental",
+      "remediacion ambiental",
+      "basura",
+      "desechos",
+      "contaminar",
+      "contaminante",
+      "contaminantes",
+      "ambiental sostenible",
+      "gestion ambiental",
+      "energia limpia",
+      "energia renovable",
+      "agua limpia",
+      "aguas limpias",
+      "consumo de energia"
     ]
   },
   "inactivos": {
-    "B.4.2 Industrialización inclusiva": [
-      "industrializacion",
-      "industrializacion inclusiva"
-    ],
-    "B.4.3 Innovación": [
-      "innovacion",
-      "innovacion productiva",
-      "creatividad"
-    ],
-    "B.4.4 Desigualdad": [
-      "desigualdad",
-      "equidad",
-      "desigualdad de ingresos"
-    ],
-    "B.5.1 Comunicación vial": [
-      "infraestructura vial",
-      "comunicacion vial"
-    ],
-    "B.5.2 Urbanismo": [
-      "urbanismo",
-      "desarrollo urbano"
-    ],
-    "B.5.3 Contaminación": [
-      "contaminacion",
-      "descontaminacion"
-    ],
-    "B.5.4 Ambiente y Mares": [
-      "ambiente",
-      "medio ambiente",
-      "mares",
-      "costas",
-      "marinos"
-    ],
-    "B.5.5 Justicia institucional": [
-      "justicia",
-      "justicia institucional"
-    ],
+    "B.5.4 Ambiente y Mares": { 
+      "palabras_clave":[
+        "ambiente",
+        "medio ambiente",
+        "mares",
+        "costas",
+        "marinos"
+      ]
+    },
+    "B.5.5 Justicia institucional": { 
+      "palabras_clave":[
+        "justicia",
+        "justicia institucional"
+      ]
+    },
     "C.1.1 Desarrollo humano integral": [
       "desarrollo humano",
       "desarrollo social"
