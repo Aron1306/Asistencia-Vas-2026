@@ -527,37 +527,106 @@
       "consumo de energia"
     ]
   },
-  "inactivos": {
-    "B.5.4 Ambiente y Mares": { 
-      "palabras_clave":[
-        "ambiente",
-        "medio ambiente",
-        "mares",
-        "costas",
-        "marinos"
-      ]
-    },
-    "B.5.5 Justicia institucional": { 
-      "palabras_clave":[
-        "justicia",
-        "justicia institucional"
-      ]
-    },
-    "C.1.1 Desarrollo humano integral": [
+  "B.5.4 Ambiente y Mares": { 
+    "palabras_clave":[
+      "ambiente",
+      "medio ambiente",
+      "mares",
+      "costas",
+      "marinos",
+      "mar",
+      "oceano",
+      "oceanos",
+      "pesca",
+      "playa",
+      "ambiental",
+      "naturaleza",
+      "socioambiental",
+      "socioambientales",
+      "oceanico",
+      "oceanicos",
+      "oceanica",
+      "oceanicas"
+    ]
+  },
+  "B.5.5 Justicia institucional": { 
+    "palabras_clave":[
+      "justicia",
+      "justicia institucional",
+      "institucionalidad",
+      "judicial",
+      "judicatura",
+      "legalidad",
+      "gobernanza",
+      "estado de derecho",
+      "ministerio de justicia",
+      "gobernanzas",
+      "derecho administrativo",
+      "juridico",
+      "penitenciario",
+      "penitenciarios",
+      "penal",
+      "penales",
+      "ministerio publico",
+      "fiscalia",
+      "derechos de los prisioneros"
+    ]
+  },
+  "C.1.1 Desarrollo humano integral": { 
+    "palabras_clave":[
       "desarrollo humano",
-      "desarrollo social"
-    ],
-    "C.1.2 Costas y zonas fronterizas": [
+      "desarrollo social",
+      "desarrollo integral",
+      "inclusion social",
+      "bienestar integral",
+      "niñez",
+      "adulto mayor",
+      "adultos mayores",
+      "discapacidad",
+      "discapacitados",
+      "envejecimiento",
+      "calidad de vida",
+      "vulnerabilidad social",
+      "poblacion vulnerable",
+      "reintegracion social",
+      "bienestar social",
+      "adulta mayor",
+      "adultas mayores",
+      "desigualdad social",
+      "bienestar colectivo",
+      "derecho humano",
+      "derechos humanos"
+    ]
+  },
+  "C.1.2 Costas y zonas fronterizas": {
+    "palabras_clave":[
       "costas",
       "zonas costeras",
       "fronteras",
-      "zonas fronterizas"
-    ],
-    "C.2.1 Infraestructura Vial y Educativa": [
+      "zonas fronterizas",
+      "zona costera",
+      "zona fronteriza",
+      "frontera",
+      "fronterizo",
+      "fronteriza",
+      "frontera"
+    ]
+  },
+  "C.2.1 Infraestructura Vial y Educativa": { 
+    "palabras_clave":[
       "infraestructura vial",
       "infraestructura educativa",
-      "educacion vial"
-    ],
+      "educacion vial",
+      "vial",
+      "via",
+      "carretera",
+      "carreteras",
+      "puente",
+      "puentes",
+      "edificio educativo"
+    ]
+  },
+  "inactivos": {
     "C.2.2 Logística (multimodal)": [
       "logistica",
       "corredores logisticos"
