@@ -626,12 +626,25 @@
       "edificio educativo"
     ]
   },
-  "inactivos": {
-    "C.2.2 Logística (multimodal)": [
+  "C.2.2 Logística (multimodal)": {
+    "palabras_clave":[
       "logistica",
-      "corredores logisticos"
-    ],
-    "C.3.1 Educación": [
+      "corredores logisticos",
+      "logisticas",
+      "corredor logistico",
+      "multimodal",
+      "multimodales",
+      "transporte de carga",
+      "transportes de carga",
+      "cadena de suministro",
+      "traslado de mercancia",
+      "traslado de mercancias",
+      "logistico",
+      "logisticos"
+    ]
+  },
+  "C.3.1 Educación": {
+    "palabras_clave":[
       "educacion",
       "educacion primaria",
       "educacion secundaria",
@@ -641,43 +654,156 @@
       "educacion universitaria",
       "formacion profesional",
       "educacion de adultos",
-      "educacion continua"
-    ],
-    "C.3.2 Innovación": [
+      "educacion continua",
+      "aprendizaje",
+      "docencia",
+      "tutoria",
+      "capacitacion",
+      "educativo",
+      "socio-educativo",
+      "escuela",
+      "escuelas",
+      "estudiante",
+      "estudiantes"
+    ]
+  },
+  "C.3.2 Innovación": {
+    "palabras_clave":[
       "innovacion educativa"
-    ],
-    "C.4.1 Género": [
+    ]
+  },
+  "C.4.1 Género": {
+    "palabras_clave":[
       "igualdad de genero",
+      "equidad de genero",
+      "brechas de genero",
       "desigualdad de genero",
-      "brechas de genero"
-    ],
-    "C.4.2 Salud": [
+      "feminismo",
+      "discriminacion de la mujer",
+      "discriminacion de genero",
+      "violencia de genero",
+      "estereotipos de genero",
+      "empoderamiento femenino",
+      "violencia contra las mujeres",
+      "violencia contra la mujer",
+      "derechos de la mujer",
+      "normas de genero",
+      "participacion de la mujer",
+      "mujeres empobrecidas",
+      "mujeres en situación de vulnerabilidad",
+      "empresarialidad femenina",
+      "brecha de genero",
+      "perspectiva de genero"
+    ]
+  },
+  "C.4.2 Salud": {
+    "palabras_clave":[
       "salud",
       "salud humana",
       "enfermedad",
-      "nutricion"
-    ],
-    "C.4.3 Pobreza": [
+      "enfermedades",
+      "nutricion",
+      "bienestar",
+      "sanidad",
+      "salubridad",
+      "hospital",
+      "hospitales",
+      "clinica",
+      "clinicas",
+      "ebais"
+    ]
+  },
+  "C.4.3 Pobreza": {
+    "palabras_clave":[
       "pobreza",
       "pobreza urbana",
-      "pobreza rural"
-    ],
-    "C.5.1 Economía verde": [
+      "pobreza rural",
+      "marginal",
+      "marginales",
+      "marginalidad",
+      "exclusion social",
+      "rezago social",
+      "indigencia",
+      "indigente",
+      "indigentes",
+      "escasos recursos",
+      "vulnerabilidad social",
+      "zonas vulnerabilizadas",
+      "situacion de calle"
+    ]
+  },
+  "C.5.1 Economía verde": {
+    "palabras_clave":[
       "economia verde",
-      "economia ambiental"
-    ],
-    "C.5.2 Producción sofisticada": [
+      "economia ambiental",
+      "ambiental",
+      "ambientales",
+      "sostenible",
+      "ecologico",
+      "ecologicos",
+      "ecologica",
+      "ecologicas",
+      "ecologia",
+      "sostenible",
+      "sostenibles",
+      "sostenibilidad",
+      "medio ambiente"
+    ]
+  },
+  "C.5.2 Producción sofisticada": { 
+    "palabras_clave":[
       "produccion",
-      "productividad"
-    ],
-    "C.5.3 Desigualdad": [
+      "productividad",
+      "productivo",
+      "productiva",
+      "manufactura",
+      "manufacturar",
+      "manufacturadores",
+      "manufactureras",
+      "dispositivos médicos",
+      "dispositivos tecnologicos",
+      "tecnologia de punta",
+      "tecnologias de punta",
+      "fabricacion digital"
+    ]
+  },
+  "C.5.3 Desigualdad": { 
+    "palabras_clave":[
       "desigualdad",
       "equidad",
-      "desigualdad de ingresos"
-    ],
-    "C.6.1 Economía regenerativa": [
-      "economia regenerativa"
-    ],
+      "desigualdad de ingresos",
+      "brecha",
+      "brechas",
+      "exclusion",
+      "exclusiones",
+      "justicia social",
+      "igualdad",
+      "desigualdades",
+      "discriminacion",
+      "politica social",
+      "limitaciones economicas",
+      "economia social",
+      "valores sociales",
+      "derechos humanos",
+      "derecho humano",
+      "vulnerabilidad"
+    ]
+  },
+  "C.6.1 Economía regenerativa": { 
+    "palabras_clave":[
+      "economia regenerativa",
+      "economia circular",
+      "restauracion de ecosistemas",
+      "ciclo cerrado",
+      "residuo cero",
+      "regeneracion",
+      "sostenibilidad productiva",
+      "circularidad",
+      "desarrollo regenerativo",
+      "economia verde"
+    ]
+  },
+  "inactivos": {
     "D.1.1 Descentralizada": [
       "descentralizacion"
     ],
