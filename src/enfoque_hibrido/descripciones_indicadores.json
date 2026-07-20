@@ -35,7 +35,8 @@
       "fertilidad",
       "mineral",
       "minerales",
-      "sequía"
+      "sequia",
+      "sequias"
     ]
   },
   "A.1.3 Ambiente, Descarbonización y Residuos": { 
@@ -803,90 +804,355 @@
       "economia verde"
     ]
   },
-  "inactivos": {
-    "D.1.1 Descentralizada": [
-      "descentralizacion"
-    ],
-    "D.1.2 Digitalizada": [
+  "D.1.1 Descentralizada": {
+    "palabras_clave":[
+      "descentralizacion",
+      "descentralizado",
+      "descentralizada",
+      "descentralizar",
+      "autonomia local",
+      "poder local",
+      "gobernanza local",
+      "municipalidad",
+      "distribucion del poder",
+      "distribucion de poder",
+      "politica interna",
+      "direcciones regionales",
+      "gobierno local",
+      "autonomia",
+      "autonomo",
+      "autonoma"
+    ]
+  },
+  "D.1.2 Digitalizada": { 
+    "palabras_clave":[
       "digitalizacion",
       "brecha digital",
-      "acceso tecnologia"
-    ],
-    "D.1.3 Descarbonizada": [
+      "acceso tecnologia",
+      "digitalizar",
+      "digitalizado",
+      "digitalizada",
+      "tecnologico",
+      "tecnologica",
+      "tecnologia",
+      "tecnologias",
+      "digital",
+      "digitales"
+    ]
+  },
+  "D.1.3 Descarbonizada": { 
+    "palabras_clave":[
       "descarbonizada",
       "carbono neutralidad",
-      "cero emisiones"
-    ],
-    "D.2.1 Productividad laboral": [
-      "productividad laboral"
-    ],
-    "D.2.2 Sofisticación": [
-      "sofisticacion"
-    ],
-    "D.2.3 Desconcentración e innovación productiva": [
+      "cero emisiones",
+      "descarbonizar",
+      "carbono neutral",
+      "carbono neutro",
+      "gases",
+      "gas",
+      "efecto invernadero",
+      "huella de carbono",
+      "energia limpia",
+      "energias limpias"
+    ]
+  },
+  "D.2.1 Productividad laboral": { 
+    "palabras_clave":[
+      "productividad laboral",
+      "eficiencia",
+      "eficacia",
+      "rendimiento",
+      "mejora de procesos",
+      "competitividad",
+      "habilidades laborales",
+      "habilidad laboral",
+      "actualizacion profesional",
+      "desempeño"
+    ]
+  },
+  "D.2.2 Sofisticación": { 
+    "palabras_clave":[
+      "sofisticacion",
+      "sofisticar",
+      "sofisticado",
+      "sofisticada",
+      "capacidades avanzadas",
+      "manufactura avanzada",
+      "tecnologia",
+      "tecnologias",
+      "tecnologico",
+      "tecnico",
+      "tecnicos"
+    ]
+  },
+  "D.2.3 Desconcentración e innovación productiva": { 
+    "palabras_clave":[
       "desconcentracion productiva",
-      "innovacion productiva"
-    ],
-    "E.1.1 Regulación Urbana": [
+      "innovacion productiva",
+      "innovacion de la produccion",
+      "innovar en la produccion",
+      "descentralizacion productiva",
+      "descentralizar procesos",
+      "descentralizar la produccion",
+      "tecnologias de produccion",
+      "tecnologia de produccion",
+      "adoptar tecnologias",
+      "uso de tecnologias",
+      "adopcion de tecnologias"
+    ]
+  },
+  "E.1.1 Regulación Urbana": { 
+    "palabras_clave":[
       "regulacion urbana",
       "planes reguladores",
-      "ordenamiento territorial"
-    ],
-    "E.1.2 Gestión municipal": [
+      "ordenamiento territorial",
+      "plan regulador",
+      "normativa urbana",
+      "normativas urbanas",
+      "municipal",
+      "municipales",
+      "municipalidad",
+      "municipalidades",
+      "gestion comunitaria",
+      "gestion comunal",
+      "entidad comunal",
+      "entidades comunales",
+      "administracion publica"
+    ]
+  },
+  "E.1.2 Gestión municipal": { 
+    "palabras_clave":[
       "gestion municipal",
       "municipalidades",
       "municipal",
-      "gobiernos locales"
-    ],
-    "E.2.1 Pobreza": [
+      "gobiernos locales",
+      "municipales",
+      "municipalidad",
+      "gobierno local",
+      "entidad comunal",
+      "gestion comunal",
+      "gestion comunitaria",
+      "administracion publica"
+    ]
+  },
+  "E.2.1 Pobreza": {
+    "palabras_clave":[
       "pobreza",
       "pobreza urbana",
-      "pobreza rural"
-    ],
-    "E.2.2 Desempleo": [
-      "desempleo"
-    ],
-    "E.2.3 Inseguridad Ciudadana": [
+      "pobreza rural",
+      "marginal",
+      "marginales",
+      "marginalidad",
+      "exclusion social",
+      "rezago social",
+      "indigencia",
+      "indigente",
+      "indigentes",
+      "escasos recursos",
+      "vulnerabilidad social",
+      "zonas vulnerabilizadas",
+      "situacion de calle"
+    ]
+  },
+  "E.2.2 Desempleo": {
+    "palabras_clave":[
+      "desempleo",
+      "empleo",
+      "oportunidades laborales",
+      "oportunidad laboral",
+      "insercion laboral",
+      "mercado laboral",
+      "mercado de trabajo",
+      "empleabilidad",
+      "trabajo informal",
+      "empleo informal",
+      "emprender",
+      "emprendimiento",
+      "emprendimientos",
+      "emprendedores",
+      "emprendedor",
+      "emprendedoras",
+      "emprendedora",
+      "migracion laboral"
+    ]
+  },
+  "E.2.3 Inseguridad Ciudadana": { 
+    "palabras_clave":[
       "inseguridad",
       "violencia",
       "delitos",
-      "crimenes"
-    ],
-    "E.3.1 Protección Recurso Hídrico": [
+      "crimenes",
+      "crimen",
+      "violento",
+      "violenta",
+      "violentos",
+      "violentas",
+      "delito",
+      "ilegal",
+      "ilicito",
+      "criminalidad"
+    ]
+  },
+  "E.3.1 Protección Recurso Hídrico": { 
+    "palabras_clave":[
       "agua",
+      "aguas",
       "rio",
+      "rios",
       "mar",
-      "recurso hidrico",
-      "cuenca"
-    ],
-    "E.3.2 Suelo": [
+      "mares",
+      "recurso hídrico",
+      "cuenca",
+      "cuencas",
+      "potable",
+      "acueducto",
+      "acueductos",
+      "alcantarillado",
+      "alcantarillados",
+      "manantial",
+      "manantiales",
+      "oceano",
+      "oceanos",
+      "acuatica",
+      "acuaticas",
+      "acuatico",
+      "acuaticos"
+    ]
+  },
+  "E.3.2 Suelo": {
+    "palabras_clave":[
       "suelo",
-      "tierra"
-    ],
-    "E.4.1 Inversión en capital": [
+      "suelos",
+      "tierra",
+      "tierras",
+      "erosión",
+      "fertilidad",
+      "mineral",
+      "minerales",
+      "sequia",
+      "sequias"
+    ]
+  },
+  "E.4.1 Inversión en capital": { 
+    "palabras_clave":[
       "inversion de capital",
       "inversion en infraestructura",
-      "formacion de capital"
-    ],
-    "E.4.2 Gestión regional de recursos": [
-      "gestion regional de recursos"
-    ],
-    "E.5.1 Accesibilidad": [
-      "accesibilidad"
-    ],
-    "E.5.2 Conectividad": [
-      "conectividad"
-    ],
-    "E.6.1 Brecha Servicios de Salud": [
+      "formacion de capital",
+      "inversion",
+      "inversiones",
+      "infraestructura productiva",
+      "infraestructuras productivas",
+      "formacion en capital",
+      "inyeccion de fondos",
+      "inyecciones de fondos",
+      "inyectar fondos"
+    ]
+  },
+  "E.4.2 Gestión regional de recursos": { 
+    "palabras_clave":[
+      "gestion regional de recursos",
+      "gestion regional",
+      "gestiones regionales",
+      "administracion regional",
+      "administraciones regionales",
+      "planificacion regional",
+      "planificaciones regionales",
+      "gestion territorial",
+      "gestiones territoriales",
+      "gestion de recursos",
+      "gestiones de recursos"
+    ]
+  },
+  "E.5.1 Accesibilidad": { 
+    "palabras_clave":[
+      "accesibilidad",
+      "accesible",
+      "accesibles",
+      "inclusion",
+      "inclusiones",
+      "adaptacion",
+      "adaptaciones",
+      "discapacidad",
+      "discapacidades",
+      "discapacitado",
+      "discapacitada",
+      "discapacitados",
+      "discapacitadas",
+      "acceso a la educacion",
+      "acceso a la informacion",
+      "acceso a la salud"
+    ]
+  },
+  "E.5.2 Conectividad": { 
+    "palabras_clave":[
+      "conectividad",
+      "conectado",
+      "conectados",
+      "conectadas",
+      "internet",
+      "redes de comunicacion",
+      "red de comunicacion",
+      "web",
+      "wifi",
+      "wi-fi",
+      "gestion de la informacion",
+      "acceso a la informacion",
+      "gestion de informacion",
+      "acceso a informacion",
+      "tecnologias de informacion",
+      "tecnologia de informacion",
+      "tecnologias de la informacion",
+      "tecnologia de la informacion",
+      "comunicaciones",
+      "telecomunicaciones"
+    ]
+  },
+  "E.6.1 Brecha Servicios de Salud": { 
+    "palabras_clave":[
       "brecha de servicios de salud",
       "brechas de salud",
-      "servicios de salud"
-    ],
-    "E.6.2 Brecha Servicios de Educación": [
+      "servicios de salud",
+      "brechas de servicios de salud",
+      "servicio de salud",
+      "desigualdad en salud",
+      "desigualdad de salud",
+      "equidad en salud",
+      "equidad de salud",
+      "cobertura en salud",
+      "cobertura de salud"
+    ]
+  },
+  "E.6.2 Brecha Servicios de Educación": { 
+    "palabras_clave":[
       "brecha de servicios de educacion",
       "brechas de educacion",
-      "servicios de educacion"
-    ],
+      "servicios de educacion",
+      "brechas de servicios de educacion",
+      "brecha de educacion",
+      "servicio de educacion",
+      "brecha en servicios de educacion",
+      "brechas en educacion",
+      "brechas en servicios de educacion",
+      "brecha en educacion",
+      "brecha educativa",
+      "brechas educativas",
+      "desigualdad educativa",
+      "desigualdades educativas",
+      "desigualdad de educacion",
+      "desigualdad en educacion",
+      "desigualdades de educacion",
+      "desigualdades en educacion",
+      "acceso equitativo a la educacion",
+      "diversificacion de la educacion",
+      "inclusion socio educativa",
+      "demanda de educacion",
+      "necesidades de educacion",
+      "acceso a la educacion",
+      "apagon educativo",
+      "fortalecimiento de la enseñanza"
+    ]
+  },
+  "inactivos": {
     "F.1.1 Educación continua y formación permanente": [
       "curso libre",
       "capacitación",
