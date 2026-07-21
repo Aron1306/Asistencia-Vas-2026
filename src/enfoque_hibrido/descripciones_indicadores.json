@@ -26,7 +26,7 @@
     ]
   },
   "A.1.2 Suelo": {
-    "palabras_clave":[
+    "palabras_clave": [
       "suelo",
       "suelos",
       "tierra",
@@ -39,7 +39,7 @@
       "sequias"
     ]
   },
-  "A.1.3 Ambiente, Descarbonización y Residuos": { 
+  "A.1.3 Ambiente, Descarbonización y Residuos": {
     "palabras_clave": [
       "ambiente",
       "medio ambiente",
@@ -116,8 +116,8 @@
       "literatura"
     ]
   },
-  "A.3.1 Ciencia, Tecnología e Innovación": { 
-    "palabras_clave":[
+  "A.3.1 Ciencia, Tecnología e Innovación": {
+    "palabras_clave": [
       "ciencia",
       "tecnologia",
       "innovacion",
@@ -141,7 +141,7 @@
       "tecnologicas"
     ]
   },
-  "A.3.2 Transportes": { 
+  "A.3.2 Transportes": {
     "palabras_clave": [
       "transporte",
       "transporte terrestre",
@@ -155,8 +155,8 @@
       "carreteras"
     ]
   },
-  "A.3.3 Vivienda y Hábitat": { 
-    "palabras_clave":[
+  "A.3.3 Vivienda y Hábitat": {
+    "palabras_clave": [
       "vivienda",
       "habitat",
       "ciudad",
@@ -198,7 +198,7 @@
     ]
   },
   "A.4.2 Pobreza": {
-    "palabras_clave":[
+    "palabras_clave": [
       "pobreza",
       "pobreza urbana",
       "pobreza rural",
@@ -216,8 +216,8 @@
       "situacion de calle"
     ]
   },
-  "A.4.3 Desarrollo Regional": { 
-    "palabras_clave":[
+  "A.4.3 Desarrollo Regional": {
+    "palabras_clave": [
       "desarrollo regional",
       "desarrollo local",
       "desarrollo territorial",
@@ -231,8 +231,8 @@
       "gestión municipal,"
     ]
   },
-  "A.4.4 Agropecuario":{ 
-    "palabras_clave":[
+  "A.4.4 Agropecuario": {
+    "palabras_clave": [
       "agropecuario",
       "agricultura",
       "agroalimentario",
@@ -254,7 +254,7 @@
     ]
   },
   "B.1.1 Pobreza": {
-    "palabras_clave":[
+    "palabras_clave": [
       "pobreza",
       "pobreza urbana",
       "pobreza rural",
@@ -272,8 +272,8 @@
       "situacion de calle"
     ]
   },
-  "B.1.2 Alimentación sostenible en zonas costeras": { 
-    "palabras_clave":[
+  "B.1.2 Alimentación sostenible en zonas costeras": {
+    "palabras_clave": [
       "desnutricion",
       "nutricion",
       "alimentacion",
@@ -289,7 +289,7 @@
       "alimenticio"
     ]
   },
-  "B.1.3 Planes Reguladores": { 
+  "B.1.3 Planes Reguladores": {
     "palabras_clave": [
       "planes reguladores",
       "ordenamiento territorial",
@@ -327,8 +327,8 @@
       "ebais"
     ]
   },
-  "B.2.2 Embarazos adolescentes": { 
-    "palabras_clave":[
+  "B.2.2 Embarazos adolescentes": {
+    "palabras_clave": [
       "embarazos adolescentes",
       "embarazo adolescente",
       "embarazo juvenil",
@@ -342,8 +342,8 @@
       "gestacion adolescente"
     ]
   },
-  "B.2.3 Igualdad de genero": { 
-    "palabras_clave":[
+  "B.2.3 Igualdad de genero": {
+    "palabras_clave": [
       "igualdad de genero",
       "equidad de genero",
       "brechas de genero",
@@ -367,7 +367,7 @@
     ]
   },
   "B.3.1 Agua": {
-    "palabras_clave":[
+    "palabras_clave": [
       "agua",
       "aguas",
       "rio",
@@ -393,7 +393,7 @@
     ]
   },
   "B.3.2 Energía": {
-    "palabras_clave":[
+    "palabras_clave": [
       "energia",
       "energia eolica",
       "energia hidroelectrica",
@@ -410,8 +410,8 @@
       "solares"
     ]
   },
-  "B.4.1 Trabajo digno": { 
-    "palabras_clave":[
+  "B.4.1 Trabajo digno": {
+    "palabras_clave": [
       "trabajo digno",
       "trabajo decente",
       "derechos laborales",
@@ -443,8 +443,8 @@
       "ambiente de trabajo"
     ]
   },
-  "B.4.2 Industrialización inclusiva": { 
-    "palabras_clave":[
+  "B.4.2 Industrialización inclusiva": {
+    "palabras_clave": [
       "industrializacion",
       "industrializacion inclusiva",
       "industrias inclusivas",
@@ -467,7 +467,7 @@
     ]
   },
   "B.4.3 Innovación": {
-    "palabras_clave":[
+    "palabras_clave": [
       "innovacion",
       "innovacion productiva",
       "creatividad",
@@ -484,7 +484,7 @@
     ]
   },
   "B.4.4 Desigualdad": {
-    "palabras_clave":[
+    "palabras_clave": [
       "desigualdad",
       "equidad",
       "desigualdad de ingresos",
@@ -505,8 +505,8 @@
       "vulnerabilidad"
     ]
   },
-  "B.5.1 Comunicación vial":{ 
-    "palabras_clave":[
+  "B.5.1 Comunicación vial": {
+    "palabras_clave": [
       "infraestructura vial",
       "comunicacion vial",
       "carretera",
@@ -522,7 +522,7 @@
     ]
   },
   "B.5.2 Urbanismo": {
-    "palabras_clave":[
+    "palabras_clave": [
       "urbanismo",
       "desarrollo urbano",
       "planificacion urbana",
@@ -536,8 +536,8 @@
       "espacios publicos"
     ]
   },
-  "B.5.3 Contaminación":{ 
-    "palabras_clave":[
+  "B.5.3 Contaminación": {
+    "palabras_clave": [
       "contaminacion",
       "descontaminacion",
       "residuos",
@@ -558,8 +558,8 @@
       "consumo de energia"
     ]
   },
-  "B.5.4 Ambiente y Mares": { 
-    "palabras_clave":[
+  "B.5.4 Ambiente y Mares": {
+    "palabras_clave": [
       "ambiente",
       "medio ambiente",
       "mares",
@@ -580,8 +580,8 @@
       "oceanicas"
     ]
   },
-  "B.5.5 Justicia institucional": { 
-    "palabras_clave":[
+  "B.5.5 Justicia institucional": {
+    "palabras_clave": [
       "justicia",
       "justicia institucional",
       "institucionalidad",
@@ -603,8 +603,8 @@
       "derechos de los prisioneros"
     ]
   },
-  "C.1.1 Desarrollo humano integral": { 
-    "palabras_clave":[
+  "C.1.1 Desarrollo humano integral": {
+    "palabras_clave": [
       "desarrollo humano",
       "desarrollo social",
       "desarrollo integral",
@@ -630,7 +630,7 @@
     ]
   },
   "C.1.2 Costas y zonas fronterizas": {
-    "palabras_clave":[
+    "palabras_clave": [
       "costas",
       "zonas costeras",
       "fronteras",
@@ -643,8 +643,8 @@
       "frontera"
     ]
   },
-  "C.2.1 Infraestructura Vial y Educativa": { 
-    "palabras_clave":[
+  "C.2.1 Infraestructura Vial y Educativa": {
+    "palabras_clave": [
       "infraestructura vial",
       "infraestructura educativa",
       "educacion vial",
@@ -658,7 +658,7 @@
     ]
   },
   "C.2.2 Logística (multimodal)": {
-    "palabras_clave":[
+    "palabras_clave": [
       "logistica",
       "corredores logisticos",
       "logisticas",
@@ -675,7 +675,7 @@
     ]
   },
   "C.3.1 Educación": {
-    "palabras_clave":[
+    "palabras_clave": [
       "educacion",
       "educacion primaria",
       "educacion secundaria",
@@ -699,12 +699,12 @@
     ]
   },
   "C.3.2 Innovación": {
-    "palabras_clave":[
+    "palabras_clave": [
       "innovacion educativa"
     ]
   },
   "C.4.1 Género": {
-    "palabras_clave":[
+    "palabras_clave": [
       "igualdad de genero",
       "equidad de genero",
       "brechas de genero",
@@ -728,7 +728,7 @@
     ]
   },
   "C.4.2 Salud": {
-    "palabras_clave":[
+    "palabras_clave": [
       "salud",
       "salud humana",
       "enfermedad",
@@ -745,7 +745,7 @@
     ]
   },
   "C.4.3 Pobreza": {
-    "palabras_clave":[
+    "palabras_clave": [
       "pobreza",
       "pobreza urbana",
       "pobreza rural",
@@ -764,7 +764,7 @@
     ]
   },
   "C.5.1 Economía verde": {
-    "palabras_clave":[
+    "palabras_clave": [
       "economia verde",
       "economia ambiental",
       "ambiental",
@@ -781,8 +781,8 @@
       "medio ambiente"
     ]
   },
-  "C.5.2 Producción sofisticada": { 
-    "palabras_clave":[
+  "C.5.2 Producción sofisticada": {
+    "palabras_clave": [
       "produccion",
       "productividad",
       "productivo",
@@ -798,8 +798,8 @@
       "fabricacion digital"
     ]
   },
-  "C.5.3 Desigualdad": { 
-    "palabras_clave":[
+  "C.5.3 Desigualdad": {
+    "palabras_clave": [
       "desigualdad",
       "equidad",
       "desigualdad de ingresos",
@@ -820,8 +820,8 @@
       "vulnerabilidad"
     ]
   },
-  "C.6.1 Economía regenerativa": { 
-    "palabras_clave":[
+  "C.6.1 Economía regenerativa": {
+    "palabras_clave": [
       "economia regenerativa",
       "economia circular",
       "restauracion de ecosistemas",
@@ -835,7 +835,7 @@
     ]
   },
   "D.1.1 Descentralizada": {
-    "palabras_clave":[
+    "palabras_clave": [
       "descentralizacion",
       "descentralizado",
       "descentralizada",
@@ -854,8 +854,8 @@
       "autonoma"
     ]
   },
-  "D.1.2 Digitalizada": { 
-    "palabras_clave":[
+  "D.1.2 Digitalizada": {
+    "palabras_clave": [
       "digitalizacion",
       "brecha digital",
       "acceso tecnologia",
@@ -870,8 +870,8 @@
       "digitales"
     ]
   },
-  "D.1.3 Descarbonizada": { 
-    "palabras_clave":[
+  "D.1.3 Descarbonizada": {
+    "palabras_clave": [
       "descarbonizada",
       "carbono neutralidad",
       "cero emisiones",
@@ -886,8 +886,8 @@
       "energias limpias"
     ]
   },
-  "D.2.1 Productividad laboral": { 
-    "palabras_clave":[
+  "D.2.1 Productividad laboral": {
+    "palabras_clave": [
       "productividad laboral",
       "eficiencia",
       "eficacia",
@@ -900,8 +900,8 @@
       "desempeño"
     ]
   },
-  "D.2.2 Sofisticación": { 
-    "palabras_clave":[
+  "D.2.2 Sofisticación": {
+    "palabras_clave": [
       "sofisticacion",
       "sofisticar",
       "sofisticado",
@@ -915,8 +915,8 @@
       "tecnicos"
     ]
   },
-  "D.2.3 Desconcentración e innovación productiva": { 
-    "palabras_clave":[
+  "D.2.3 Desconcentración e innovación productiva": {
+    "palabras_clave": [
       "desconcentracion productiva",
       "innovacion productiva",
       "innovacion de la produccion",
@@ -931,8 +931,8 @@
       "adopcion de tecnologias"
     ]
   },
-  "E.1.1 Regulación Urbana": { 
-    "palabras_clave":[
+  "E.1.1 Regulación Urbana": {
+    "palabras_clave": [
       "regulacion urbana",
       "planes reguladores",
       "ordenamiento territorial",
@@ -950,8 +950,8 @@
       "administracion publica"
     ]
   },
-  "E.1.2 Gestión municipal": { 
-    "palabras_clave":[
+  "E.1.2 Gestión municipal": {
+    "palabras_clave": [
       "gestion municipal",
       "municipalidades",
       "municipal",
@@ -966,7 +966,7 @@
     ]
   },
   "E.2.1 Pobreza": {
-    "palabras_clave":[
+    "palabras_clave": [
       "pobreza",
       "pobreza urbana",
       "pobreza rural",
@@ -985,7 +985,7 @@
     ]
   },
   "E.2.2 Desempleo": {
-    "palabras_clave":[
+    "palabras_clave": [
       "desempleo",
       "empleo",
       "oportunidades laborales",
@@ -1006,8 +1006,8 @@
       "migracion laboral"
     ]
   },
-  "E.2.3 Inseguridad Ciudadana": { 
-    "palabras_clave":[
+  "E.2.3 Inseguridad Ciudadana": {
+    "palabras_clave": [
       "inseguridad",
       "violencia",
       "delitos",
@@ -1023,8 +1023,8 @@
       "criminalidad"
     ]
   },
-  "E.3.1 Protección Recurso Hídrico": { 
-    "palabras_clave":[
+  "E.3.1 Protección Recurso Hídrico": {
+    "palabras_clave": [
       "agua",
       "aguas",
       "rio",
@@ -1050,7 +1050,7 @@
     ]
   },
   "E.3.2 Suelo": {
-    "palabras_clave":[
+    "palabras_clave": [
       "suelo",
       "suelos",
       "tierra",
@@ -1063,8 +1063,8 @@
       "sequias"
     ]
   },
-  "E.4.1 Inversión en capital": { 
-    "palabras_clave":[
+  "E.4.1 Inversión en capital": {
+    "palabras_clave": [
       "inversion de capital",
       "inversion en infraestructura",
       "formacion de capital",
@@ -1078,8 +1078,8 @@
       "inyectar fondos"
     ]
   },
-  "E.4.2 Gestión regional de recursos": { 
-    "palabras_clave":[
+  "E.4.2 Gestión regional de recursos": {
+    "palabras_clave": [
       "gestion regional de recursos",
       "gestion regional",
       "gestiones regionales",
@@ -1093,8 +1093,8 @@
       "gestiones de recursos"
     ]
   },
-  "E.5.1 Accesibilidad": { 
-    "palabras_clave":[
+  "E.5.1 Accesibilidad": {
+    "palabras_clave": [
       "accesibilidad",
       "accesible",
       "accesibles",
@@ -1113,8 +1113,8 @@
       "acceso a la salud"
     ]
   },
-  "E.5.2 Conectividad": { 
-    "palabras_clave":[
+  "E.5.2 Conectividad": {
+    "palabras_clave": [
       "conectividad",
       "conectado",
       "conectados",
@@ -1137,8 +1137,8 @@
       "telecomunicaciones"
     ]
   },
-  "E.6.1 Brecha Servicios de Salud": { 
-    "palabras_clave":[
+  "E.6.1 Brecha Servicios de Salud": {
+    "palabras_clave": [
       "brecha de servicios de salud",
       "brechas de salud",
       "servicios de salud",
@@ -1152,8 +1152,8 @@
       "cobertura de salud"
     ]
   },
-  "E.6.2 Brecha Servicios de Educación": { 
-    "palabras_clave":[
+  "E.6.2 Brecha Servicios de Educación": {
+    "palabras_clave": [
       "brecha de servicios de educacion",
       "brechas de educacion",
       "servicios de educacion",
@@ -1183,207 +1183,267 @@
     ]
   },
   "inactivos": {
-    "F.1.1 Educación continua y formación permanente": [
-      "curso libre",
-      "capacitación",
-      "taller",
-      "actualización",
-      "mediación pedagógica",
-      "educación no formal",
-      "aprendizaje a lo largo de la vida",
-      "lifelong learning"
-    ],
-    "F.1.2 Vinculación con sectores sociales, Estado y comunidades vulnerables": [
-      "comunidad",
-      "vulnerabilidad",
-      "organizaciones sociales",
-      "instituciones públicas",
-      "acompañamiento",
-      "incidencia",
-      "fortalecimiento comunitario",
-      "actores sociales"
-    ],
-    "F.1.3 Atención de problemas nacionales": [
-      "problemática nacional",
-      "desafío país",
-      "agenda pública",
-      "políticas públicas",
-      "crisis social",
-      "desarrollo nacional",
-      "transformación social"
-    ],
-    "F.1.4 Atención de necesidades regionales": [
-      "regionalización",
-      "desarrollo regional",
-      "desarrollo territorial",
-      "sede regional",
-      "cantón",
-      "territorio",
-      "coordinación local",
-      "desigualdad territorial"
-    ],
-    "F.1.5 Atención a zonas costeras, ruralidad y pueblos originarios": [
-      "costa",
-      "rural",
-      "pueblo originario",
-      "pueblo indígena",
-      "territorio indígena",
-      "pesca",
-      "ruralidad",
-      "interculturalidad",
-      "saberes ancestrales"
-    ],
-    "F.2.2 Vinculación desde unidades académicas": [
-      "unidad académica",
-      "articulación",
-      "vinculación",
-      "extensión",
-      "proyecto académico",
-      "actor externo",
-      "coordinación institucional"
-    ],
-    "F.2.5 Integración de tecnologías comunicativas": [
-      "plataforma",
-      "digital",
-      "comunicación",
-      "tecnología",
-      "mediación virtual",
-      "audiovisual",
-      "repositorio",
-      "contenidos digitales"
-    ],
-    "F.2.6 Internacionalización de actividades sustantivas": [
-      "cooperación internacional",
-      "movilidad",
-      "red internacional",
-      "intercambio",
-      "alianza internacional",
-      "proyecto internacional"
-    ],
-    "F.3 Multiculturalidad, democratización y equidad": [
-      "diversidad cultural",
-      "multiculturalidad",
-      "interculturalidad",
-      "inclusión",
-      "equidad",
-      "no discriminación",
-      "convivencia"
-    ],
-    "F.4.1 Salud y bienestar": [
-      "salud comunitaria",
-      "prevención",
-      "promoción",
-      "bienestar",
-      "autocuidado",
-      "salud mental",
-      "calidad de vida",
-      "nutrición"
-    ],
-    "F.5.1 Valor público de la universidad": [
-      "valor público",
-      "aporte social",
-      "responsabilidad social universitaria",
-      "impacto público",
-      "bien común"
-    ],
-    "F.5.2 Trabajo colaborativo e interdisciplinario": [
-      "interdisciplinario",
-      "transdisciplinario",
-      "colaborativo",
-      "red de trabajo",
-      "articulación interinstitucional",
-      "cogestión"
-    ],
-    "F.5.3 Innovación ambiental y gobernanza adaptativa": [
-      "ambiente",
-      "adaptación",
-      "gobernanza ambiental",
-      "sostenibilidad",
-      "resiliencia",
-      "cambio climático",
-      "gestión ambiental"
-    ],
-    "G.1.1 Enfoque multi, inter y transdisciplinario": [
-      "interdisciplinariedad",
-      "transdisciplinariedad",
-      "integralidad",
-      "necesidades sociales",
-      "problemas complejos",
-      "articulación de saberes"
-    ],
-    "G.1.2 Democratización del conocimiento y acceso abierto": [
-      "acceso abierto",
-      "divulgación",
-      "devolución",
-      "socialización del conocimiento",
-      "apropiación social",
-      "repositorio",
-      "ciencia abierta",
-      "saberes compartidos"
-    ],
-    "G.2.2 Internacionalización en todas las áreas sustantivas": [
-      "internacionalización",
-      "cooperación",
-      "movilidad",
-      "intercambio",
-      "red internacional",
-      "alianza internacional"
-    ],
-    "H.1.1 Transformación social con comunidades y sectores externos": [
-      "comunidades",
-      "sectores externos",
-      "intercambio de experiencias",
-      "valor público",
-      "articulación universidad-sociedad",
-      "transformación social"
-    ],
-    "H.3.1 Acompañamiento a emprendimientos, MIPYMES e iniciativas regionales": [
-      "asesoría",
-      "acompañamiento",
-      "fortalecimiento empresarial",
-      "emprendimiento",
-      "microempresa",
-      "pequeña empresa",
-      "desarrollo regional",
-      "innovación productiva"
-    ],
-    "H.4.1 Iniciativas territoriales articuladas para poblaciones vulnerables": [
-      "territorialidad",
-      "articulación local",
-      "población vulnerable",
-      "coordinación con Estado",
-      "intervención territorial",
-      "bienestar comunitario"
-    ],
-    "H.5.1 Articulación con el sector socioproductivo": [
-      "sector productivo",
-      "sector socioproductivo",
-      "transferencia",
-      "coproductividad",
-      "innovación aplicada",
-      "conocimiento útil",
-      "talento humano",
-      "asesoría"
-    ],
-    "H.6.1 Comunicación y divulgación del quehacer universitario": [
-      "divulgación",
-      "comunicación pública",
-      "transferencia de conocimiento",
-      "materiales",
-      "difusión",
-      "repositorio",
-      "programa audiovisual",
-      "acceso abierto"
-    ],
-    "H.7.1 Transformación digital con IA y tecnologías emergentes": [
-      "inteligencia artificial",
-      "IA",
-      "transformación digital",
-      "tecnologías emergentes",
-      "innovación digital",
-      "automatización",
-      "ética digital",
-      "inclusión digital"
-    ]
+    "F.1.1 Generación colaborativa de conocimiento y alianzas estratégicas para responder a necesidades del país y problemas nacionales.": {
+      "palabras_clave": [
+        "conocimiento colaborativo",
+        "alianzas estratégicas",
+        "necesidades del país",
+        "problemas nacionales",
+        "vinculación universidad-sociedad"
+      ]
+    },
+    "F.1.2 Democratización del conocimiento mediante diálogo de saberes, acceso abierto, educación permanente, educación continua y divulgación social de saberes.": {
+      "palabras_clave": [
+        "democratización del conocimiento",
+        "diálogo de saberes",
+        "acceso abierto",
+        "educación permanente",
+        "educación continua",
+        "divulgación social"
+      ]
+    },
+    "F.1.3 Desarrollo de capacidades locales y regionales, con atención a necesidades territoriales, zonas costeras, zonas rurales, pueblos originarios y comunidades.": {
+      "palabras_clave": [
+        "capacidades locales",
+        "desarrollo regional",
+        "territorios indígenas",
+        "zonas costeras",
+        "zonas rurales",
+        "pueblos originarios",
+        "comunidades, campesinos, agricultores, pescadores"
+      ]
+    },
+    "F.1.4 Articulación con sectores sociales, Estado, comunidades, grupos colectivos y organizaciones o asociaciones de la sociedad civil.": {
+      "palabras_clave": [
+        "sectores sociales",
+        "Estado",
+        "comunidades",
+        "sociedad civil",
+        "articulación",
+        "actores sociales",
+        "alianzas comunitarias, colectivos, asociaciones"
+      ]
+    },
+    "F.1.5 Participación estudiantil y comunitaria en voluntariado y acciones orientadas a justicia social, equidad y desarrollo integral.": {
+      "palabras_clave": [
+        "participación estudiantil",
+        "voluntariado",
+        "acciones comunitarias",
+        "justicia social",
+        "equidad",
+        "desarrollo integral",
+        "comunidad",
+        "comunal"
+      ]
+    },
+    "F.2.1 multidisciplinariedad; interdisciplinariedad y transdisciplinarias e interregional; instituciones internas e externas y empresas públicas y privadas para abordar problemas nacionales junto con el estudiantado.": {
+      "palabras_clave": [
+        "multidisciplinariedad",
+        "interdisciplinariedad",
+        "transdisciplinariedad",
+        "interregional",
+        "problemas nacionales",
+        "instituciones internas e externas",
+        "empresas públicas y privadas"
+      ]
+    },
+    "F.2.2 Formación humanista, ética, científica y con enfoque de derechos humanos, compromiso social, pensamiento crítico, creatividad e innovación.": {
+      "palabras_clave": [
+        "formación humanista",
+        "ética",
+        "ciencia",
+        "derechos humanos",
+        "compromiso social",
+        "pensamiento crítico",
+        "creatividad",
+        "innovación"
+      ]
+    },
+    "F.2.3 Transferencia del conocimiento e innovación para fortalecer la formación estudiantil, la acción y el vínculo sociales.": {
+      "palabras_clave": [
+        "transferencia del conocimiento",
+        "innovación",
+        "formación estudiantil",
+        "vínculo social",
+        "aprendizaje aplicado"
+      ]
+    },
+    "F.2.4 Proyectos innovadores, experiencias estudiantiles, prácticas, pasantías, internados y trabajos finales de graduación vinculados con necesidades sociales.": {
+      "palabras_clave": [
+        "proyectos innovadores",
+        "experiencias estudiantiles",
+        "prácticas",
+        "Trabajos Finales de Graduación",
+        "TFG",
+        "necesidades sociales"
+      ]
+    },
+    "F.3.1 Permanencia y graduación de poblaciones estudiantiles excluidas, vulneradas o en condición de desigualdad.": {
+      "palabras_clave": [
+        "Permanencia estudiantil",
+        "graduación académica",
+        "poblaciones excluidas",
+        "poblaciones vulneradas",
+        "desigualdad",
+        "equidad educativa"
+      ]
+    },
+    "F.3.2 Acciones afirmativas, acompañamiento a colegios, orientación vocacional y ampliación de oportunidades educativas.": {
+      "palabras_clave": [
+        "acciones afirmativas",
+        "acompañamiento académico",
+        "colegios",
+        "orientación vocacional",
+        "oportunidades educativas",
+        "acceso universitario"
+      ]
+    },
+    "F.3.3 Seguimiento del desempeño estudiantil y reducción de brechas en condiciones de equidad.": {
+      "palabras_clave": [
+        "desempeño estudiantil",
+        "brechas de aprendizajes",
+        "equidad y seguimiento universitario",
+        "logro académico",
+        "inclusión educativa"
+      ]
+    },
+    "F.3.4 Cultura de paz, diversidad, derechos humanos, saberes diversos, prevención de discriminación y violencia, y atención a contextos multicu  lturales.": {
+      "palabras_clave": [
+        "cultura de paz",
+        "diversidad",
+        "derechos humanos",
+        "saberes diversos",
+        "discriminación",
+        "violencia",
+        "multiculturalidad",
+        "convivencia"
+      ]
+    },
+    "F.4.1 Promoción de la salud, salud mental, autocuidado, salud colectiva, habilidades para la vida, ciudadanía y envejecimiento saludable.": {
+      "palabras_clave": [
+        "promoción de salud",
+        "salud mental",
+        "autocuidado",
+        "salud colectiva",
+        "habilidades para la vida",
+        "ciudadanía",
+        "envejecimiento saludable"
+      ]
+    },
+    "F.4.2 Colaboración en equipos multi, inter y transdisciplinaria y análisis de datos y bienestar para atender problemáticas de salud con impacto social.": {
+      "palabras_clave": [
+        "Equipo multidisciplinario",
+        "equipo interdisciplinario",
+        "equipo transdisciplinario",
+        "análisis de datos",
+        "bienestar",
+        "problemáticas sociales",
+        "impacto social"
+      ]
+    },
+    "F.5.1 Comunicación del valor público universitario, divulgación accesible y visibilización del quehacer académico y social de la Universidad.": {
+      "palabras_clave": [
+        "valor público",
+        "comunicación",
+        "medios televisivos, medios radiales, informativos, prensa escrita, prensa, divulgación",
+        "quehacer académico",
+        "aporte social",
+        "rendición social",
+        "visibilización"
+      ]
+    },
+    "F.5.2 Desconcentración de servicios y procesos académicos y administrativos en sedes regionales para fortalecer una gestión territorial, integrada y socialmente pertinente.": {
+      "palabras_clave": [
+        "desconcentración",
+        "gestión territorial",
+        "gestión integrada",
+        "pertinencia social",
+        "regiones"
+      ]
+    },
+    "Innovación ambiental, gobernanza adaptativa, variabilidad climática, mitigación de emisiones y acciones ante el cambio climático con beneficio comunitario.": {
+      "palabras_clave": [
+        "innovación ambiental",
+        "gobernanza adaptativa",
+        "variabilidad climática",
+        "mitigación de emisiones",
+        "cambio climático",
+        "beneficio comunitario",
+        "sustentabilidad"
+      ]
+    },
+    "G.1.1 Sectores público, privado, económico, social y académico.": {
+      "palabras_clave": [
+        "sector público",
+        "sector privado",
+        "sector económico",
+        "sector social",
+        "sector académico",
+        "articulación intersectorial"
+      ]
+    },
+    "G.2.1 Intercambio de conocimiento y experiencias con comunidades, territorios y sectores clave.": {
+      "palabras_clave": [
+        "intercambio de conocimiento",
+        "experiencias de acción social con comunidades",
+        "territorios",
+        "sectores clave",
+        "co-creación"
+      ]
+    },
+    "G.3.1 Emprendimientos, MIPYMES y otras iniciativas regionales.": {
+      "palabras_clave": [
+        "emprendimientos",
+        "MIPYMES",
+        "iniciativas regionales",
+        "desarrollo regional",
+        "economía local"
+      ]
+    },
+    "G.4.1 Iniciativas territoriales, articuladas para poblaciones vulnerables.": {
+      "palabras_clave": [
+        "iniciativas territoriales",
+        "articulación interuniversitaria",
+        "poblaciones vulnerables",
+        "territorios prioritarios",
+        "inclusión social"
+      ]
+    },
+    "G.5.1 Fortalecer articulación con el sector socioproductivo.": {
+      "palabras_clave": [
+        "sector socioproductivo",
+        "agrícola, pesquero, artesanal, residuos valorizables, producción",
+        "desarrollo productivo",
+        "vínculo territorial"
+      ]
+    },
+    "G.6.1 Modelo de comunicación y divulgación.": {
+      "palabras_clave": [
+        "comunicación",
+        "divulgación",
+        "difusión",
+        "apropiación social"
+      ]
+    },
+    "G.7.1 Integrar inteligencia artificial y tecnologías emergentes.": {
+      "palabras_clave": [
+        "inteligencia artificial",
+        "tecnologías emergentes",
+        "IA, GPT, Copilot, Gemini",
+        "analítica de datos",
+        "páginas web, transformación digital",
+        "ética",
+        "inclusión digital"
+      ]
+    },
+    "G.8.1 Implementar acciones articuladas del Sistema de Educación Superior Universitaria Estatal.": {
+      "palabras_clave": [
+        "sistema universitario estatal",
+        "acciones articuladas universitarias",
+        "educación superior",
+        "cooperación interuniversitaria",
+        "coordinación sectorial, internalización de extensión y acción social"
+      ]
+    }
   }
 }
