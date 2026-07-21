@@ -1182,35 +1182,79 @@
       "fortalecimiento de la enseñanza"
     ]
   },
-  "inactivos": {
-    "F.1.1 Generación colaborativa de conocimiento y alianzas estratégicas para responder a necesidades del país y problemas nacionales.": {
+  "F.1.1 Generación colaborativa de conocimiento y alianzas estratégicas para responder a necesidades del país y problemas nacionales.": {
       "palabras_clave": [
         "conocimiento colaborativo",
-        "alianzas estratégicas",
-        "necesidades del país",
+        "alianzas estrategicas",
+        "necesidades del pais",
         "problemas nacionales",
-        "vinculación universidad-sociedad"
+        "vinculacion universidad-sociedad",
+        "alianza estrategica",
+        "conocimientos colaborativos",
+        "necesidad del pais",
+        "necesidad nacional",
+        "problema nacional",
+        "problematica nacional",
+        "problematicas nacionales",
+        "prioridades nacionales",
+        "prioridad nacional",
+        "intercambio de conocimiento",
+        "intercambio de saberes",
+        "transferencia de conocimiento",
+        "dialogo de saberes",
+        "conocimiento colectivo",
+        "aprendizaje colaborativo",
+        "redes de investigacion",
+        "red de investigacion"
       ]
     },
     "F.1.2 Democratización del conocimiento mediante diálogo de saberes, acceso abierto, educación permanente, educación continua y divulgación social de saberes.": {
       "palabras_clave": [
-        "democratización del conocimiento",
-        "diálogo de saberes",
+        "democratizacion del conocimiento",
+        "dialogo de saberes",
         "acceso abierto",
-        "educación permanente",
-        "educación continua",
-        "divulgación social"
+        "educacion permanente",
+        "educacion continua",
+        "divulgacion social",
+        "dialogo de saber",
+        "dialogos de saberes",
+        "saber popular",
+        "saberes populares",
+        "conocimiento abierto",
+        "democratizacion de la educacion",
+        "divulgacion del conocimiento",
+        "estrategias de comunicacion"
       ]
     },
     "F.1.3 Desarrollo de capacidades locales y regionales, con atención a necesidades territoriales, zonas costeras, zonas rurales, pueblos originarios y comunidades.": {
       "palabras_clave": [
         "capacidades locales",
         "desarrollo regional",
-        "territorios indígenas",
+        "territorios indigenas",
         "zonas costeras",
         "zonas rurales",
         "pueblos originarios",
-        "comunidades, campesinos, agricultores, pescadores"
+        "comunidades",
+        "campesinos",
+        "agricultores",
+        "pescadores",
+        "campesino",
+        "campesina",
+        "agricultor",
+        "agricultora",
+        "pescador",
+        "pescadora",
+        "desarrollo rural",
+        "zona rural",
+        "capacidades comunitarias",
+        "indigena",
+        "indigenas",
+        "defensa territorial",
+        "rurales",
+        "rural",
+        "costero",
+        "costeros",
+        "comunidad"
       ]
     },
     "F.1.4 Articulación con sectores sociales, Estado, comunidades, grupos colectivos y organizaciones o asociaciones de la sociedad civil.": {
@@ -1221,7 +1265,27 @@
         "sociedad civil",
         "articulación",
         "actores sociales",
-        "alianzas comunitarias, colectivos, asociaciones"
+        "alianzas comunitarias",
+        "colectivos", 
+        "asociaciones",
+        "sector social",
+        "estados",
+        "comunidad",
+        "sociedades civiles",
+        "actor social",
+        "alianza comunitaria",
+        "colectivo",
+        "asociacion",
+        "organizacion social",
+        "organizaciones sociales",
+        "gestion comunitaria",
+        "economia social",
+        "instituciones publicas",
+        "institucion publica",
+        "instuciones privadas",
+        "institucion privada",
+        "poblacion vulnerables",
+        "poblaciones vulnerables"
       ]
     },
     "F.1.5 Participación estudiantil y comunitaria en voluntariado y acciones orientadas a justicia social, equidad y desarrollo integral.": {
@@ -1236,6 +1300,7 @@
         "comunal"
       ]
     },
+  "inactivos": {
     "F.2.1 multidisciplinariedad; interdisciplinariedad y transdisciplinarias e interregional; instituciones internas e externas y empresas públicas y privadas para abordar problemas nacionales junto con el estudiantado.": {
       "palabras_clave": [
         "multidisciplinariedad",
