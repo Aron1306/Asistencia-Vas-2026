@@ -36,7 +36,18 @@
       "mineral",
       "minerales",
       "sequia",
-      "sequias"
+      "sequias",
+      "agricultura",
+      "agronegocio",
+      "agronegocios",
+      "agroindustria",
+      "agroindustrias",
+      "agroindustrial",
+      "agrosilvicultura",
+      "agricola",
+      "agricolas",
+      "agraria",
+      "agrario"
     ]
   },
   "A.1.3 Ambiente, Descarbonización y Residuos": {
@@ -52,7 +63,8 @@
       "naturaleza",
       "carbono neutral",
       "ambiental",
-      "contaminacion"
+      "contaminacion",
+      "dioxido de carbono"
     ]
   },
   "A.2.1 Salud": {
@@ -138,7 +150,9 @@
       "tecnologico",
       "tecnologica",
       "tecnologicos",
-      "tecnologicas"
+      "tecnologicas",
+      "investigacion",
+      "investigaciones"
     ]
   },
   "A.3.2 Transportes": {
@@ -177,7 +191,9 @@
       "suburbano",
       "suburbana",
       "suburbanos",
-      "suburbanas"
+      "suburbanas",
+      "rural",
+      "rurales"
     ]
   },
   "A.4.1 Empleo": {
@@ -194,7 +210,12 @@
       "laborales",
       "labores",
       "ocupacion",
-      "lineas de trabajo"
+      "lineas de trabajo",
+      "socioproductividad",
+      "socioproductivo",
+      "socioproductivos",
+      "socioproductiva",
+      "socioproductivas"
     ]
   },
   "A.4.2 Pobreza": {
@@ -228,7 +249,11 @@
       "desarrollo económico",
       "fortalecimiento económico",
       "planificacion regional",
-      "gestión municipal,"
+      "gestión municipal",
+      "huetar",
+      "chorotega",
+      "brunca",
+      "region central"
     ]
   },
   "A.4.4 Agropecuario": {
@@ -363,7 +388,9 @@
       "mujeres en situación de vulnerabilidad",
       "empresarialidad femenina",
       "brecha de genero",
-      "perspectiva de genero"
+      "perspectiva de genero",
+      "hostigamiento sexual",
+      "acoso sexual"
     ]
   },
   "B.3.1 Agua": {
@@ -555,7 +582,8 @@
       "energia renovable",
       "agua limpia",
       "aguas limpias",
-      "consumo de energia"
+      "consumo de energia",
+      "dioxido de carbono"
     ]
   },
   "B.5.4 Ambiente y Mares": {
@@ -1060,7 +1088,18 @@
       "mineral",
       "minerales",
       "sequia",
-      "sequias"
+      "sequias",
+      "agricultura",
+      "agronegocio",
+      "agronegocios",
+      "agroindustria",
+      "agroindustrias",
+      "agroindustrial",
+      "agrosilvicultura",
+      "agricola",
+      "agricolas",
+      "agraria",
+      "agrario"
     ]
   },
   "E.4.1 Inversión en capital": {
