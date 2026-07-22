@@ -726,9 +726,23 @@
       "estudiantes"
     ]
   },
-  "C.3.2 Innovación": {
+  "C.3.2 Evolución": {
     "palabras_clave": [
-      "innovacion educativa"
+      "alfabetizacion digital",
+      "personalizacion",
+      "inclusion",
+      "colaboracion",
+      "inclusiones",
+      "colaboraciones",
+      "alfabetizar",
+      "personalizar",
+      "diversificar",
+      "diversificada",
+      "diversificado",
+      "fortalecimiento educativo",
+      "conocimiento academico",
+      "adaptacion",
+      "acceso a la educacion"
     ]
   },
   "C.4.1 Género": {
@@ -925,7 +939,14 @@
       "habilidades laborales",
       "habilidad laboral",
       "actualizacion profesional",
-      "desempeño"
+      "desempeño",
+      "capacitacion",
+      "capacitaciones",
+      "capacitar",
+      "formacion",
+      "asesoria",
+      "asesorias",
+      "asesoramiento"
     ]
   },
   "D.2.2 Sofisticación": {
@@ -940,7 +961,14 @@
       "tecnologias",
       "tecnologico",
       "tecnico",
-      "tecnicos"
+      "tecnicos",
+      "capacitacion",
+      "capacitaciones",
+      "capacitar",
+      "formacion",
+      "asesoria",
+      "asesorias",
+      "asesoramiento"
     ]
   },
   "D.2.3 Desconcentración e innovación productiva": {
@@ -1336,19 +1364,43 @@
         "equidad",
         "desarrollo integral",
         "comunidad",
-        "comunal"
+        "comunal",
+        "comunales",
+        "accion comunitaria",
+        "comunidades",
+        "voluntario",
+        "participaciones estudiantiles",
+        "justicias sociales",
+        "comunitario",
+        "comunitaria"
       ]
     },
-  "inactivos": {
-    "F.2.1 multidisciplinariedad; interdisciplinariedad y transdisciplinarias e interregional; instituciones internas e externas y empresas públicas y privadas para abordar problemas nacionales junto con el estudiantado.": {
+    "F.2.1 multidisciplinariedad; interdisciplinariedad y transdisciplinarias e interregional; instituciones internas y externas y empresas públicas y privadas para abordar problemas nacionales junto con el estudiantado.": {
       "palabras_clave": [
         "multidisciplinariedad",
         "interdisciplinariedad",
         "transdisciplinariedad",
         "interregional",
         "problemas nacionales",
-        "instituciones internas e externas",
-        "empresas públicas y privadas"
+        "instituciones internas", 
+        "instituciones externas",
+        "empresas públicas", 
+        "empresas privadas",
+        "multidisciplina",
+        "interdisciplina",
+        "transdiciplina",
+        "mutidisciplinario",
+        "interdisciplinario",
+        "transdiciplinario",
+        "multidisciplinaria",
+        "interdisciplinaria",
+        "transdisciplinaria",
+        "interregionales",
+        "problema nacional",
+        "institucion interna",
+        "institucion externa",
+        "empresa publica",
+        "empresa privada"
       ]
     },
     "F.2.2 Formación humanista, ética, científica y con enfoque de derechos humanos, compromiso social, pensamiento crítico, creatividad e innovación.": {
@@ -1360,16 +1412,47 @@
         "compromiso social",
         "pensamiento crítico",
         "creatividad",
-        "innovación"
+        "innovación",
+        "ciencias",
+        "derecho humano",
+        "compromisos social",
+        "pensamientos criticos",
+        "creatividades",
+        "creativo",
+        "creativa",
+        "innovaciones",
+        "innovar",
+        "innovador",
+        "innovadora",
+        "innovadores",
+        "innovadoras",
+        "cientifico",
+        "cientificos",
+        "cientifica",
+        "cientificas"
       ]
     },
-    "F.2.3 Transferencia del conocimiento e innovación para fortalecer la formación estudiantil, la acción y el vínculo sociales.": {
+    "F.2.3 Transferencia del conocimiento e innovación para fortalecer la formación estudiantil, la acción y el vínculo social.": {
       "palabras_clave": [
         "transferencia del conocimiento",
         "innovación",
         "formación estudiantil",
         "vínculo social",
-        "aprendizaje aplicado"
+        "aprendizaje aplicado",
+        "divulgacion",
+        "divulgar",
+        "innovar",
+        "innovaciones",
+        "innovador",
+        "innovadores",
+        "innovadora",
+        "innovadoras",
+        "vinculos sociales",
+        "aprendizajes aplicados",
+        "transferencias de conocimiento",
+        "transferencias del conocimiento",
+        "intercambio de conocimiento",
+        "intercambio del conocimiento"
       ]
     },
     "F.2.4 Proyectos innovadores, experiencias estudiantiles, prácticas, pasantías, internados y trabajos finales de graduación vinculados con necesidades sociales.": {
@@ -1379,7 +1462,21 @@
         "prácticas",
         "Trabajos Finales de Graduación",
         "TFG",
-        "necesidades sociales"
+        "necesidades sociales",
+        "innovador",
+        "innovadora",
+        "innovar",
+        "innovacion",
+        "innovaciones",
+        "experiencia estudiantil",
+        "practica",
+        "trabajo final de graduacion",
+        "necesidad social",
+        "pasantia",
+        "pasantias",
+        "internado",
+        "internados",
+        "movilidad estudiantil"
       ]
     },
     "F.3.1 Permanencia y graduación de poblaciones estudiantiles excluidas, vulneradas o en condición de desigualdad.": {
@@ -1389,7 +1486,21 @@
         "poblaciones excluidas",
         "poblaciones vulneradas",
         "desigualdad",
-        "equidad educativa"
+        "equidad educativa",
+        "graduacion",
+        "poblacion excluida",
+        "poblacion vulnerable",
+        "desigualdades",
+        "igualdad educativa",
+        "igualdades educativas",
+        "acceso a la educacion superior",
+        "acceso a educacion superior",
+        "exclusion social",
+        "brecha educativa",
+        "brechas educativas",
+        "poblacion en riesgo",
+        "inclusion educativa",
+        "barreras de acceso"
       ]
     },
     "F.3.2 Acciones afirmativas, acompañamiento a colegios, orientación vocacional y ampliación de oportunidades educativas.": {
@@ -1399,9 +1510,24 @@
         "colegios",
         "orientación vocacional",
         "oportunidades educativas",
-        "acceso universitario"
+        "acceso universitario",
+        "accion afirmativa",
+        "acompañamientos academicos",
+        "colegio",
+        "orientacion",
+        "orientaciones",
+        "oportunidad educativa",
+        "accesos universitarios",
+        "feria vocacional",
+        "ferias vocacionales",
+        "rezago educativo",
+        "necesidades educativas",
+        "necesidad educativa",
+        "prioridad educativa",
+        "prioridades educativas"
       ]
     },
+  "inactivos": {
     "F.3.3 Seguimiento del desempeño estudiantil y reducción de brechas en condiciones de equidad.": {
       "palabras_clave": [
         "desempeño estudiantil",
