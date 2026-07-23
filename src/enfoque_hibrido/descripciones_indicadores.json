@@ -1527,17 +1527,29 @@
         "prioridades educativas"
       ]
     },
-  "inactivos": {
     "F.3.3 Seguimiento del desempeño estudiantil y reducción de brechas en condiciones de equidad.": {
       "palabras_clave": [
         "desempeño estudiantil",
         "brechas de aprendizajes",
-        "equidad y seguimiento universitario",
+        "equidad",
+        "seguimiento universitario",
         "logro académico",
-        "inclusión educativa"
+        "inclusión educativa",
+        "brecha de aprendizaje",
+        "brecha estudiantil",
+        "brechas estudiantiles",
+        "logros academicos",
+        "rendimiento academico",
+        "rendimiento estudiantil",
+        "exclusion escolar",
+        "nivelacion academica",
+        "apoyo academico",
+        "apoyos academicos",
+        "tutoria",
+        "tutorias"
       ]
     },
-    "F.3.4 Cultura de paz, diversidad, derechos humanos, saberes diversos, prevención de discriminación y violencia, y atención a contextos multicu  lturales.": {
+    "F.3.4 Cultura de paz, diversidad, derechos humanos, saberes diversos, prevención de discriminación y violencia, y atención a contextos multiculturales.": {
       "palabras_clave": [
         "cultura de paz",
         "diversidad",
@@ -1546,7 +1558,36 @@
         "discriminación",
         "violencia",
         "multiculturalidad",
-        "convivencia"
+        "convivencia",
+        "igualdad",
+        "igualdades",
+        "desigualdad",
+        "desigualdades",
+        "equidad",
+        "equidades",
+        "equitativo",
+        "equitativos",
+        "equitativa",
+        "equitativas",
+        "inequidad",
+        "inequidades",
+        "inequitativo",
+        "inequitativos",
+        "inequitativa",
+        "inequitativas",
+        "violencias",
+        "violento",
+        "violentos",
+        "violenta",
+        "violentas",
+        "vulnerable",
+        "vulnerables",
+        "vulnerabilidad",
+        "vulnerabilidades",
+        "multicultural",
+        "multiculturales",
+        "conflicto social",
+        "conflictos sociales"
       ]
     },
     "F.4.1 Promoción de la salud, salud mental, autocuidado, salud colectiva, habilidades para la vida, ciudadanía y envejecimiento saludable.": {
@@ -1557,7 +1598,21 @@
         "salud colectiva",
         "habilidades para la vida",
         "ciudadanía",
-        "envejecimiento saludable"
+        "envejecimiento saludable",
+        "salud",
+        "autocuidados",
+        "habilidad para la vida",
+        "nutricion",
+        "saludable",
+        "saludables",
+        "sanidad",
+        "sanidades",
+        "sanitario",
+        "sanitaria",
+        "calidad de vida",
+        "envejecimiento",
+        "bienestar",
+        "bienestares"
       ]
     },
     "F.4.2 Colaboración en equipos multi, inter y transdisciplinaria y análisis de datos y bienestar para atender problemáticas de salud con impacto social.": {
@@ -1568,20 +1623,45 @@
         "análisis de datos",
         "bienestar",
         "problemáticas sociales",
-        "impacto social"
+        "impacto social",
+        "bienestares",
+        "problematica social",
+        "impactos sociales",
+        "problematica de salud",
+        "problematicas de salud",
+        "multidisciplinario",
+        "interdisciplinario",
+        "transdisciplinario",
+        "redes de apoyos",
+        "red de apoyo",
+        "psicosocial",
+        "psicosociales"
       ]
     },
     "F.5.1 Comunicación del valor público universitario, divulgación accesible y visibilización del quehacer académico y social de la Universidad.": {
       "palabras_clave": [
         "valor público",
         "comunicación",
-        "medios televisivos, medios radiales, informativos, prensa escrita, prensa, divulgación",
+        "medios televisivos",
+        "medios radiales",
+        "informativos",
+        "prensa escrita",
+        "prensa",
+        "divulgación",
         "quehacer académico",
         "aporte social",
         "rendición social",
-        "visibilización"
+        "visibilización",
+        "comunicativo",
+        "comunicativa",
+        "medio televisivo",
+        "medio radial",
+        "informativo",
+        "aportes sociales",
+        "alfabetizacion mediatica"
       ]
     },
+  "inactivos": {
     "F.5.2 Desconcentración de servicios y procesos académicos y administrativos en sedes regionales para fortalecer una gestión territorial, integrada y socialmente pertinente.": {
       "palabras_clave": [
         "desconcentración",
