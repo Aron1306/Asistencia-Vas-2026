@@ -1661,17 +1661,24 @@
         "alfabetizacion mediatica"
       ]
     },
-  "inactivos": {
     "F.5.2 Desconcentración de servicios y procesos académicos y administrativos en sedes regionales para fortalecer una gestión territorial, integrada y socialmente pertinente.": {
       "palabras_clave": [
         "desconcentración",
         "gestión territorial",
         "gestión integrada",
         "pertinencia social",
-        "regiones"
+        "sede regional",
+        "sedes regionales",
+        "pertinencias sociales",
+        "gestion social",
+        "procesos académicos",
+        "procesos administrativos",
+        "descentralizacion gubernamental",
+        "desarrollo regional",
+        "gestion municipal"
       ]
     },
-    "Innovación ambiental, gobernanza adaptativa, variabilidad climática, mitigación de emisiones y acciones ante el cambio climático con beneficio comunitario.": {
+    "F.6.1 Innovación ambiental, gobernanza adaptativa, variabilidad climática, mitigación de emisiones y acciones ante el cambio climático con beneficio comunitario.": {
       "palabras_clave": [
         "innovación ambiental",
         "gobernanza adaptativa",
@@ -1679,7 +1686,19 @@
         "mitigación de emisiones",
         "cambio climático",
         "beneficio comunitario",
-        "sustentabilidad"
+        "sustentabilidad",
+        "variabilidades climaticas",
+        "cambios climaticos",
+        "beneficios comunitarios",
+        "emisiones",
+        "dioxido de carbono",
+        "gas",
+        "gases",
+        "contaminacion",
+        "residuos",
+        "residuo",
+        "residual",
+        "desarrollo ambiental sostenible"
       ]
     },
     "G.1.1 Sectores público, privado, económico, social y académico.": {
@@ -1689,7 +1708,23 @@
         "sector económico",
         "sector social",
         "sector académico",
-        "articulación intersectorial"
+        "articulación intersectorial",
+        "sectores publicos",
+        "sectores privados",
+        "sectores economicos",
+        "sectores sociales",
+        "sectores academicos",
+        "institucion publica",
+        "instituciones publicas",
+        "institucion privada",
+        "instituciones privadas",
+        "institucion economica ",
+        "instituciones economicas",
+        "institucion social",
+        "instituciones sociales",
+        "institucion academica",
+        "instituciones academicas"
+
       ]
     },
     "G.2.1 Intercambio de conocimiento y experiencias con comunidades, territorios y sectores clave.": {
@@ -1698,7 +1733,18 @@
         "experiencias de acción social con comunidades",
         "territorios",
         "sectores clave",
-        "co-creación"
+        "co-creación",
+        "intercambios de conocimiento",
+        "divulgacion",
+        "divulgar",
+        "divulgador",
+        "divulgadores",
+        "cocreacion",
+        "co creacion",
+        "acceso a la informacion",
+        "transferencia de conocimiento",
+        "conocimiento colaborativo",
+        "acceso al conocimiento"
       ]
     },
     "G.3.1 Emprendimientos, MIPYMES y otras iniciativas regionales.": {
@@ -1707,9 +1753,33 @@
         "MIPYMES",
         "iniciativas regionales",
         "desarrollo regional",
-        "economía local"
+        "economía local",
+        "emprendimiento",
+        "pyme",
+        "pymes",
+        "mipyme",
+        "iniciativa regional",
+        "desarrollos regionales",
+        "economias locales",
+        "emprendedor",
+        "emprendedores",
+        "emprendedora",
+        "emprendedoras",
+        "emprender",
+        "micronegocio",
+        "micronegocios",
+        "pequeño productor",
+        "pequeños productores",
+        "microempresa",
+        "microempresas",
+        "artesano",
+        "artesanos",
+        "artesana",
+        "artesanas",
+        "produccion regional"
       ]
     },
+  "inactivos": {
     "G.4.1 Iniciativas territoriales, articuladas para poblaciones vulnerables.": {
       "palabras_clave": [
         "iniciativas territoriales",
