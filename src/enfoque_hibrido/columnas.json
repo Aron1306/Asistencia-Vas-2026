@@ -11,7 +11,13 @@
     "Población",
     "I.03 (nombre proyecto)",
     "I.14 (temas)",
-    "I.15 (Subtemas)"
+    "I.15 (Subtemas)",
+    "Nombre del proyecto",
+    "Modalidad",
+    "Temas",
+    "Subtemas",
+    "Beneficios para la UCR",
+    "Beneficios para la población"
   ],
   "columnas_indicadores_patron": "^[A-Z]\\.[0-9]"
 }
