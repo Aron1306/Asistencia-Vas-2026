@@ -11,9 +11,6 @@ def normalizar(texto):
     texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
     return texto
 
-DEBUG = True
-
-
 """Concatena las columnas cualitativas de un proyecto en un solo texto."""
 def construir_texto(row, columnas_texto, columnas_disponibles):
     partes = []
@@ -29,7 +26,7 @@ def construir_texto(row, columnas_texto, columnas_disponibles):
     Busca palabras clave exactas en el texto de cada proyecto.
     Marca 1 donde hay coincidencia.
 """
-def fase_keywords(base, textos_proyectos, descripciones):
+def fase_keywords(base, textos_proyectos, descripciones, DEBUG):
     matches_por_indicador = {ind: set() for ind in descripciones}
 
     print("\n--- Fase 1: Keywords ---")
@@ -62,10 +59,20 @@ def fase_keywords(base, textos_proyectos, descripciones):
 
 
 def mostrar_conteos(base, descripciones, etiqueta):
-    print(f"\nConteos — {etiqueta}:")
+    print(f"\nConteos - {etiqueta}:")
+    
     resultados = base[list(descripciones.keys())].sum().astype(int)
+    total_proyectos = len(base) - 2
+
     for indicador, total in resultados.items():
-        print(f"  {indicador:<70} {total}")
+        frecuencia_relativa = total / total_proyectos
+        porcentaje = frecuencia_relativa * 100
+
+        print(
+            f"  {indicador:<70} "
+            f"  {total:<5}      "
+            f"({porcentaje:.2f}%)"
+        )
 
 
 def main():
@@ -74,10 +81,12 @@ def main():
     )
     parser.add_argument("entrada", help="Archivo xlsx de entrada")
     parser.add_argument("salida", help="Archivo xlsx de salida")
+    parser.add_argument("--debug", action="store_true", help="Modo debug")
     args = parser.parse_args()
 
     ruta_entrada = args.entrada
     ruta_salida  = args.salida
+    DEBUG = args.debug
 
     try:
         base = pd.read_excel(ruta_entrada)
@@ -107,11 +116,12 @@ def main():
     ).tolist()
 
     # Fase 1: keywords
-    fase_keywords(base, textos_proyectos, descripciones)
+    fase_keywords(base, textos_proyectos, descripciones, DEBUG)
     mostrar_conteos(base, descripciones, "después de keywords")
 
     base.to_excel(ruta_salida, index=False)
     print(f"\nAsignación lista en {ruta_salida}")
+    print(len(base))
 
 
 if __name__ == "__main__":
