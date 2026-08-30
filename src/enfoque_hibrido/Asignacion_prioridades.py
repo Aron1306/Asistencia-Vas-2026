@@ -11,6 +11,33 @@ def normalizar(texto):
     texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
     return texto
 
+"""
+    Revisa si una palabra clave (string o dict con lista negra) hace match
+    en el texto, respetando los contextos excluidos.
+    Devuelve True si hubo al menos una ocurrencia válida.
+"""
+def palabra_hace_match(palabra_info, texto_lower, ventana=40):
+    if isinstance(palabra_info, dict):
+        palabra = palabra_info["palabra"]
+        excluye = palabra_info.get("excluye", [])
+    else:
+        palabra = palabra_info
+        excluye = []
+
+    patron = r"\b" + re.escape(normalizar(palabra)) + r"\b"
+    excluye_norm = [normalizar(e) for e in excluye]
+
+    for m in re.finditer(patron, texto_lower):
+        inicio = max(0, m.start() - ventana)
+        fin = min(len(texto_lower), m.end() + ventana)
+        contexto = texto_lower[inicio:fin]
+
+        if not any(frase_negra in contexto for frase_negra in excluye_norm):
+            return True  # ocurrencia válida encontrada
+
+    return False
+
+
 """Concatena las columnas cualitativas de un proyecto en un solo texto."""
 def construir_texto(row, columnas_texto, columnas_disponibles):
     partes = []
@@ -43,10 +70,10 @@ def fase_keywords(base, textos_proyectos, descripciones, DEBUG):
             texto_lower = normalizar(texto)
             coincidencias = []
 
-            for palabra in keywords:
-                patron = r"\b" + re.escape(normalizar(palabra)) + r"\b"
-                if re.search(patron, texto_lower):
-                    coincidencias.append(palabra)
+            for palabra_info in keywords:
+                if palabra_hace_match(palabra_info, texto_lower):
+                    nombre = palabra_info["palabra"] if isinstance(palabra_info, dict) else palabra_info
+                    coincidencias.append(nombre)
 
             if coincidencias:
                 matches_por_indicador[indicador].add(idx)
