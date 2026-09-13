@@ -16,7 +16,7 @@ def normalizar(texto):
     en el texto, respetando los contextos excluidos.
     Devuelve True si hubo al menos una ocurrencia válida.
 """
-def palabra_hace_match(palabra_info, texto_lower, ventana=40):
+def palabra_hace_match(palabra_info, texto_lower, ventana=80):
     if isinstance(palabra_info, dict):
         palabra = palabra_info["palabra"]
         excluye = palabra_info.get("excluye", [])
