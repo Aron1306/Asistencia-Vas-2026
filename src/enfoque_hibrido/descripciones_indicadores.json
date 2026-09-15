@@ -1,787 +1,4 @@
 {
-  "A.1.1 Agua": {
-    "palabras_clave": [
-      "agua",
-      "aguas",
-      "rio",
-      "rios",
-      "mar",
-      "mares",
-      "recurso hídrico",
-      "cuenca",
-      "cuencas",
-      "potable",
-      "acueducto",
-      "acueductos",
-      "alcantarillado",
-      "alcantarillados",
-      "manantial",
-      "manantiales",
-      "oceano",
-      "oceanos",
-      "acuatica",
-      "acuaticas",
-      "acuatico",
-      "acuaticos"
-    ]
-  },
-  "A.1.3 Ambiente, Descarbonización y Residuos": {
-    "palabras_clave": [
-      {
-        "palabra": "ambiente",
-        "excluye": ["ambiente laboral", "ambiente universitario", "ambiente escolar", "ambiente de trabajo"]
-      },
-      "descarbonizacion",
-      "carbono neutralidad",
-      "residuos",
-      "residuos solidos",
-      "basura",
-      "manejo de desechos",
-      "naturaleza",
-      "carbono neutral",
-      "ambiental",
-      "contaminacion",
-      "dioxido de carbono"
-    ]
-  },
-  "A.2.1 Salud": {
-    "palabras_clave": [
-      {
-        "palabra": "salud",
-        "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
-      },
-      "salud humana",
-      "enfermedad",
-      "enfermedades",
-      "nutricion",
-      {
-        "palabra": "bienestar",
-        "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
-      },
-      {
-        "palabra": "sanidad",
-        "excluye": ["sanidad vegetal", "sanidad animal"]
-      },
-      "salubridad",
-      "hospital",
-      "hospitales",
-      "clinica",
-      "clinicas",
-      "ebais"
-    ]
-  },
-  "A.2.2 Educación": {
-    "palabras_clave": [
-      {
-        "palabra": "educacion",
-        "excluye": ["escuela de educacion fisica y deportes", "escuela de orientacion y educacion especial"]
-      },
-      "educacion primaria",
-      "educacion secundaria",
-      "educacion terciaria",
-      "educacion tecnica",
-      "educacion preescolar",
-      "educacion universitaria",
-      "formacion profesional",
-      "educacion de adultos",
-      "educacion continua",
-      "aprendizaje",
-      "docencia",
-      "tutoria",
-      "capacitacion",
-      "educativo",
-      "socio-educativo",
-      {
-        "palabra": "escuela",
-        "excluye": [
-          "escuela de artes dramaticas",
-          "escuela de artes musicales",
-          "escuela de artes plasticas",
-          "escuela de biologia",
-          "escuela de fisica",
-          "escuela de geologia",
-          "escuela de matematicas",
-          "escuela de quimica",
-          "escuela de agronomia",
-          "escuela de economia agricola y agronegocios",
-          "escuela de tecnologia de alimentos",
-          "escuela de zootecnia",
-          "escuela de administracion de negocios",
-          "escuela de administracion publica",
-          "escuela de economia",
-          "escuela de estadistica",
-          "escuela de antropologia",
-          "escuela de ciencias de la comunicacion colectiva",
-          "escuela de ciencias politicas",
-          "escuela de geografia",
-          "escuela de historia",
-          "escuela de psicologia",
-          "escuela de sociologia",
-          "escuela de trabajo social",
-          "escuela de derecho",
-          "escuela de bibliotecologia",
-          "escuela de educacion fisica y deportes",
-          "escuela de formacion docente",
-          "escuela de orientacion y educacion especial",
-          "escuela de farmacia",
-          "escuela de arquitectura",
-          "escuela de ciencias de la computacion e informatica",
-          "escuela de ingenieria civil",
-          "escuela de ingenieria de biosistemas",
-          "escuela de ingenieria electrica",
-          "escuela de ingenieria industrial",
-          "escuela de ingenieria mecanica",
-          "escuela de ingenieria quimica",
-          "escuela de ingenieria topografica",
-          "escuela de filologia, linguistica y literatura",
-          "escuela de filosofia",
-          "escuela de lenguas modernas",
-          "escuela de enfermeria",
-          "escuela de medicina",
-          "escuela de nutricion",
-          "escuela de salud publica",
-          "escuela de tecnologias en salud",
-          "escuela de microbiologia",
-          "escuela de odontologia",
-          "escuela de carreras globales"
-        ]
-      },
-      "escuelas",
-      "estudiante",
-      "estudiantes", 
-      "metodologia pedagogica",
-      "metodologias pedagogicas",
-      "material didactico",
-      "materiales didacticos",
-      "colegio",
-      "colegios",
-      "preuniversitario",
-      "preuniversitarios",
-      "preuniversitaria",
-      "preuniversitarias"
-    ]
-  },
-  "A.2.3 Cultura": {
-    "palabras_clave": [
-      {
-        "palabra": "cultura",
-        "excluye": ["cultura de paz", "cultura organizacional"]
-      },
-      "arte",
-      "musica",
-      "danza",
-      "artes plasticas",
-      "bellas artes",
-      "patrimonio cultural",
-      "patrimonio arquitectonico",
-      "patrimonio arqueologico",
-      "patrimonio",
-      "cultural",
-      {
-        "palabra": "culturas",
-        "excluye": ["culturas de paz", "culturas organizacionales"]
-      },
-      "culturales",
-      "artes",
-      "lengua",
-      "literatura",
-      "tradicion",
-      "tradiciones",
-      "artesanal",
-      "artesanales",
-      "literaturas",
-      "audiovisual",
-      "audiovisuales",
-      "gastronomia",
-      "gastronomias"
-      
-    ]
-  },
-  "A.3.1 Ciencia, Tecnología e Innovación": {
-    "palabras_clave": [
-      "ciencia",
-      "tecnologia",
-      "innovacion",
-      "investigacion y desarrollo",
-      "creatividad",
-      "laboratorio",
-      "laboratorios",
-      "ciencias",
-      "tecnologias",
-      "innovar",
-      "cientifico",
-      "cientificos",
-      "cientifica",
-      "cientificas",
-      "centro de investigacion",
-      "neurociencia",
-      "neurociencias",
-      "tecnologico",
-      "tecnologica",
-      "tecnologicos",
-      "tecnologicas",
-      "investigacion",
-      "investigaciones"
-    ]
-  },
-  "A.3.2 Transportes": {
-    "palabras_clave": [
-      "transporte",
-      "transporte terrestre",
-      "transporte maritimo",
-      "transporte aereo",
-      "infraestructura de transporte",
-      "transportes",
-      "ferrocarril",
-      "ferrocarriles",
-      "carretera",
-      "carreteras"
-    ]
-  },
-  "A.3.3 Vivienda y Hábitat": {
-    "palabras_clave": [
-      "vivienda",
-      "habitat",
-      "ciudad",
-      "desarrollo urbano",
-      "urbanizacion",
-      "precarios",
-      "asentamientos informales",
-      "ordenamiento territorial",
-      "planes reguladores",
-      "tugurio",
-      "tugurios",
-      "asentamiento",
-      "asentamientos",
-      "urbano",
-      "urbana",
-      "urbanos",
-      "urbanas",
-      "suburbano",
-      "suburbana",
-      "suburbanos",
-      "suburbanas",
-      "rural",
-      "rurales"
-    ]
-  },
-  "A.4.1 Empleo": {
-    "palabras_clave": [
-      "empleo",
-      "desempleo",
-      "subempleo",
-      "salarios",
-      "empleo informal",
-      "salario",
-      "empleos",
-      "laboral",
-      "labor",
-      "laborales",
-      "labores",
-      "ocupacion",
-      "lineas de trabajo",
-      "socioproductividad",
-      "socioproductivo",
-      "socioproductivos",
-      "socioproductiva",
-      "socioproductivas"
-    ]
-  },
-  "A.4.2 Pobreza": {
-    "palabras_clave": [
-      "pobreza",
-      "pobreza urbana",
-      "pobreza rural",
-      "marginal",
-      "marginales",
-      "marginalidad",
-      "exclusion social",
-      "rezago social",
-      "indigencia",
-      "indigente",
-      "indigentes",
-      "escasos recursos",
-      "vulnerabilidad social",
-      "zonas vulnerabilizadas",
-      "situacion de calle"
-    ]
-  },
-  "A.4.3 Desarrollo Regional": {
-    "palabras_clave": [
-      "desarrollo regional",
-      "desarrollo local",
-      "desarrollo territorial",
-      "fortalecimiento regional",
-      "fortalecimiento territorial",
-      "desarrollo urbano",
-      "desarrollo rural",
-      "desarrollo económico",
-      "fortalecimiento económico",
-      "planificacion regional",
-      "gestión municipal",
-      "huetar",
-      "chorotega",
-      "brunca",
-      "region central"
-    ]
-  },
-  "A.4.4 Agropecuario": {
-    "palabras_clave": [
-      "agropecuario",
-      "agricultura",
-      "agroalimentario",
-      "agro",
-      "cultivo",
-      "cultivos",
-      "cosecha",
-      "cosechas",
-      "agricola",
-      "agricolas",
-      "agronomia",
-      "agronomo",
-      "agronomos",
-      "agropecuarios",
-      "agroalimentarios",
-      "agroindustria",
-      "agroindustrias",
-      "agroindustrial"
-    ]
-  },
-  "B.1.1 Pobreza": {
-    "palabras_clave": [
-      "pobreza",
-      "pobreza urbana",
-      "pobreza rural",
-      "marginal",
-      "marginales",
-      "marginalidad",
-      "exclusion social",
-      "rezago social",
-      "indigencia",
-      "indigente",
-      "indigentes",
-      "escasos recursos",
-      "vulnerabilidad social",
-      "zonas vulnerabilizadas",
-      "situacion de calle"
-    ]
-  },
-  "B.1.2 Alimentación sostenible en zonas costeras": {
-    "palabras_clave": [
-      "desnutricion",
-      "nutricion",
-      "alimentacion",
-      "dieta",
-      "dietas",
-      "alimentario",
-      "alimentarios",
-      "alimentaria",
-      "alimentarias",
-      "alimento",
-      "alimentos",
-      "alimenticia",
-      "alimenticio"
-    ]
-  },
-  "B.1.3 Planes Reguladores": {
-    "palabras_clave": [
-      "planes reguladores",
-      "ordenamiento territorial",
-      "plan territorial",
-      "gestion territorial",
-      "planeamiento regulador",
-      "planeamientos reguladores",
-      "ordenamientos territoriales",
-      "planes territoriales",
-      "gestiones territoriales",
-      "gestionamiento territorial",
-      "gestionamientos territoriales",
-      "recursos territoriales",
-      "conflictos territoriales",
-      "conflictos socioambientales",
-      "defensa territorial",
-      "conflictos ambientales",
-      "conflicto ambiental"
-    ]
-  },
-  "B.2.1 Salud": {
-    "palabras_clave": [
-      {
-        "palabra": "salud",
-        "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
-      },
-      "salud humana",
-      "enfermedad",
-      "enfermedades",
-      "nutricion",
-      {
-        "palabra": "bienestar",
-        "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
-      },
-      {
-        "palabra": "sanidad",
-        "excluye": ["sanidad vegetal", "sanidad animal"]
-      },
-      "salubridad",
-      "hospital",
-      "hospitales",
-      "clinica",
-      "clinicas",
-      "ebais"
-    ]
-  },
-  "B.2.3 Igualdad de genero": {
-    "palabras_clave": [
-      "igualdad de genero",
-      "equidad de genero",
-      "brechas de genero",
-      "desigualdad de genero",
-      "feminismo",
-      "discriminacion de la mujer",
-      "discriminacion de genero",
-      "violencia de genero",
-      "estereotipos de genero",
-      "empoderamiento femenino",
-      "violencia contra las mujeres",
-      "violencia contra la mujer",
-      "derechos de la mujer",
-      "normas de genero",
-      "participacion de la mujer",
-      "mujeres empobrecidas",
-      "mujeres en situación de vulnerabilidad",
-      "empresarialidad femenina",
-      "brecha de genero",
-      "perspectiva de genero",
-      "hostigamiento sexual",
-      "acoso sexual"
-    ]
-  },
-  "B.3.1 Agua": {
-    "palabras_clave": [
-      "agua",
-      "aguas",
-      "rio",
-      "rios",
-      "mar",
-      "mares",
-      "recurso hídrico",
-      "cuenca",
-      "cuencas",
-      "potable",
-      "acueducto",
-      "acueductos",
-      "alcantarillado",
-      "alcantarillados",
-      "manantial",
-      "manantiales",
-      "oceano",
-      "oceanos",
-      "acuatica",
-      "acuaticas",
-      "acuatico",
-      "acuaticos"
-    ]
-  },
-  "B.3.2 Energía": {
-    "palabras_clave": [
-      "energia",
-      "energia eolica",
-      "energia hidroelectrica",
-      "energia geotermica",
-      "energia solar",
-      "solar",
-      "geotermica",
-      "hidroelectrica",
-      "eolica",
-      "energias",
-      "eolicas",
-      "hidroelectricas",
-      "geotermicas",
-      "solares"
-    ]
-  },
-  "B.4.1 Trabajo digno": {
-    "palabras_clave": [
-      "trabajo digno",
-      "trabajo decente",
-      "derechos laborales",
-      "condiciones laborales",
-      "bienestar del trabajador",
-      "salario justo",
-      "seguridad laboral",
-      "proteccion laboral",
-      "sindicato",
-      "sindicatos",
-      "sindicalismo",
-      "capacidades laborales",
-      "capacidad laboral",
-      "satisfaccion en el trabajo",
-      "educacion y empleo",
-      "comercios justos",
-      "comercio justo",
-      "economia social",
-      "mercado laboral",
-      "condiciones de empleabilidad",
-      "migracion laboral",
-      "crecimiento económico",
-      "actualizacion profesional",
-      "economia del trabajo",
-      "trabajo informal",
-      "trabajos informales",
-      "mejor remunerado",
-      "mejor remunerados",
-      "ambiente de trabajo"
-    ]
-  },
-  "B.4.4 Desigualdad": {
-    "palabras_clave": [
-      "desigualdad",
-      "equidad",
-      "desigualdad de ingresos",
-      "brecha",
-      "brechas",
-      "exclusion",
-      "exclusiones",
-      "justicia social",
-      "igualdad",
-      "desigualdades",
-      "discriminacion",
-      "politica social",
-      "limitaciones economicas",
-      "valores sociales",
-      {
-        "palabra": "vulnerabilidad",
-        "excluye": ["vulnerabilidad al cambio climatico"]
-      }
-    ]
-  },
-  "B.5.1 Comunicación vial": {
-    "palabras_clave": [
-      "infraestructura vial",
-      "comunicacion vial",
-      "carretera",
-      "puente",
-      "vial",
-      "transporte",
-      "via",
-      "calle",
-      "calles",
-      "carreteras",
-      "puentes",
-      "vias"
-    ]
-  },
-  "B.5.2 Urbanismo": {
-    "palabras_clave": [
-      "urbanismo",
-      "desarrollo urbano",
-      "planificacion urbana",
-      "diseño urbano",
-      "espacio publico",
-      "densificacion",
-      "movilidad urbana",
-      "infraestructura",
-      "renovacion urbana",
-      "espacio urbano",
-      "espacios publicos"
-    ]
-  },
-  "B.5.4 Ambiente y Mares": {
-    "palabras_clave": [
-      {
-        "palabra": "ambiente",
-        "excluye": ["ambiente laboral", "ambiente universitario", "ambiente escolar", "ambiente de trabajo"]
-      },
-      "medio ambiente",
-      "mares",
-      "costas",
-      "marinos",
-      "mar",
-      "oceano",
-      "oceanos",
-      "pesca",
-      "playa",
-      {
-        "palabra": "ambiental",
-        "excluye": ["desarrollo ambiental sostenible", "gestion ambiental", "educacion ambiental"]
-      },
-      "naturaleza",
-      "socioambiental",
-      "socioambientales",
-      "oceanico",
-      "oceanicos",
-      "oceanica",
-      "oceanicas",
-      "marina",
-      "marinas",
-      "costero",
-      "costera",
-      "costeros",
-      "costeras"
-    ]
-  },
-  "B.5.5 Justicia institucional": {
-    "palabras_clave": [
-      "justicia",
-      "justicia institucional",
-      "institucionalidad",
-      "judicial",
-      "judicatura",
-      "legalidad",
-      "gobernanza",
-      "estado de derecho",
-      "ministerio de justicia",
-      "gobernanzas",
-      "derecho administrativo",
-      "juridico",
-      "penitenciario",
-      "penitenciarios",
-      "penal",
-      "penales",
-      "ministerio publico",
-      "fiscalia",
-      "derechos de los prisioneros"
-    ]
-  },
-  "C.1.2 Costas y zonas fronterizas": {
-    "palabras_clave": [
-      "costas",
-      "zonas costeras",
-      "fronteras",
-      "zonas fronterizas",
-      "zona costera",
-      "zona fronteriza",
-      "frontera",
-      "fronterizo",
-      "fronteriza",
-      "frontera"
-    ]
-  },
-  "C.2.1 Infraestructura Vial y Educativa": {
-    "palabras_clave": [
-      "infraestructura vial",
-      "infraestructura educativa",
-      "educacion vial",
-      "vial",
-      "via",
-      "carretera",
-      "carreteras",
-      "puente",
-      "puentes",
-      "edificio educativo"
-    ]
-  },
-  "C.2.2 Logística (multimodal)": {
-    "palabras_clave": [
-      "logistica",
-      "corredores logisticos",
-      "logisticas",
-      "corredor logistico",
-      "multimodal",
-      "multimodales",
-      "transporte de carga",
-      "transportes de carga",
-      "cadena de suministro",
-      "traslado de mercancia",
-      "traslado de mercancias",
-      "logistico",
-      "logisticos"
-    ]
-  },
-  "C.3.1 Educación": {
-    "palabras_clave": [
-      {
-        "palabra": "educacion",
-        "excluye": [
-          "escuela de educacion fisica y deportes",
-          "escuela de orientacion y educacion especial"
-        ]
-      },
-      "educacion primaria",
-      "educacion secundaria",
-      "educacion terciaria",
-      "educacion tecnica",
-      "educacion preescolar",
-      "educacion universitaria",
-      "formacion profesional",
-      "educacion de adultos",
-      "educacion continua",
-      "aprendizaje",
-      "docencia",
-      "tutoria",
-      "capacitacion",
-      "educativo",
-      "socio-educativo",
-      {
-        "palabra": "escuela",
-        "excluye": [
-          "escuela de artes dramaticas",
-          "escuela de artes musicales",
-          "escuela de artes plasticas",
-          "escuela de biologia",
-          "escuela de fisica",
-          "escuela de geologia",
-          "escuela de matematicas",
-          "escuela de quimica",
-          "escuela de agronomia",
-          "escuela de economia agricola y agronegocios",
-          "escuela de tecnologia de alimentos",
-          "escuela de zootecnia",
-          "escuela de administracion de negocios",
-          "escuela de administracion publica",
-          "escuela de economia",
-          "escuela de estadistica",
-          "escuela de antropologia",
-          "escuela de ciencias de la comunicacion colectiva",
-          "escuela de ciencias politicas",
-          "escuela de geografia",
-          "escuela de historia",
-          "escuela de psicologia",
-          "escuela de sociologia",
-          "escuela de trabajo social",
-          "escuela de derecho",
-          "escuela de bibliotecologia",
-          "escuela de educacion fisica y deportes",
-          "escuela de formacion docente",
-          "escuela de orientacion y educacion especial",
-          "escuela de farmacia",
-          "escuela de arquitectura",
-          "escuela de ciencias de la computacion e informatica",
-          "escuela de ingenieria civil",
-          "escuela de ingenieria de biosistemas",
-          "escuela de ingenieria electrica",
-          "escuela de ingenieria industrial",
-          "escuela de ingenieria mecanica",
-          "escuela de ingenieria quimica",
-          "escuela de ingenieria topografica",
-          "escuela de filologia, linguistica y literatura",
-          "escuela de filosofia",
-          "escuela de lenguas modernas",
-          "escuela de enfermeria",
-          "escuela de medicina",
-          "escuela de nutricion",
-          "escuela de salud publica",
-          "escuela de tecnologias en salud",
-          "escuela de microbiologia",
-          "escuela de odontologia",
-          "escuela de carreras globales"
-        ]
-      },
-      "escuelas",
-      "estudiante",
-      "estudiantes", 
-      "metodologia pedagogica",
-      "metodologias pedagogicas",
-      "material didactico",
-      "materiales didacticos",
-      "colegio",
-      "colegios",
-      "preuniversitario",
-      "preuniversitarios",
-      "preuniversitaria",
-      "preuniversitarias"
-    ]
-  },
   "C.3.2 Evolución": {
     "palabras_clave": [
       "alfabetizacion digital",
@@ -801,426 +18,6 @@
       "acceso a la educacion",
       "acceso a la educacion superior",
       "acceso a educacion superior"
-    ]
-  },
-  "C.4.1 Género": {
-    "palabras_clave": [
-      "igualdad de genero",
-      "equidad de genero",
-      "brechas de genero",
-      "desigualdad de genero",
-      "feminismo",
-      "discriminacion de la mujer",
-      "discriminacion de genero",
-      "violencia de genero",
-      "estereotipos de genero",
-      "empoderamiento femenino",
-      "violencia contra las mujeres",
-      "violencia contra la mujer",
-      "derechos de la mujer",
-      "normas de genero",
-      "participacion de la mujer",
-      "mujeres empobrecidas",
-      "mujeres en situación de vulnerabilidad",
-      "empresarialidad femenina",
-      "brecha de genero",
-      "perspectiva de genero"
-    ]
-  },
-  "C.4.2 Salud": {
-    "palabras_clave": [
-      {
-        "palabra": "salud",
-        "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
-      },
-      "salud humana",
-      "enfermedad",
-      "enfermedades",
-      "nutricion",
-      {
-        "palabra": "bienestar",
-        "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
-      },
-      {
-        "palabra": "sanidad",
-        "excluye": ["sanidad vegetal", "sanidad animal"]
-      },
-      "salubridad",
-      "hospital",
-      "hospitales",
-      "clinica",
-      "clinicas",
-      "ebais"
-    ]
-  },
-  "C.4.3 Pobreza": {
-    "palabras_clave": [
-      "pobreza",
-      "pobreza urbana",
-      "pobreza rural",
-      "marginal",
-      "marginales",
-      "marginalidad",
-      "exclusion social",
-      "rezago social",
-      "indigencia",
-      "indigente",
-      "indigentes",
-      "escasos recursos",
-      "vulnerabilidad social",
-      "zonas vulnerabilizadas",
-      "situacion de calle"
-    ]
-  },
-  "C.5.2 Producción sofisticada": {
-    "palabras_clave": [
-      "produccion",
-      "productividad",
-      "productivo",
-      "productiva",
-      "manufactura",
-      "manufacturar",
-      "manufacturadores",
-      "manufactureras",
-      "dispositivos médicos",
-      "dispositivos tecnologicos",
-      "tecnologia de punta",
-      "tecnologias de punta",
-      "fabricacion digital"
-    ]
-  },
-  "C.5.3 Desigualdad": {
-    "palabras_clave": [
-      "desigualdad",
-      "equidad",
-      "desigualdad de ingresos",
-      "brecha",
-      "brechas",
-      "exclusion",
-      "exclusiones",
-      "justicia social",
-      "igualdad",
-      "desigualdades",
-      "discriminacion",
-      "politica social",
-      "limitaciones economicas",
-      "valores sociales",
-      {
-        "palabra": "vulnerabilidad",
-        "excluye": ["vulnerabilidad al cambio climatico"]
-      }
-    ]
-  },
-  "D.1.1 Descentralizada": {
-    "palabras_clave": [
-      "descentralizacion",
-      "descentralizado",
-      "descentralizada",
-      "descentralizar",
-      "autonomia local",
-      "poder local",
-      "gobernanza local",
-      "municipalidad",
-      "distribucion del poder",
-      "distribucion de poder",
-      "politica interna",
-      "direcciones regionales",
-      "gobierno local",
-      "autonomia",
-      "autonomo",
-      "autonoma"
-    ]
-  },
-  "D.1.2 Digitalizada": {
-    "palabras_clave": [
-      "digitalizacion",
-      "brecha digital",
-      "acceso tecnologia",
-      "digitalizar",
-      "digitalizado",
-      "digitalizada",
-      "tecnologico",
-      "tecnologica",
-      "tecnologia",
-      "tecnologias",
-      "digital",
-      "digitales"
-    ]
-  },
-  "D.1.3 Descarbonizada": {
-    "palabras_clave": [
-      "descarbonizada",
-      "carbono neutralidad",
-      "cero emisiones",
-      "descarbonizar",
-      "carbono neutral",
-      "carbono neutro",
-      "gases",
-      "gas",
-      "efecto invernadero",
-      "huella de carbono",
-      "energia limpia",
-      "energias limpias"
-    ]
-  },
-  "D.2.2 Sofisticación": {
-    "palabras_clave": [
-      "sofisticacion",
-      "sofisticar",
-      "sofisticado",
-      "sofisticada",
-      "capacidades avanzadas",
-      "manufactura avanzada",
-      "tecnologia",
-      "tecnologias",
-      "tecnologico",
-      "tecnico",
-      "tecnicos",
-      "capacitacion",
-      "capacitaciones",
-      "capacitar",
-      "formacion",
-      "asesoria",
-      "asesorias",
-      "asesoramiento"
-    ]
-  },
-  "D.2.3 Desconcentración e innovación productiva": {
-    "palabras_clave": [
-      "desconcentracion productiva",
-      "innovacion productiva",
-      "innovacion de la produccion",
-      "innovar en la produccion",
-      "descentralizacion productiva",
-      "descentralizar procesos",
-      "descentralizar la produccion",
-      "tecnologias de produccion",
-      "tecnologia de produccion",
-      "adoptar tecnologias",
-      "uso de tecnologias",
-      "adopcion de tecnologias"
-    ]
-  },
-  "E.1.1 Regulación Urbana": {
-    "palabras_clave": [
-      "regulacion urbana",
-      "planes reguladores",
-      "ordenamiento territorial",
-      "plan regulador",
-      "normativa urbana",
-      "normativas urbanas",
-      "municipal",
-      "municipales",
-      "municipalidad",
-      "municipalidades",
-      "gestion comunitaria",
-      "gestion comunal",
-      "entidad comunal",
-      "entidades comunales",
-      "administracion publica"
-    ]
-  },
-  "E.1.2 Gestión municipal": {
-    "palabras_clave": [
-      "gestion municipal",
-      "municipalidades",
-      "municipal",
-      "gobiernos locales",
-      "municipales",
-      "municipalidad",
-      "gobierno local",
-      "entidad comunal",
-      "gestion comunal",
-      "gestion comunitaria",
-      "administracion publica"
-    ]
-  },
-  "E.2.1 Pobreza": {
-    "palabras_clave": [
-      "pobreza",
-      "pobreza urbana",
-      "pobreza rural",
-      "marginal",
-      "marginales",
-      "marginalidad",
-      "exclusion social",
-      "rezago social",
-      "indigencia",
-      "indigente",
-      "indigentes",
-      "escasos recursos",
-      "vulnerabilidad social",
-      "zonas vulnerabilizadas",
-      "situacion de calle"
-    ]
-  },
-  "E.2.2 Desempleo": {
-    "palabras_clave": [
-      "desempleo",
-      "empleo",
-      "oportunidades laborales",
-      "oportunidad laboral",
-      "insercion laboral",
-      "mercado laboral",
-      "mercado de trabajo",
-      "empleabilidad",
-      "trabajo informal",
-      "empleo informal",
-      "emprender",
-      "emprendimiento",
-      "emprendimientos",
-      "emprendedores",
-      "emprendedor",
-      "emprendedoras",
-      "emprendedora",
-      "migracion laboral"
-    ]
-  },
-  "E.2.3 Inseguridad Ciudadana": {
-    "palabras_clave": [
-      "inseguridad",
-      "violencia",
-      "delitos",
-      "crimenes",
-      "crimen",
-      "violento",
-      "violenta",
-      "violentos",
-      "violentas",
-      "delito",
-      "ilegal",
-      "ilicito",
-      "criminalidad"
-    ]
-  },
-  "E.3.1 Protección Recurso Hídrico": {
-    "palabras_clave": [
-      "agua",
-      "aguas",
-      "rio",
-      "rios",
-      "mar",
-      "mares",
-      "recurso hídrico",
-      "cuenca",
-      "cuencas",
-      "potable",
-      "acueducto",
-      "acueductos",
-      "alcantarillado",
-      "alcantarillados",
-      "manantial",
-      "manantiales",
-      "oceano",
-      "oceanos",
-      "acuatica",
-      "acuaticas",
-      "acuatico",
-      "acuaticos"
-    ]
-  },
-  "E.4.2 Gestión regional de recursos": {
-    "palabras_clave": [
-      "gestion regional de recursos",
-      "gestion regional",
-      "gestiones regionales",
-      "administracion regional",
-      "administraciones regionales",
-      "planificacion regional",
-      "planificaciones regionales",
-      "gestion territorial",
-      "gestiones territoriales",
-      "gestion de recursos",
-      "gestiones de recursos"
-    ]
-  },
-  "E.5.1 Accesibilidad": {
-    "palabras_clave": [
-      "accesibilidad",
-      "accesible",
-      "accesibles",
-      "inclusion",
-      "inclusiones",
-      "adaptacion",
-      "adaptaciones",
-      "discapacidad",
-      "discapacidades",
-      "discapacitado",
-      "discapacitada",
-      "discapacitados",
-      "discapacitadas",
-      "acceso a la educacion",
-      "acceso a la informacion",
-      "acceso a la salud"
-    ]
-  },
-  "E.5.2 Conectividad": {
-    "palabras_clave": [
-      "conectividad",
-      "conectado",
-      "conectados",
-      "conectadas",
-      "internet",
-      "redes de comunicacion",
-      "red de comunicacion",
-      "web",
-      "wifi",
-      "wi-fi",
-      "gestion de la informacion",
-      "acceso a la informacion",
-      "gestion de informacion",
-      "acceso a informacion",
-      "tecnologias de informacion",
-      "tecnologia de informacion",
-      "tecnologias de la informacion",
-      "tecnologia de la informacion",
-      "comunicaciones",
-      "telecomunicaciones"
-    ]
-  },
-  "E.6.1 Brecha Servicios de Salud": {
-    "palabras_clave": [
-      "brecha de servicios de salud",
-      "brechas de salud",
-      "servicios de salud",
-      "brechas de servicios de salud",
-      "servicio de salud",
-      "desigualdad en salud",
-      "desigualdad de salud",
-      "equidad en salud",
-      "equidad de salud",
-      "cobertura en salud",
-      "cobertura de salud"
-    ]
-  },
-  "E.6.2 Brecha Servicios de Educación": {
-    "palabras_clave": [
-      "brecha de servicios de educacion",
-      "brechas de educacion",
-      "servicios de educacion",
-      "brechas de servicios de educacion",
-      "brecha de educacion",
-      "servicio de educacion",
-      "brecha en servicios de educacion",
-      "brechas en educacion",
-      "brechas en servicios de educacion",
-      "brecha en educacion",
-      "brecha educativa",
-      "brechas educativas",
-      "desigualdad educativa",
-      "desigualdades educativas",
-      "desigualdad de educacion",
-      "desigualdad en educacion",
-      "desigualdades de educacion",
-      "desigualdades en educacion",
-      "acceso equitativo a la educacion",
-      "diversificacion de la educacion",
-      "inclusion socio educativa",
-      "demanda de educacion",
-      "necesidades de educacion",
-      "acceso a la educacion",
-      "apagon educativo",
-      "fortalecimiento de la enseñanza"
     ]
   },
   "F.1.1 Generación colaborativa de conocimiento y alianzas estratégicas para responder a necesidades del país y problemas nacionales.": {
@@ -1955,6 +752,71 @@
       "asesoramiento"
     ]
   },
+  "PR.A.1.2 Empleo / Trabajo digno / Desempleo": {
+    "palabras_clave": [
+      "empleo",
+      "desempleo",
+      "subempleo",
+      "salarios",
+      "empleo informal",
+      "salario",
+      "empleos",
+      "laboral",
+      "labor",
+      "laborales",
+      "labores",
+      "ocupacion",
+      "lineas de trabajo",
+      "socioproductividad",
+      "socioproductivo",
+      "socioproductivos",
+      "socioproductiva",
+      "socioproductivas",
+
+      "trabajo digno",
+      "trabajo decente",
+      "derechos laborales",
+      "condiciones laborales",
+      "bienestar del trabajador",
+      "salario justo",
+      "seguridad laboral",
+      "proteccion laboral",
+      "sindicato",
+      "sindicatos",
+      "sindicalismo",
+      "capacidades laborales",
+      "capacidad laboral",
+      "satisfaccion en el trabajo",
+      "educacion y empleo",
+      "comercios justos",
+      "comercio justo",
+      "economia social",
+      "mercado laboral",
+      "condiciones de empleabilidad",
+      "migracion laboral",
+      "crecimiento económico",
+      "actualizacion profesional",
+      "economia del trabajo",
+      "trabajo informal",
+      "trabajos informales",
+      "mejor remunerado",
+      "mejor remunerados",
+      "ambiente de trabajo",
+
+      "oportunidades laborales",
+      "oportunidad laboral",
+      "insercion laboral",
+      "mercado de trabajo",
+      "empleabilidad",
+      "emprender",
+      "emprendimiento",
+      "emprendimientos",
+      "emprendedores",
+      "emprendedor",
+      "emprendedoras",
+      "emprendedora"
+    ]
+  },
   "PR.A.1.3 MIPYMES, emprendimiento e innovación": {
     "palabras_clave": [
       "MIPYME",
@@ -2062,6 +924,233 @@
       "inyectar fondos"
     ]
   },
+  "PR.A.1.6, PR.B.1.1, PR.C.1.1, PR.D.1.1 Descentralizada / Desarrollo Regional / Costas y zonas fronterizas / Gestión regional de recursos / Desconcentración e innovación productiva": {
+    "palabras_clave": [
+      "descentralizacion",
+      "descentralizado",
+      "descentralizada",
+      "descentralizar",
+      "autonomia local",
+      "poder local",
+      "gobernanza local",
+      "municipalidad",
+      "distribucion del poder",
+      "distribucion de poder",
+      "politica interna",
+      "direcciones regionales",
+      "gobierno local",
+      "autonomia",
+      "autonomo",
+      "autonoma",
+
+      "desarrollo regional",
+      "desarrollo local",
+      "desarrollo territorial",
+      "fortalecimiento regional",
+      "fortalecimiento territorial",
+      "desarrollo urbano",
+      "desarrollo rural",
+      "desarrollo económico",
+      "fortalecimiento económico",
+      "planificacion regional",
+      "gestión municipal",
+      "huetar",
+      "chorotega",
+      "brunca",
+      "region central",
+
+      "costas",
+      "zonas costeras",
+      "fronteras",
+      "zonas fronterizas",
+      "zona costera",
+      "zona fronteriza",
+      "frontera",
+      "fronterizo",
+      "fronteriza",
+
+      "gestion regional de recursos",
+      "gestion regional",
+      "gestiones regionales",
+      "administracion regional",
+      "administraciones regionales",
+      "planificaciones regionales",
+      "gestion territorial",
+      "gestiones territoriales",
+      "gestion de recursos",
+      "gestiones de recursos",
+
+      "desconcentracion productiva",
+      "innovacion productiva",
+      "innovacion de la produccion",
+      "innovar en la produccion",
+      "descentralizacion productiva",
+      "descentralizar procesos",
+      "descentralizar la produccion",
+      "tecnologias de produccion",
+      "tecnologia de produccion",
+      "adoptar tecnologias",
+      "uso de tecnologias",
+      "adopcion de tecnologias"
+    ]
+  },
+  "PR.A.1.7, PR.A.4.8 Agropecuario / Alimentación sostenible en zonas costeras": {
+    "palabras_clave": [
+      "agropecuario",
+      "agricultura",
+      "agroalimentario",
+      "agro",
+      "cultivo",
+      "cultivos",
+      "cosecha",
+      "cosechas",
+      "agricola",
+      "agricolas",
+      "agronomia",
+      "agronomo",
+      "agronomos",
+      "agropecuarios",
+      "agroalimentarios",
+      "agroindustria",
+      "agroindustrias",
+      "agroindustrial",
+
+      "desnutricion",
+      "nutricion",
+      "alimentacion",
+      "dieta",
+      "dietas",
+      "alimentario",
+      "alimentarios",
+      "alimentaria",
+      "alimentarias",
+      "alimento",
+      "alimentos",
+      "alimenticia",
+      "alimenticio"
+    ]
+  },
+  "PR.A.2.1, PR.A.2.2, PR.A.2.3, PR.A.2.4, PR.A.2.5, PR.A.2.6 Educación / Brecha Servicios de Educación / Infraestructura educativa": {
+    "palabras_clave": [
+      {
+        "palabra": "educacion",
+        "excluye": ["escuela de educacion fisica y deportes", "escuela de orientacion y educacion especial"]
+      },
+      "educacion primaria",
+      "educacion secundaria",
+      "educacion terciaria",
+      "educacion tecnica",
+      "educacion preescolar",
+      "educacion universitaria",
+      "formacion profesional",
+      "educacion de adultos",
+      "educacion continua",
+      "aprendizaje",
+      "docencia",
+      "tutoria",
+      "capacitacion",
+      "educativo",
+      "socio-educativo",
+      {
+        "palabra": "escuela",
+        "excluye": [
+          "escuela de artes dramaticas",
+          "escuela de artes musicales",
+          "escuela de artes plasticas",
+          "escuela de biologia",
+          "escuela de fisica",
+          "escuela de geologia",
+          "escuela de matematicas",
+          "escuela de quimica",
+          "escuela de agronomia",
+          "escuela de economia agricola y agronegocios",
+          "escuela de tecnologia de alimentos",
+          "escuela de zootecnia",
+          "escuela de administracion de negocios",
+          "escuela de administracion publica",
+          "escuela de economia",
+          "escuela de estadistica",
+          "escuela de antropologia",
+          "escuela de ciencias de la comunicacion colectiva",
+          "escuela de ciencias politicas",
+          "escuela de geografia",
+          "escuela de historia",
+          "escuela de psicologia",
+          "escuela de sociologia",
+          "escuela de trabajo social",
+          "escuela de derecho",
+          "escuela de bibliotecologia",
+          "escuela de educacion fisica y deportes",
+          "escuela de formacion docente",
+          "escuela de orientacion y educacion especial",
+          "escuela de farmacia",
+          "escuela de arquitectura",
+          "escuela de ciencias de la computacion e informatica",
+          "escuela de ingenieria civil",
+          "escuela de ingenieria de biosistemas",
+          "escuela de ingenieria electrica",
+          "escuela de ingenieria industrial",
+          "escuela de ingenieria mecanica",
+          "escuela de ingenieria quimica",
+          "escuela de ingenieria topografica",
+          "escuela de filologia, linguistica y literatura",
+          "escuela de filosofia",
+          "escuela de lenguas modernas",
+          "escuela de enfermeria",
+          "escuela de medicina",
+          "escuela de nutricion",
+          "escuela de salud publica",
+          "escuela de tecnologias en salud",
+          "escuela de microbiologia",
+          "escuela de odontologia",
+          "escuela de carreras globales"
+        ]
+      },
+      "escuelas",
+      "estudiante",
+      "estudiantes", 
+      "metodologia pedagogica",
+      "metodologias pedagogicas",
+      "material didactico",
+      "materiales didacticos",
+      "colegio",
+      "colegios",
+      "preuniversitario",
+      "preuniversitarios",
+      "preuniversitaria",
+      "preuniversitarias",
+
+      "brecha de servicios de educacion",
+      "brechas de educacion",
+      "servicios de educacion",
+      "brechas de servicios de educacion",
+      "brecha de educacion",
+      "servicio de educacion",
+      "brecha en servicios de educacion",
+      "brechas en educacion",
+      "brechas en servicios de educacion",
+      "brecha en educacion",
+      "brecha educativa",
+      "brechas educativas",
+      "desigualdad educativa",
+      "desigualdades educativas",
+      "desigualdad de educacion",
+      "desigualdad en educacion",
+      "desigualdades de educacion",
+      "desigualdades en educacion",
+      "acceso equitativo a la educacion",
+      "diversificacion de la educacion",
+      "inclusion socio educativa",
+      "demanda de educacion",
+      "necesidades de educacion",
+      "acceso a la educacion",
+      "apagon educativo",
+      "fortalecimiento de la enseñanza",
+
+      "infraestructura educativa",
+      "edificio educativo"
+    ]
+  },
   "PR.A.2.7 Inclusión digital territorial": {
     "palabras_clave": [
       "inclusión digital",
@@ -2075,6 +1164,82 @@
       "acceso universal a telecomunicaciones",
       "conectividad rural",
       "conectividad indígena"
+    ]
+  },
+  "PR.A.2.8, PR.D.1.2, Ciencia, Tecnología e Innovación / Innovación / Producción sofisticada / Sofisticación / Digitalizada": {
+    "palabras_clave": [
+      "ciencia",
+      "tecnologia",
+      "innovacion",
+      "investigacion y desarrollo",
+      "creatividad",
+      "laboratorio",
+      "laboratorios",
+      "ciencias",
+      "tecnologias",
+      "innovar",
+      "cientifico",
+      "cientificos",
+      "cientifica",
+      "cientificas",
+      "centro de investigacion",
+      "neurociencia",
+      "neurociencias",
+      "tecnologico",
+      "tecnologica",
+      "tecnologicos",
+      "tecnologicas",
+      "investigacion",
+      "investigaciones", 
+
+      "innovacion productiva",
+      "solucion creativa",
+      "soluciones creativas",
+      "modernizacion",
+      "modernizar",
+      "innovador",
+      "innovadores",
+      "adopcion de tecnologias",
+      "ciencia y tecnologia",
+
+      "produccion",
+      "productividad",
+      "productivo",
+      "productiva",
+      "manufactura",
+      "manufacturar",
+      "manufacturadores",
+      "manufactureras",
+      "dispositivos médicos",
+      "dispositivos tecnologicos",
+      "tecnologia de punta",
+      "tecnologias de punta",
+      "fabricacion digital", 
+      
+      "sofisticacion",
+      "sofisticar",
+      "sofisticado",
+      "sofisticada",
+      "capacidades avanzadas",
+      "manufactura avanzada",
+      "tecnico",
+      "tecnicos",
+      "capacitacion",
+      "capacitaciones",
+      "capacitar",
+      "formacion",
+      "asesoria",
+      "asesorias",
+      "asesoramiento",
+
+      "digitalizacion",
+      "brecha digital",
+      "acceso tecnologia",
+      "digitalizar",
+      "digitalizado",
+      "digitalizada",
+      "digital",
+      "digitales"
     ]
   },
   "PR.A.2.9 Ciberseguridad": {
@@ -2092,6 +1257,82 @@
       "alfabetización en ciberseguridad",
       "protección de datos",
       "higiene digital"
+    ]
+  },
+  "PR.A.3.1 Pobreza / Desigualdad":{
+    "palabras_clave": [
+      "pobreza",
+      "pobreza urbana",
+      "pobreza rural",
+      "marginal",
+      "marginales",
+      "marginalidad",
+      "exclusion social",
+      "rezago social",
+      "indigencia",
+      "indigente",
+      "indigentes",
+      "escasos recursos",
+      "vulnerabilidad social",
+      "zonas vulnerabilizadas",
+      "situacion de calle",
+
+      "desigualdad",
+      "equidad",
+      "desigualdad de ingresos",
+      "brecha",
+      "brechas",
+      "exclusion",
+      "exclusiones",
+      "justicia social",
+      "igualdad",
+      "desigualdades",
+      "discriminacion",
+      "politica social",
+      "limitaciones economicas",
+      "valores sociales",
+      {
+        "palabra": "vulnerabilidad",
+        "excluye": ["vulnerabilidad al cambio climatico"]
+      }
+    ]
+  },
+  "PR.A.3.2, A.3.3 Salud / Brecha Servicios de Salud":{
+    "palabras_clave": [
+      {
+        "palabra": "salud",
+        "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
+      },
+      "salud humana",
+      "enfermedad",
+      "enfermedades",
+      "nutricion",
+      {
+        "palabra": "bienestar",
+        "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
+      },
+      {
+        "palabra": "sanidad",
+        "excluye": ["sanidad vegetal", "sanidad animal"]
+      },
+      "salubridad",
+      "hospital",
+      "hospitales",
+      "clinica",
+      "clinicas",
+      "ebais",
+
+      "brecha de servicios de salud",
+      "brechas de salud",
+      "servicios de salud",
+      "brechas de servicios de salud",
+      "servicio de salud",
+      "desigualdad en salud",
+      "desigualdad de salud",
+      "equidad en salud",
+      "equidad de salud",
+      "cobertura en salud",
+      "cobertura de salud"
     ]
   },
   "PR.A.3.4 Cuidados del ciclo de vida": {
@@ -2195,6 +1436,32 @@
       }
     ]
   },
+  "PR.A.3.5 Igualdad de género / Género": {
+    "palabras_clave": [
+      "igualdad de genero",
+      "equidad de genero",
+      "brechas de genero",
+      "desigualdad de genero",
+      "feminismo",
+      "discriminacion de la mujer",
+      "discriminacion de genero",
+      "violencia de genero",
+      "estereotipos de genero",
+      "empoderamiento femenino",
+      "violencia contra las mujeres",
+      "violencia contra la mujer",
+      "derechos de la mujer",
+      "normas de genero",
+      "participacion de la mujer",
+      "mujeres empobrecidas",
+      "mujeres en situación de vulnerabilidad",
+      "empresarialidad femenina",
+      "brecha de genero",
+      "perspectiva de genero",
+      "hostigamiento sexual",
+      "acoso sexual"
+    ]
+  },
   "PR.A.3.6 y PR.A.3.7 Discapacidad e inclusión de poblaciones vulnerables": {
     "palabras_clave": [
       "discapacidad",
@@ -2251,6 +1518,41 @@
       "privadas de libertad"
     ]
   },
+  "PR.A.3.8, PR.A.3.9, PR.A.3.10 Cultura": {
+    "palabras_clave": [
+      {
+        "palabra": "cultura",
+        "excluye": ["cultura de paz", "cultura organizacional"]
+      },
+      "arte",
+      "musica",
+      "danza",
+      "artes plasticas",
+      "bellas artes",
+      "patrimonio cultural",
+      "patrimonio arquitectonico",
+      "patrimonio arqueologico",
+      "patrimonio",
+      "cultural",
+      {
+        "palabra": "culturas",
+        "excluye": ["culturas de paz", "culturas organizacionales"]
+      },
+      "culturales",
+      "artes",
+      "lengua",
+      "literatura",
+      "tradicion",
+      "tradiciones",
+      "artesanal",
+      "artesanales",
+      "literaturas",
+      "audiovisual",
+      "audiovisuales",
+      "gastronomia",
+      "gastronomias"
+    ]
+  },
   "PR.A.4.1 Adaptación climática y gestión del riesgo": {
     "palabras_clave": [
       "adaptación al cambio climático",
@@ -2280,6 +1582,77 @@
       "evento extremo",
       "emergencia comunitaria",
       "emergencias comunitarias"
+    ]
+  },
+  "PR.A.4.2, PR.A.4.7 Ambiente, Descarbonización y Residuos / Descarbonizada / Energía": {
+    "palabras_clave": [
+      {
+        "palabra": "ambiente",
+        "excluye": ["ambiente laboral", "ambiente universitario", "ambiente escolar", "ambiente de trabajo"]
+      },
+      "descarbonizacion",
+      "carbono neutralidad",
+      "residuos",
+      "residuos solidos",
+      "basura",
+      "manejo de desechos",
+      "naturaleza",
+      "carbono neutral",
+      "ambiental",
+      "contaminacion",
+      "dioxido de carbono",
+
+      "descarbonizada",
+      "cero emisiones",
+      "descarbonizar",
+      "carbono neutro",
+      "gases",
+      "gas",
+      "efecto invernadero",
+      "huella de carbono",
+      "energia limpia",
+      "energias limpias",
+
+      "energia",
+      "energia eolica",
+      "energia hidroelectrica",
+      "energia geotermica",
+      "energia solar",
+      "solar",
+      "geotermica",
+      "hidroelectrica",
+      "eolica",
+      "energias",
+      "eolicas",
+      "hidroelectricas",
+      "geotermicas",
+      "solares"
+    ]
+  },
+  "PR.A.4.3 Agua / Protección del Recurso Hídrico": {
+    "palabras_clave": [
+      "agua",
+      "aguas",
+      "rio",
+      "rios",
+      "mar",
+      "mares",
+      "recurso hídrico",
+      "cuenca",
+      "cuencas",
+      "potable",
+      "acueducto",
+      "acueductos",
+      "alcantarillado",
+      "alcantarillados",
+      "manantial",
+      "manantiales",
+      "oceano",
+      "oceanos",
+      "acuatica",
+      "acuaticas",
+      "acuatico",
+      "acuaticos"
     ]
   },
   "PR.A.4.4 y PR.A.4.5 Biodiversidad y restauración ecológica": {
@@ -2422,6 +1795,151 @@
       }
     ]
   },
+  "PR.A.4.6 Ambiente y Mares": {
+    "palabras_clave": [
+      {
+        "palabra": "ambiente",
+        "excluye": ["ambiente laboral", "ambiente universitario", "ambiente escolar", "ambiente de trabajo"]
+      },
+      "medio ambiente",
+      "mares",
+      "costas",
+      "marinos",
+      "mar",
+      "oceano",
+      "oceanos",
+      "pesca",
+      "playa",
+      {
+        "palabra": "ambiental",
+        "excluye": ["desarrollo ambiental sostenible", "gestion ambiental", "educacion ambiental"]
+      },
+      "naturaleza",
+      "socioambiental",
+      "socioambientales",
+      "oceanico",
+      "oceanicos",
+      "oceanica",
+      "oceanicas",
+      "marina",
+      "marinas",
+      "costero",
+      "costera",
+      "costeros",
+      "costeras"
+    ]
+  },
+  "PR.A.5.1 Transportes / Accesibilidad": {
+    "palabras_clave": [
+      "transporte",
+      "transporte terrestre",
+      "transporte maritimo",
+      "transporte aereo",
+      "infraestructura de transporte",
+      "transportes",
+      "ferrocarril",
+      "ferrocarriles",
+      "carretera",
+      "carreteras",
+
+      "accesibilidad",
+      "accesible",
+      "accesibles",
+      "inclusion",
+      "inclusiones",
+      "adaptacion",
+      "adaptaciones",
+      "discapacidad",
+      "discapacidades",
+      "discapacitado",
+      "discapacitada",
+      "discapacitados",
+      "discapacitadas",
+      "acceso a la educacion",
+      "acceso a la informacion",
+      "acceso a la salud"
+    ]
+  },
+  "PR.A.5.2, PR.A.5.3 Comunicación vial / Logística multimodal / Conectividad / Infraestructura Vial": {
+    "palabras_clave": [
+      "infraestructura vial",
+      "comunicacion vial",
+      "carretera",
+      "puente",
+      "vial",
+      "transporte",
+      "via",
+      "calle",
+      "calles",
+      "carreteras",
+      "puentes",
+      "vias",
+
+      "logistica",
+      "corredores logisticos",
+      "logisticas",
+      "corredor logistico",
+      "multimodal",
+      "multimodales",
+      "transporte de carga",
+      "transportes de carga",
+      "cadena de suministro",
+      "traslado de mercancia",
+      "traslado de mercancias",
+      "logistico",
+      "logisticos",
+
+      "conectividad",
+      "conectado",
+      "conectados",
+      "conectadas",
+      "internet",
+      "redes de comunicacion",
+      "red de comunicacion",
+      "web",
+      "wifi",
+      "wi-fi",
+      "gestion de la informacion",
+      "acceso a la informacion",
+      "gestion de informacion",
+      "acceso a informacion",
+      "tecnologias de informacion",
+      "tecnologia de informacion",
+      "tecnologias de la informacion",
+      "tecnologia de la informacion",
+      "comunicaciones",
+      "telecomunicaciones",
+
+      "educacion vial"
+    ]
+  },
+  "PR.A.5.4 Vivienda y Hábitat": {
+    "palabras_clave": [
+      "vivienda",
+      "habitat",
+      "ciudad",
+      "desarrollo urbano",
+      "urbanizacion",
+      "precarios",
+      "asentamientos informales",
+      "ordenamiento territorial",
+      "planes reguladores",
+      "tugurio",
+      "tugurios",
+      "asentamiento",
+      "asentamientos",
+      "urbano",
+      "urbana",
+      "urbanos",
+      "urbanas",
+      "suburbano",
+      "suburbana",
+      "suburbanos",
+      "suburbanas",
+      "rural",
+      "rurales"
+    ]
+  },
   "PR.A.5.5 y PR.A.5.6 Mejoramiento barrial y regularización predial": {
     "palabras_clave": [
       "asentamientos informales",
@@ -2444,6 +1962,70 @@
       "catastro territorial",
       "precarios",
       "precario"
+    ]
+  },
+  "PR.A.5.7 Planes Reguladores / Urbanismo / Regulación Urbana": {
+    "palabras_clave": [
+      "planes reguladores",
+      "ordenamiento territorial",
+      "plan territorial",
+      "gestion territorial",
+      "planeamiento regulador",
+      "planeamientos reguladores",
+      "ordenamientos territoriales",
+      "planes territoriales",
+      "gestiones territoriales",
+      "gestionamiento territorial",
+      "gestionamientos territoriales",
+      "recursos territoriales",
+      "conflictos territoriales",
+      "conflictos socioambientales",
+      "defensa territorial",
+      "conflictos ambientales",
+      "conflicto ambiental",
+
+      "urbanismo",
+      "desarrollo urbano",
+      "planificacion urbana",
+      "diseño urbano",
+      "espacio publico",
+      "densificacion",
+      "movilidad urbana",
+      "infraestructura",
+      "renovacion urbana",
+      "espacio urbano",
+      "espacios publicos",
+
+      "regulacion urbana",
+      "plan regulador",
+      "normativa urbana",
+      "normativas urbanas",
+      "municipal",
+      "municipales",
+      "municipalidad",
+      "municipalidades",
+      "gestion comunitaria",
+      "gestion comunal",
+      "entidad comunal",
+      "entidades comunales",
+      "administracion publica"
+    ]
+  },
+  "PR.A.6.2 Inseguridad Ciudadana": {
+    "palabras_clave": [
+      "inseguridad",
+      "violencia",
+      "delitos",
+      "crimenes",
+      "crimen",
+      "violento",
+      "violenta",
+      "violentos",
+      "violentas",
+      "delito",
+      "ilegal",
+      "ilicito",
+      "criminalidad"
     ]
   },
   "PR.A.6.2 Seguridad comunitaria y cultura de paz": {
@@ -2603,6 +2185,29 @@
       "interculturalidad"
     ]
   },
+  "PR.A.6.8 Justicia institucional": {
+    "palabras_clave": [
+      "justicia",
+      "justicia institucional",
+      "institucionalidad",
+      "judicial",
+      "judicatura",
+      "legalidad",
+      "gobernanza",
+      "estado de derecho",
+      "ministerio de justicia",
+      "gobernanzas",
+      "derecho administrativo",
+      "juridico",
+      "penitenciario",
+      "penitenciarios",
+      "penal",
+      "penales",
+      "ministerio publico",
+      "fiscalia",
+      "derechos de los prisioneros"
+    ]
+  },
   "PR.A.7.1, PR.A.7.2 y PR.A.7.3 Integridad, transparencia y participación": {
     "palabras_clave": [
       "integridad pública",
@@ -2632,6 +2237,21 @@
         ]
       },
       "datos abiertos"
+    ]
+  },
+  "PR.A.7.4, PR.A.7.5 Gestión municipal": {
+    "palabras_clave": [
+      "gestion municipal",
+      "municipalidades",
+      "municipal",
+      "gobiernos locales",
+      "municipales",
+      "municipalidad",
+      "gobierno local",
+      "entidad comunal",
+      "gestion comunal",
+      "gestion comunitaria",
+      "administracion publica"
     ]
   },
   "PR.A.7.4 Coordinación interinstitucional multinivel": {
@@ -2711,6 +2331,32 @@
     ]
   },
   "inactivos": {
+    "A.1.1 Agua": {
+      "palabras_clave": [
+        "agua",
+        "aguas",
+        "rio",
+        "rios",
+        "mar",
+        "mares",
+        "recurso hídrico",
+        "cuenca",
+        "cuencas",
+        "potable",
+        "acueducto",
+        "acueductos",
+        "alcantarillado",
+        "alcantarillados",
+        "manantial",
+        "manantiales",
+        "oceano",
+        "oceanos",
+        "acuatica",
+        "acuaticas",
+        "acuatico",
+        "acuaticos"
+      ]
+    },
     "A.1.2 Suelo": {
       "palabras_clave": [
         "suelo",
@@ -2736,6 +2382,410 @@
         "agrario"
       ]
     },
+    "A.1.3 Ambiente, Descarbonización y Residuos": {
+      "palabras_clave": [
+        {
+          "palabra": "ambiente",
+          "excluye": ["ambiente laboral", "ambiente universitario", "ambiente escolar", "ambiente de trabajo"]
+        },
+        "descarbonizacion",
+        "carbono neutralidad",
+        "residuos",
+        "residuos solidos",
+        "basura",
+        "manejo de desechos",
+        "naturaleza",
+        "carbono neutral",
+        "ambiental",
+        "contaminacion",
+        "dioxido de carbono"
+      ]
+    },
+    "A.2.1 Salud": {
+      "palabras_clave": [
+        {
+          "palabra": "salud",
+          "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
+        },
+        "salud humana",
+        "enfermedad",
+        "enfermedades",
+        "nutricion",
+        {
+          "palabra": "bienestar",
+          "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
+        },
+        {
+          "palabra": "sanidad",
+          "excluye": ["sanidad vegetal", "sanidad animal"]
+        },
+        "salubridad",
+        "hospital",
+        "hospitales",
+        "clinica",
+        "clinicas",
+        "ebais"
+      ]
+    },
+    "A.2.2 Educación": {
+      "palabras_clave": [
+        {
+          "palabra": "educacion",
+          "excluye": ["escuela de educacion fisica y deportes", "escuela de orientacion y educacion especial"]
+        },
+        "educacion primaria",
+        "educacion secundaria",
+        "educacion terciaria",
+        "educacion tecnica",
+        "educacion preescolar",
+        "educacion universitaria",
+        "formacion profesional",
+        "educacion de adultos",
+        "educacion continua",
+        "aprendizaje",
+        "docencia",
+        "tutoria",
+        "capacitacion",
+        "educativo",
+        "socio-educativo",
+        {
+          "palabra": "escuela",
+          "excluye": [
+            "escuela de artes dramaticas",
+            "escuela de artes musicales",
+            "escuela de artes plasticas",
+            "escuela de biologia",
+            "escuela de fisica",
+            "escuela de geologia",
+            "escuela de matematicas",
+            "escuela de quimica",
+            "escuela de agronomia",
+            "escuela de economia agricola y agronegocios",
+            "escuela de tecnologia de alimentos",
+            "escuela de zootecnia",
+            "escuela de administracion de negocios",
+            "escuela de administracion publica",
+            "escuela de economia",
+            "escuela de estadistica",
+            "escuela de antropologia",
+            "escuela de ciencias de la comunicacion colectiva",
+            "escuela de ciencias politicas",
+            "escuela de geografia",
+            "escuela de historia",
+            "escuela de psicologia",
+            "escuela de sociologia",
+            "escuela de trabajo social",
+            "escuela de derecho",
+            "escuela de bibliotecologia",
+            "escuela de educacion fisica y deportes",
+            "escuela de formacion docente",
+            "escuela de orientacion y educacion especial",
+            "escuela de farmacia",
+            "escuela de arquitectura",
+            "escuela de ciencias de la computacion e informatica",
+            "escuela de ingenieria civil",
+            "escuela de ingenieria de biosistemas",
+            "escuela de ingenieria electrica",
+            "escuela de ingenieria industrial",
+            "escuela de ingenieria mecanica",
+            "escuela de ingenieria quimica",
+            "escuela de ingenieria topografica",
+            "escuela de filologia, linguistica y literatura",
+            "escuela de filosofia",
+            "escuela de lenguas modernas",
+            "escuela de enfermeria",
+            "escuela de medicina",
+            "escuela de nutricion",
+            "escuela de salud publica",
+            "escuela de tecnologias en salud",
+            "escuela de microbiologia",
+            "escuela de odontologia",
+            "escuela de carreras globales"
+          ]
+        },
+        "escuelas",
+        "estudiante",
+        "estudiantes", 
+        "metodologia pedagogica",
+        "metodologias pedagogicas",
+        "material didactico",
+        "materiales didacticos",
+        "colegio",
+        "colegios",
+        "preuniversitario",
+        "preuniversitarios",
+        "preuniversitaria",
+        "preuniversitarias"
+      ]
+    },
+    "A.2.3 Cultura": {
+      "palabras_clave": [
+        {
+          "palabra": "cultura",
+          "excluye": ["cultura de paz", "cultura organizacional"]
+        },
+        "arte",
+        "musica",
+        "danza",
+        "artes plasticas",
+        "bellas artes",
+        "patrimonio cultural",
+        "patrimonio arquitectonico",
+        "patrimonio arqueologico",
+        "patrimonio",
+        "cultural",
+        {
+          "palabra": "culturas",
+          "excluye": ["culturas de paz", "culturas organizacionales"]
+        },
+        "culturales",
+        "artes",
+        "lengua",
+        "literatura",
+        "tradicion",
+        "tradiciones",
+        "artesanal",
+        "artesanales",
+        "literaturas",
+        "audiovisual",
+        "audiovisuales",
+        "gastronomia",
+        "gastronomias"
+      ]
+    },
+    "A.3.1 Ciencia, Tecnología e Innovación": {
+      "palabras_clave": [
+        "ciencia",
+        "tecnologia",
+        "innovacion",
+        "investigacion y desarrollo",
+        "creatividad",
+        "laboratorio",
+        "laboratorios",
+        "ciencias",
+        "tecnologias",
+        "innovar",
+        "cientifico",
+        "cientificos",
+        "cientifica",
+        "cientificas",
+        "centro de investigacion",
+        "neurociencia",
+        "neurociencias",
+        "tecnologico",
+        "tecnologica",
+        "tecnologicos",
+        "tecnologicas",
+        "investigacion",
+        "investigaciones"
+      ]
+    },
+    "A.3.2 Transportes": {
+      "palabras_clave": [
+        "transporte",
+        "transporte terrestre",
+        "transporte maritimo",
+        "transporte aereo",
+        "infraestructura de transporte",
+        "transportes",
+        "ferrocarril",
+        "ferrocarriles",
+        "carretera",
+        "carreteras"
+      ]
+    },
+    "A.3.3 Vivienda y Hábitat": {
+      "palabras_clave": [
+        "vivienda",
+        "habitat",
+        "ciudad",
+        "desarrollo urbano",
+        "urbanizacion",
+        "precarios",
+        "asentamientos informales",
+        "ordenamiento territorial",
+        "planes reguladores",
+        "tugurio",
+        "tugurios",
+        "asentamiento",
+        "asentamientos",
+        "urbano",
+        "urbana",
+        "urbanos",
+        "urbanas",
+        "suburbano",
+        "suburbana",
+        "suburbanos",
+        "suburbanas",
+        "rural",
+        "rurales"
+      ]
+    },
+    "A.4.1 Empleo": {
+      "palabras_clave": [
+        "empleo",
+        "desempleo",
+        "subempleo",
+        "salarios",
+        "empleo informal",
+        "salario",
+        "empleos",
+        "laboral",
+        "labor",
+        "laborales",
+        "labores",
+        "ocupacion",
+        "lineas de trabajo",
+        "socioproductividad",
+        "socioproductivo",
+        "socioproductivos",
+        "socioproductiva",
+        "socioproductivas"
+      ]
+    },
+    "A.4.2 Pobreza": {
+      "palabras_clave": [
+        "pobreza",
+        "pobreza urbana",
+        "pobreza rural",
+        "marginal",
+        "marginales",
+        "marginalidad",
+        "exclusion social",
+        "rezago social",
+        "indigencia",
+        "indigente",
+        "indigentes",
+        "escasos recursos",
+        "vulnerabilidad social",
+        "zonas vulnerabilizadas",
+        "situacion de calle"
+      ]
+    },
+    "A.4.3 Desarrollo Regional": {
+      "palabras_clave": [
+        "desarrollo regional",
+        "desarrollo local",
+        "desarrollo territorial",
+        "fortalecimiento regional",
+        "fortalecimiento territorial",
+        "desarrollo urbano",
+        "desarrollo rural",
+        "desarrollo económico",
+        "fortalecimiento económico",
+        "planificacion regional",
+        "gestión municipal",
+        "huetar",
+        "chorotega",
+        "brunca",
+        "region central"
+      ]
+    },
+    "A.4.4 Agropecuario": {
+      "palabras_clave": [
+        "agropecuario",
+        "agricultura",
+        "agroalimentario",
+        "agro",
+        "cultivo",
+        "cultivos",
+        "cosecha",
+        "cosechas",
+        "agricola",
+        "agricolas",
+        "agronomia",
+        "agronomo",
+        "agronomos",
+        "agropecuarios",
+        "agroalimentarios",
+        "agroindustria",
+        "agroindustrias",
+        "agroindustrial"
+      ]
+    },
+    "B.1.1 Pobreza": {
+      "palabras_clave": [
+        "pobreza",
+        "pobreza urbana",
+        "pobreza rural",
+        "marginal",
+        "marginales",
+        "marginalidad",
+        "exclusion social",
+        "rezago social",
+        "indigencia",
+        "indigente",
+        "indigentes",
+        "escasos recursos",
+        "vulnerabilidad social",
+        "zonas vulnerabilizadas",
+        "situacion de calle"
+      ]
+    },
+    "B.1.2 Alimentación sostenible en zonas costeras": {
+      "palabras_clave": [
+        "desnutricion",
+        "nutricion",
+        "alimentacion",
+        "dieta",
+        "dietas",
+        "alimentario",
+        "alimentarios",
+        "alimentaria",
+        "alimentarias",
+        "alimento",
+        "alimentos",
+        "alimenticia",
+        "alimenticio"
+      ]
+    },
+    "B.1.3 Planes Reguladores": {
+      "palabras_clave": [
+        "planes reguladores",
+        "ordenamiento territorial",
+        "plan territorial",
+        "gestion territorial",
+        "planeamiento regulador",
+        "planeamientos reguladores",
+        "ordenamientos territoriales",
+        "planes territoriales",
+        "gestiones territoriales",
+        "gestionamiento territorial",
+        "gestionamientos territoriales",
+        "recursos territoriales",
+        "conflictos territoriales",
+        "conflictos socioambientales",
+        "defensa territorial",
+        "conflictos ambientales",
+        "conflicto ambiental"
+      ]
+    },
+    "B.2.1 Salud": {
+      "palabras_clave": [
+        {
+          "palabra": "salud",
+          "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
+        },
+        "salud humana",
+        "enfermedad",
+        "enfermedades",
+        "nutricion",
+        {
+          "palabra": "bienestar",
+          "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
+        },
+        {
+          "palabra": "sanidad",
+          "excluye": ["sanidad vegetal", "sanidad animal"]
+        },
+        "salubridad",
+        "hospital",
+        "hospitales",
+        "clinica",
+        "clinicas",
+        "ebais"
+      ]
+    },
     "B.2.2 Embarazos adolescentes": {
       "palabras_clave": [
         "embarazos adolescentes",
@@ -2749,6 +2799,109 @@
         "madre adolescente",
         "madres adolescentes",
         "gestacion adolescente"
+      ]
+    },
+    "B.2.3 Igualdad de genero": {
+      "palabras_clave": [
+        "igualdad de genero",
+        "equidad de genero",
+        "brechas de genero",
+        "desigualdad de genero",
+        "feminismo",
+        "discriminacion de la mujer",
+        "discriminacion de genero",
+        "violencia de genero",
+        "estereotipos de genero",
+        "empoderamiento femenino",
+        "violencia contra las mujeres",
+        "violencia contra la mujer",
+        "derechos de la mujer",
+        "normas de genero",
+        "participacion de la mujer",
+        "mujeres empobrecidas",
+        "mujeres en situación de vulnerabilidad",
+        "empresarialidad femenina",
+        "brecha de genero",
+        "perspectiva de genero",
+        "hostigamiento sexual",
+        "acoso sexual"
+      ]
+    },
+    "B.3.1 Agua": {
+      "palabras_clave": [
+        "agua",
+        "aguas",
+        "rio",
+        "rios",
+        "mar",
+        "mares",
+        "recurso hídrico",
+        "cuenca",
+        "cuencas",
+        "potable",
+        "acueducto",
+        "acueductos",
+        "alcantarillado",
+        "alcantarillados",
+        "manantial",
+        "manantiales",
+        "oceano",
+        "oceanos",
+        "acuatica",
+        "acuaticas",
+        "acuatico",
+        "acuaticos"
+      ]
+    },
+    "B.3.2 Energía": {
+      "palabras_clave": [
+        "energia",
+        "energia eolica",
+        "energia hidroelectrica",
+        "energia geotermica",
+        "energia solar",
+        "solar",
+        "geotermica",
+        "hidroelectrica",
+        "eolica",
+        "energias",
+        "eolicas",
+        "hidroelectricas",
+        "geotermicas",
+        "solares"
+      ]
+    },
+    "B.4.1 Trabajo digno": {
+      "palabras_clave": [
+        "trabajo digno",
+        "trabajo decente",
+        "derechos laborales",
+        "condiciones laborales",
+        "bienestar del trabajador",
+        "salario justo",
+        "seguridad laboral",
+        "proteccion laboral",
+        "sindicato",
+        "sindicatos",
+        "sindicalismo",
+        "capacidades laborales",
+        "capacidad laboral",
+        "satisfaccion en el trabajo",
+        "educacion y empleo",
+        "comercios justos",
+        "comercio justo",
+        "economia social",
+        "mercado laboral",
+        "condiciones de empleabilidad",
+        "migracion laboral",
+        "crecimiento económico",
+        "actualizacion profesional",
+        "economia del trabajo",
+        "trabajo informal",
+        "trabajos informales",
+        "mejor remunerado",
+        "mejor remunerados",
+        "ambiente de trabajo"
       ]
     },
     "B.4.2 Industrialización inclusiva": {
@@ -2791,6 +2944,59 @@
         "ciencia y tecnologia"
       ]
     },
+    "B.4.4 Desigualdad": {
+      "palabras_clave": [
+        "desigualdad",
+        "equidad",
+        "desigualdad de ingresos",
+        "brecha",
+        "brechas",
+        "exclusion",
+        "exclusiones",
+        "justicia social",
+        "igualdad",
+        "desigualdades",
+        "discriminacion",
+        "politica social",
+        "limitaciones economicas",
+        "valores sociales",
+        {
+          "palabra": "vulnerabilidad",
+          "excluye": ["vulnerabilidad al cambio climatico"]
+        }
+      ]
+    },
+    "B.5.1 Comunicación vial": {
+      "palabras_clave": [
+        "infraestructura vial",
+        "comunicacion vial",
+        "carretera",
+        "puente",
+        "vial",
+        "transporte",
+        "via",
+        "calle",
+        "calles",
+        "carreteras",
+        "puentes",
+        "vias"
+      ]
+    },
+    "B.5.2 Urbanismo": {
+      "palabras_clave": [
+        "urbanismo",
+        "desarrollo urbano",
+        "planificacion urbana",
+        "diseño urbano",
+        "espacio publico",
+        "densificacion",
+        "movilidad urbana",
+        "infraestructura",
+        "renovacion urbana",
+        "espacio urbano",
+        "espacios publicos"
+      ]
+    },
     "B.5.3 Contaminación": {
       "palabras_clave": [
         "contaminacion",
@@ -2810,6 +3016,63 @@
         "aguas limpias",
         "consumo de energia",
         "dioxido de carbono"
+      ]
+    },
+    "B.5.4 Ambiente y Mares": {
+      "palabras_clave": [
+        {
+          "palabra": "ambiente",
+          "excluye": ["ambiente laboral", "ambiente universitario", "ambiente escolar", "ambiente de trabajo"]
+        },
+        "medio ambiente",
+        "mares",
+        "costas",
+        "marinos",
+        "mar",
+        "oceano",
+        "oceanos",
+        "pesca",
+        "playa",
+        {
+          "palabra": "ambiental",
+          "excluye": ["desarrollo ambiental sostenible", "gestion ambiental", "educacion ambiental"]
+        },
+        "naturaleza",
+        "socioambiental",
+        "socioambientales",
+        "oceanico",
+        "oceanicos",
+        "oceanica",
+        "oceanicas",
+        "marina",
+        "marinas",
+        "costero",
+        "costera",
+        "costeros",
+        "costeras"
+      ]
+    },
+    "B.5.5 Justicia institucional": {
+      "palabras_clave": [
+        "justicia",
+        "justicia institucional",
+        "institucionalidad",
+        "judicial",
+        "judicatura",
+        "legalidad",
+        "gobernanza",
+        "estado de derecho",
+        "ministerio de justicia",
+        "gobernanzas",
+        "derecho administrativo",
+        "juridico",
+        "penitenciario",
+        "penitenciarios",
+        "penal",
+        "penales",
+        "ministerio publico",
+        "fiscalia",
+        "derechos de los prisioneros"
       ]
     },
     "C.1.1 Desarrollo humano integral": {
@@ -2834,6 +3097,213 @@
         "adultas mayores",
         "desigualdad social",
         "bienestar colectivo"
+      ]
+    },
+    "C.1.2 Costas y zonas fronterizas": {
+      "palabras_clave": [
+        "costas",
+        "zonas costeras",
+        "fronteras",
+        "zonas fronterizas",
+        "zona costera",
+        "zona fronteriza",
+        "frontera",
+        "fronterizo",
+        "fronteriza"
+      ]
+    },
+    "C.2.1 Infraestructura Vial y Educativa": {
+      "palabras_clave": [
+        "infraestructura vial",
+        "infraestructura educativa",
+        "educacion vial",
+        "vial",
+        "via",
+        "carretera",
+        "carreteras",
+        "puente",
+        "puentes",
+        "edificio educativo"
+      ]
+    },
+    "C.2.2 Logística (multimodal)": {
+      "palabras_clave": [
+        "logistica",
+        "corredores logisticos",
+        "logisticas",
+        "corredor logistico",
+        "multimodal",
+        "multimodales",
+        "transporte de carga",
+        "transportes de carga",
+        "cadena de suministro",
+        "traslado de mercancia",
+        "traslado de mercancias",
+        "logistico",
+        "logisticos"
+      ]
+    },
+    "C.3.1 Educación": {
+      "palabras_clave": [
+        {
+          "palabra": "educacion",
+          "excluye": [
+            "escuela de educacion fisica y deportes",
+            "escuela de orientacion y educacion especial"
+          ]
+        },
+        "educacion primaria",
+        "educacion secundaria",
+        "educacion terciaria",
+        "educacion tecnica",
+        "educacion preescolar",
+        "educacion universitaria",
+        "formacion profesional",
+        "educacion de adultos",
+        "educacion continua",
+        "aprendizaje",
+        "docencia",
+        "tutoria",
+        "capacitacion",
+        "educativo",
+        "socio-educativo",
+        {
+          "palabra": "escuela",
+          "excluye": [
+            "escuela de artes dramaticas",
+            "escuela de artes musicales",
+            "escuela de artes plasticas",
+            "escuela de biologia",
+            "escuela de fisica",
+            "escuela de geologia",
+            "escuela de matematicas",
+            "escuela de quimica",
+            "escuela de agronomia",
+            "escuela de economia agricola y agronegocios",
+            "escuela de tecnologia de alimentos",
+            "escuela de zootecnia",
+            "escuela de administracion de negocios",
+            "escuela de administracion publica",
+            "escuela de economia",
+            "escuela de estadistica",
+            "escuela de antropologia",
+            "escuela de ciencias de la comunicacion colectiva",
+            "escuela de ciencias politicas",
+            "escuela de geografia",
+            "escuela de historia",
+            "escuela de psicologia",
+            "escuela de sociologia",
+            "escuela de trabajo social",
+            "escuela de derecho",
+            "escuela de bibliotecologia",
+            "escuela de educacion fisica y deportes",
+            "escuela de formacion docente",
+            "escuela de orientacion y educacion especial",
+            "escuela de farmacia",
+            "escuela de arquitectura",
+            "escuela de ciencias de la computacion e informatica",
+            "escuela de ingenieria civil",
+            "escuela de ingenieria de biosistemas",
+            "escuela de ingenieria electrica",
+            "escuela de ingenieria industrial",
+            "escuela de ingenieria mecanica",
+            "escuela de ingenieria quimica",
+            "escuela de ingenieria topografica",
+            "escuela de filologia, linguistica y literatura",
+            "escuela de filosofia",
+            "escuela de lenguas modernas",
+            "escuela de enfermeria",
+            "escuela de medicina",
+            "escuela de nutricion",
+            "escuela de salud publica",
+            "escuela de tecnologias en salud",
+            "escuela de microbiologia",
+            "escuela de odontologia",
+            "escuela de carreras globales"
+          ]
+        },
+        "escuelas",
+        "estudiante",
+        "estudiantes", 
+        "metodologia pedagogica",
+        "metodologias pedagogicas",
+        "material didactico",
+        "materiales didacticos",
+        "colegio",
+        "colegios",
+        "preuniversitario",
+        "preuniversitarios",
+        "preuniversitaria",
+        "preuniversitarias"
+      ]
+    },
+    "C.4.1 Género": {
+      "palabras_clave": [
+        "igualdad de genero",
+        "equidad de genero",
+        "brechas de genero",
+        "desigualdad de genero",
+        "feminismo",
+        "discriminacion de la mujer",
+        "discriminacion de genero",
+        "violencia de genero",
+        "estereotipos de genero",
+        "empoderamiento femenino",
+        "violencia contra las mujeres",
+        "violencia contra la mujer",
+        "derechos de la mujer",
+        "normas de genero",
+        "participacion de la mujer",
+        "mujeres empobrecidas",
+        "mujeres en situación de vulnerabilidad",
+        "empresarialidad femenina",
+        "brecha de genero",
+        "perspectiva de genero"
+      ]
+    },
+    "C.4.2 Salud": {
+      "palabras_clave": [
+        {
+          "palabra": "salud",
+          "excluye": ["salud animal", "salud vegetal", "salud del suelo", "salud financiera", "salud institucional"]
+        },
+        "salud humana",
+        "enfermedad",
+        "enfermedades",
+        "nutricion",
+        {
+          "palabra": "bienestar",
+          "excluye": ["bienestar animal", "bienestar economico", "bienestar institucional"]
+        },
+        {
+          "palabra": "sanidad",
+          "excluye": ["sanidad vegetal", "sanidad animal"]
+        },
+        "salubridad",
+        "hospital",
+        "hospitales",
+        "clinica",
+        "clinicas",
+        "ebais"
+      ]
+    },
+    "C.4.3 Pobreza": {
+      "palabras_clave": [
+        "pobreza",
+        "pobreza urbana",
+        "pobreza rural",
+        "marginal",
+        "marginales",
+        "marginalidad",
+        "exclusion social",
+        "rezago social",
+        "indigencia",
+        "indigente",
+        "indigentes",
+        "escasos recursos",
+        "vulnerabilidad social",
+        "zonas vulnerabilizadas",
+        "situacion de calle"
       ]
     },
     "C.5.1 Economía verde": {
@@ -2863,6 +3333,45 @@
         }
       ]
     },
+    "C.5.2 Producción sofisticada": {
+      "palabras_clave": [
+        "produccion",
+        "productividad",
+        "productivo",
+        "productiva",
+        "manufactura",
+        "manufacturar",
+        "manufacturadores",
+        "manufactureras",
+        "dispositivos médicos",
+        "dispositivos tecnologicos",
+        "tecnologia de punta",
+        "tecnologias de punta",
+        "fabricacion digital"
+      ]
+    },
+    "C.5.3 Desigualdad": {
+      "palabras_clave": [
+        "desigualdad",
+        "equidad",
+        "desigualdad de ingresos",
+        "brecha",
+        "brechas",
+        "exclusion",
+        "exclusiones",
+        "justicia social",
+        "igualdad",
+        "desigualdades",
+        "discriminacion",
+        "politica social",
+        "limitaciones economicas",
+        "valores sociales",
+        {
+          "palabra": "vulnerabilidad",
+          "excluye": ["vulnerabilidad al cambio climatico"]
+        }
+      ]
+    },
     "C.6.1 Economía regenerativa": {
       "palabras_clave": [
         "economia regenerativa",
@@ -2875,6 +3384,58 @@
         "circularidad",
         "desarrollo regenerativo",
         "economia verde"
+      ]
+    },
+    "D.1.1 Descentralizada": {
+      "palabras_clave": [
+        "descentralizacion",
+        "descentralizado",
+        "descentralizada",
+        "descentralizar",
+        "autonomia local",
+        "poder local",
+        "gobernanza local",
+        "municipalidad",
+        "distribucion del poder",
+        "distribucion de poder",
+        "politica interna",
+        "direcciones regionales",
+        "gobierno local",
+        "autonomia",
+        "autonomo",
+        "autonoma"
+      ]
+    },
+    "D.1.2 Digitalizada": {
+      "palabras_clave": [
+        "digitalizacion",
+        "brecha digital",
+        "acceso tecnologia",
+        "digitalizar",
+        "digitalizado",
+        "digitalizada",
+        "tecnologico",
+        "tecnologica",
+        "tecnologia",
+        "tecnologias",
+        "digital",
+        "digitales"
+      ]
+    },
+    "D.1.3 Descarbonizada": {
+      "palabras_clave": [
+        "descarbonizada",
+        "carbono neutralidad",
+        "cero emisiones",
+        "descarbonizar",
+        "carbono neutral",
+        "carbono neutro",
+        "gases",
+        "gas",
+        "efecto invernadero",
+        "huella de carbono",
+        "energia limpia",
+        "energias limpias"
       ]
     },
     "D.2.1 Productividad laboral": {
@@ -2896,6 +3457,162 @@
         "asesoria",
         "asesorias",
         "asesoramiento"
+      ]
+    },
+    "D.2.2 Sofisticación": {
+      "palabras_clave": [
+        "sofisticacion",
+        "sofisticar",
+        "sofisticado",
+        "sofisticada",
+        "capacidades avanzadas",
+        "manufactura avanzada",
+        "tecnologia",
+        "tecnologias",
+        "tecnologico",
+        "tecnico",
+        "tecnicos",
+        "capacitacion",
+        "capacitaciones",
+        "capacitar",
+        "formacion",
+        "asesoria",
+        "asesorias",
+        "asesoramiento"
+      ]
+    },
+    "D.2.3 Desconcentración e innovación productiva": {
+      "palabras_clave": [
+        "desconcentracion productiva",
+        "innovacion productiva",
+        "innovacion de la produccion",
+        "innovar en la produccion",
+        "descentralizacion productiva",
+        "descentralizar procesos",
+        "descentralizar la produccion",
+        "tecnologias de produccion",
+        "tecnologia de produccion",
+        "adoptar tecnologias",
+        "uso de tecnologias",
+        "adopcion de tecnologias"
+      ]
+    },
+    "E.1.1 Regulación Urbana": {
+      "palabras_clave": [
+        "regulacion urbana",
+        "planes reguladores",
+        "ordenamiento territorial",
+        "plan regulador",
+        "normativa urbana",
+        "normativas urbanas",
+        "municipal",
+        "municipales",
+        "municipalidad",
+        "municipalidades",
+        "gestion comunitaria",
+        "gestion comunal",
+        "entidad comunal",
+        "entidades comunales",
+        "administracion publica"
+      ]
+    },
+    "E.1.2 Gestión municipal": {
+      "palabras_clave": [
+        "gestion municipal",
+        "municipalidades",
+        "municipal",
+        "gobiernos locales",
+        "municipales",
+        "municipalidad",
+        "gobierno local",
+        "entidad comunal",
+        "gestion comunal",
+        "gestion comunitaria",
+        "administracion publica"
+      ]
+    },
+    "E.2.1 Pobreza": {
+      "palabras_clave": [
+        "pobreza",
+        "pobreza urbana",
+        "pobreza rural",
+        "marginal",
+        "marginales",
+        "marginalidad",
+        "exclusion social",
+        "rezago social",
+        "indigencia",
+        "indigente",
+        "indigentes",
+        "escasos recursos",
+        "vulnerabilidad social",
+        "zonas vulnerabilizadas",
+        "situacion de calle"
+      ]
+    },
+    "E.2.2 Desempleo": {
+      "palabras_clave": [
+        "desempleo",
+        "empleo",
+        "oportunidades laborales",
+        "oportunidad laboral",
+        "insercion laboral",
+        "mercado laboral",
+        "mercado de trabajo",
+        "empleabilidad",
+        "trabajo informal",
+        "empleo informal",
+        "emprender",
+        "emprendimiento",
+        "emprendimientos",
+        "emprendedores",
+        "emprendedor",
+        "emprendedoras",
+        "emprendedora",
+        "migracion laboral"
+      ]
+    },
+    "E.2.3 Inseguridad Ciudadana": {
+      "palabras_clave": [
+        "inseguridad",
+        "violencia",
+        "delitos",
+        "crimenes",
+        "crimen",
+        "violento",
+        "violenta",
+        "violentos",
+        "violentas",
+        "delito",
+        "ilegal",
+        "ilicito",
+        "criminalidad"
+      ]
+    },
+    "E.3.1 Protección Recurso Hídrico": {
+      "palabras_clave": [
+        "agua",
+        "aguas",
+        "rio",
+        "rios",
+        "mar",
+        "mares",
+        "recurso hídrico",
+        "cuenca",
+        "cuencas",
+        "potable",
+        "acueducto",
+        "acueductos",
+        "alcantarillado",
+        "alcantarillados",
+        "manantial",
+        "manantiales",
+        "oceano",
+        "oceanos",
+        "acuatica",
+        "acuaticas",
+        "acuatico",
+        "acuaticos"
       ]
     },
     "E.3.2 Suelo": {
@@ -2936,6 +3653,110 @@
         "inyeccion de fondos",
         "inyecciones de fondos",
         "inyectar fondos"
+      ]
+    },
+    "E.4.2 Gestión regional de recursos": {
+      "palabras_clave": [
+        "gestion regional de recursos",
+        "gestion regional",
+        "gestiones regionales",
+        "administracion regional",
+        "administraciones regionales",
+        "planificacion regional",
+        "planificaciones regionales",
+        "gestion territorial",
+        "gestiones territoriales",
+        "gestion de recursos",
+        "gestiones de recursos"
+      ]
+    },
+    "E.5.1 Accesibilidad": {
+      "palabras_clave": [
+        "accesibilidad",
+        "accesible",
+        "accesibles",
+        "inclusion",
+        "inclusiones",
+        "adaptacion",
+        "adaptaciones",
+        "discapacidad",
+        "discapacidades",
+        "discapacitado",
+        "discapacitada",
+        "discapacitados",
+        "discapacitadas",
+        "acceso a la educacion",
+        "acceso a la informacion",
+        "acceso a la salud"
+      ]
+    },
+    "E.5.2 Conectividad": {
+      "palabras_clave": [
+        "conectividad",
+        "conectado",
+        "conectados",
+        "conectadas",
+        "internet",
+        "redes de comunicacion",
+        "red de comunicacion",
+        "web",
+        "wifi",
+        "wi-fi",
+        "gestion de la informacion",
+        "acceso a la informacion",
+        "gestion de informacion",
+        "acceso a informacion",
+        "tecnologias de informacion",
+        "tecnologia de informacion",
+        "tecnologias de la informacion",
+        "tecnologia de la informacion",
+        "comunicaciones",
+        "telecomunicaciones"
+      ]
+    },
+    "E.6.1 Brecha Servicios de Salud": {
+      "palabras_clave": [
+        "brecha de servicios de salud",
+        "brechas de salud",
+        "servicios de salud",
+        "brechas de servicios de salud",
+        "servicio de salud",
+        "desigualdad en salud",
+        "desigualdad de salud",
+        "equidad en salud",
+        "equidad de salud",
+        "cobertura en salud",
+        "cobertura de salud"
+      ]
+    },
+    "E.6.2 Brecha Servicios de Educación": {
+      "palabras_clave": [
+        "brecha de servicios de educacion",
+        "brechas de educacion",
+        "servicios de educacion",
+        "brechas de servicios de educacion",
+        "brecha de educacion",
+        "servicio de educacion",
+        "brecha en servicios de educacion",
+        "brechas en educacion",
+        "brechas en servicios de educacion",
+        "brecha en educacion",
+        "brecha educativa",
+        "brechas educativas",
+        "desigualdad educativa",
+        "desigualdades educativas",
+        "desigualdad de educacion",
+        "desigualdad en educacion",
+        "desigualdades de educacion",
+        "desigualdades en educacion",
+        "acceso equitativo a la educacion",
+        "diversificacion de la educacion",
+        "inclusion socio educativa",
+        "demanda de educacion",
+        "necesidades de educacion",
+        "acceso a la educacion",
+        "apagon educativo",
+        "fortalecimiento de la enseñanza"
       ]
     }
   }
