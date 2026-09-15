@@ -1119,31 +1119,6 @@
       "acuaticos"
     ]
   },
-  "E.3.2 Suelo": {
-    "palabras_clave": [
-      "suelo",
-      "suelos",
-      "tierra",
-      "tierras",
-      "erosión",
-      "fertilidad",
-      "mineral",
-      "minerales",
-      "sequia",
-      "sequias",
-      "agricultura",
-      "agronegocio",
-      "agronegocios",
-      "agroindustria",
-      "agroindustrias",
-      "agroindustrial",
-      "agrosilvicultura",
-      "agricola",
-      "agricolas",
-      "agraria",
-      "agrario"
-    ]
-  },
   "E.4.2 Gestión regional de recursos": {
     "palabras_clave": [
       "gestion regional de recursos",
@@ -2921,6 +2896,31 @@
         "asesoria",
         "asesorias",
         "asesoramiento"
+      ]
+    },
+    "E.3.2 Suelo": {
+      "palabras_clave": [
+        "suelo",
+        "suelos",
+        "tierra",
+        "tierras",
+        "erosión",
+        "fertilidad",
+        "mineral",
+        "minerales",
+        "sequia",
+        "sequias",
+        "agricultura",
+        "agronegocio",
+        "agronegocios",
+        "agroindustria",
+        "agroindustrias",
+        "agroindustrial",
+        "agrosilvicultura",
+        "agricola",
+        "agricolas",
+        "agraria",
+        "agrario"
       ]
     },
     "E.4.1 Inversión en capital": {
