@@ -1,0 +1,200 @@
+{
+    "beneficiados": [
+        {
+            "poblacion": "Estudiantes",
+            "conteo": 5
+        },
+        {
+            "poblacion": "Adultos",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Docentes",
+            "conteo": 3
+        },
+        {
+            "poblacion": "Adultos mayores",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Universitarios",
+            "conteo": 4
+        },
+        {
+            "poblacion": "Juventud",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Secundaria",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Campesinos",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Primaria",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Educación superior",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Adolescentes",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Afrodescendientes",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Adolescencia temprana",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Vulnerables",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Refugiados",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Artístico-cultural",
+            "conteo": 4
+        },
+        {
+            "poblacion": "Mujeres",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Emprendedores",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Niñas",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Pescadores",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Discapacidad",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Trabajadores",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Migrantes",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Diversidad sexual",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Personas privadas de libertad",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Pueblos indígenas",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Infancia",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Comunidad organizada",
+            "conteo": 3
+        },
+        {
+            "poblacion": "Negocios locales",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Zona rural",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Áreas territoriales",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Residentes locales",
+            "conteo": 2
+        },
+        {
+            "poblacion": "Población habitante",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Zona costera",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Área fronteriza",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Espacio cultural",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Región Puntarenas",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Barrio Guido",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Barrio Dos Cercas",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Litoral marino",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Infraestructura portuaria",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Accesos marinos",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Playas arenosas",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Área urbana",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Asentamientos informales",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Barrios marginales",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Vivienda precaria",
+            "conteo": 0
+        },
+        {
+            "poblacion": "Espacio público",
+            "conteo": 1
+        },
+        {
+            "poblacion": "Núcleo poblado",
+            "conteo": 0
+        }
+    ]
+}

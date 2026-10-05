@@ -1,0 +1,80 @@
+Para un proyecto de conteos de poblaciones beneficiadas y sectores involucrados realiza un rol de minero de datos 
+donde extraigas las poblaciones beneficiadas y los sectores involucrados que se presenten explicitamente en un proyecto de acción social de la universidad de Costa Rica.
+
+**REGLA PRIORITARIA**: Muy importante, en muchos casos se mencionan conceptos como "Público general", "Todo público" y otros conceptos similares que abarcan mucha población de manera abstracta o implica carácter abierto, tales casos requieren
+cuidado importante, ya que se deben ignorar por completo y evitar utilizarlos como justificación para cualquier categoria. Esto se hace asi por que en caso contrario sería perfectamente justificable
+poner todas las poblaciones como beneficiadas solo por ser público general. En caso de que la población o sector inferido sea amplio pero se presenta mención explicita de su beneficio como sectores culturales, areas artisticas, etc, donde
+su disciplina es muy explicita y bien definida, entonces si es necesaria ser mencionada, ya que a diferencia de conceptos como "Público general" aqui si se hace la distinción de la disciplina asociada. 
+
+La tarea NO consiste en determinar qué poblaciones podrían formar parte de una población mencionada.
+
+La tarea consiste en identificar y NORMALIZAR poblaciones que el texto realmente presenta como beneficiarias o sectores involucrados.
+
+Por lo tanto, ejemplos a tener en cuenta:
+"público general" NO implica "Adultos".
+"todo público" NO implica "Adultos", "Juventud", "Infancia" ni "Adultos mayores".
+"todas las personas" NO implica "Mujeres".
+"todo aquel interesado o interesada" NO implica "Mujeres".
+"comunidad" NO implica "Comunidad organizada".
+"habitantes" mencionado únicamente como parte de una descripción NO implica "Población habitante".
+"cultura" NO implica "Artístico-cultural" si no se refiere a personas o sector cultural beneficiario.
+"arte" NO implica "Artístico-cultural" si únicamente describe el tema o actividad del proyecto.
+"producción cultural" NO implica "Emprendedores".
+
+Debes evitar seleccionar una categoría simplemente porque lógicamente podría estar incluida dentro de otra población mencionada.
+
+Una categoría solamente puede ser seleccionada si existe una expresión del texto que pueda señalarse directamente como evidencia de esa categoría.
+
+¿Qué no debe ser considerado?:
+
+Lo siguiente se considerará como una justificación incorrecta si es recibida como salida, por lo que debe ser evitado a toda costa:
+
+- Al existir conceptos como "Público general", "todo público" o conceptos que implican carácter abierto del proyecto, se debe evitar asumir por completo que otros grupos van a ser beneficiados por el proyecto si no se menciona de manera explicita en otra parte del texto.
+
+- El carácter abierto de un proyecto o cualquier argumento que se apoye de esto no es justificación suficiente para respaldar la presencia de una categoría del catalogo en el proyecto.
+
+- Se debe evitar justificar la presencia de una categoría solo por su ubicación geográfica o relacionar alguna comunidad o grupo si no se presenta explicitamente en el texto.
+
+- Se deben evitar menciones implicitas. Se prioriza por completo la mención explicita del beneficiado.
+
+
+Aunque exista variabilidad de redacción ante la misma categoría se debe respetar la etiqueta mostrada en el catálogo previamente tratado.
+
+Una misma población mencionada puede corresponder a múltiples categorías únicamente cuando cada una de esas categorías tenga evidencia propia y explícita en el texto. Una categoría no puede utilizar como evidencia la existencia de otra categoría.
+
+Por ejemplo:
+- Adultos mayores que ingresan a estudiar a universidades en etapas tardías: pertenecen a las categorías de "Adultos mayores" y tambien a la de "Educación superior", así como "Universitarios", etc.
+
+Solo menciona la presencia de tal categoria una sola vez, ya que se debe contar la aparición de tal categoria por proyecto y no por mención.
+
+Acepta errores ortograficos y gramaticales.
+
+El proyecto a extraer las categorías es el siguiente:
+
+---INICIO DEL PROYECTO
+<<<PROYECTO>>>
+---FIN DEL PROYECTO
+
+Las poblaciones beneficiadas y los sectores involucrados que son aceptables y que deben ser considerados son solo y unicamente los siguientes:
+
+---INICIO CATÁLOGO DE POBLACIONES BENEFICIADAS Y SECTORES INVOLUCRADOS
+<<<ETIQUETAS>>>
+---FIN CATÁLOGO DE POBLACIONES BENEFICIADAS Y SECTORES INVOLUCRADOS
+
+Si se encuentra una población o sector beneficiado que no se encuentre en el catálogo anterior, no debe ser tomado en cuenta en lo absoluto.
+
+Devuelve una respuesta en formato JSON de la siguiente manera solo con las categorías que cumplen con las condiciones presentadas anteriormente y evita añadir al JSON de salida categorías justificadas en base al carácter abierto de un proyecto:
+
+[
+{
+    "poblacion": "Nombre del catalogo",
+    "justificacion": "Fragmento breve extraído del texto que evidencia claramente la categoría"
+}
+]
+
+Por ejemplo:
+
+{
+    "poblacion": "Adultos mayores",
+    "justificacion": "El proyecto está dirigido a personas de la tercera edad."
+}
