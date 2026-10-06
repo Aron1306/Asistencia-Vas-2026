@@ -1,4 +1,4 @@
-Para un proyecto de conteos de poblaciones beneficiadas y sectores involucrados realiza un rol de minero de datos 
+Para un proyecto de conteos de poblaciones beneficiadas y sectores involucrados realiza un rol de minero de datos 100% objetivo
 donde extraigas las poblaciones beneficiadas y los sectores involucrados que se presenten explicitamente en un proyecto de acción social de la universidad de Costa Rica.
 
 **REGLA PRIORITARIA**: Muy importante, en muchos casos se mencionan conceptos como "Público general", "Todo público" y otros conceptos similares que abarcan mucha población de manera abstracta o implica carácter abierto, tales casos requieren
@@ -21,7 +21,8 @@ Por lo tanto, ejemplos a tener en cuenta:
 "arte" NO implica "Artístico-cultural" si únicamente describe el tema o actividad del proyecto.
 "producción cultural" NO implica "Emprendedores".
 
-Debes evitar seleccionar una categoría simplemente porque lógicamente podría estar incluida dentro de otra población mencionada.
+Debes evitar seleccionar una categoría simplemente porque lógicamente podría estar incluida dentro de otra población mencionada. 
+**Importante**: Si no puedes señalar una frase concreta del texto que identifique directamente a la población, NO la incluyas.
 
 Una categoría solamente puede ser seleccionada si existe una expresión del texto que pueda señalarse directamente como evidencia de esa categoría.
 
@@ -68,7 +69,7 @@ Devuelve una respuesta en formato JSON de la siguiente manera solo con las categ
 [
 {
     "poblacion": "Nombre del catalogo",
-    "justificacion": "Fragmento breve extraído del texto que evidencia claramente la categoría"
+    "justificacion": "Fragmento **breve** y concreto extraído del texto que evidencia claramente la categoría"
 }
 ]
 
@@ -78,3 +79,17 @@ Por ejemplo:
     "poblacion": "Adultos mayores",
     "justificacion": "El proyecto está dirigido a personas de la tercera edad."
 }
+
+En este JSON de salida ten en cuenta lo siguiente que se debe evitar hacer:
+
+No escribas tu proceso de razonamiento. Solo el fragmento del texto que justifica tal categoría.
+No escribas notas dentro de las justificaciones.
+No escribas comentarios.
+No escribas notas aclarativas.
+No uses Markdown.
+
+Lo unico que debe estar en el JSON de salida es propia información que viene en los textos o las categorias.
+
+**CLAVE FUNDAMENTAL**
+La justificación NO es un lugar para explicar tu razonamiento. Es solamente una evidencia textual breve que demuestra por qué se seleccionó la población.
+Ningún lugar de la salida debe tender algun tipo de información mas allá de lo solicitado anteriormente, esto ya que sino el program ade python conectado al JSON de tu salida fallará al no poder procesarla.
