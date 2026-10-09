@@ -13,16 +13,12 @@ Por ejemplo: "Personas pensionadas" no implica automaticamente "Adultos mayores"
 9. Si una población está explícitamente descrita mediante un sinónimo, selecciónala.
 10. Devuelve únicamente JSON válido. No escribas explicaciones, razonamientos, comentarios ni texto fuera del JSON.
 11. Si ninguna categoría aplica, devuelve una lista vacía.
-12. Siempre ignora palabras en el texto del proyecto como "Todo público", "público en general", "público de todas las edades", etc. Estas no deben ser utilizadas para justificar la presencia de una población.
-Por ejemplo: "Todo público" "Público general", "todas las edades", etc, no prueban que "Adultos" o "Infancia" o "Adultos mayores", etc, está presente en el texto ya que son palabras muy generales que componen muchas poblaciones y se quiere evitar eso.
-13. En cuanto a las categorias que implican una ubicación geográfica, estas solo deben ser tomadas como presentes en el texto si el propio texto la menciona como beneficiada de manera explicita, por lo tanto,
-no se debe asumir una ubicación geográfica por la presencia de otras palabras que podrían estar relacionadas. Por ejemplo: la presencia de "Playas" no implica automaticamente "Región Puntarenas" a menos que se especifique que Puntarenas está implicado.
-14. Si en un proyecto esta explicito que la poblacion beneficiada es "La población de tal lugar" siendo el lugar una ubicación geográfica o similares, es aceptable asumir que "Población habitante" es la beneficiada.
-15. Si existe presencia de una ubicación geográfica en el texto y se quiere utilizar como justificación para una categoría que implique otra ubicación que la contiene geográficamente, tomala como presente solo si se está seguro que tal ubicación contiene la otra.
-Por ejemplo, si en el proyecto viene la palabra "San Carlos" no se debe marcar "Región Puntarenas" ya que San Carlos no se encuentra en Puntarenas, pero si existiera una categoría de "Region Alajuela" entonces esta si debería ser marcada. Por lo tanto siempre verifica la ubicación geográfica si se 
-va a utilizar como justificación.
-16. Asegurate siempre que la justificación prueba que la categoria está presente en el texto. Queremos explicitud considerando la variabilidad semantica.
-
+12. En el caso de "Todo público", "Público general" y otras similares, existe una etiqueta especifica para esto, no marques otras etiquetas utilizando fragmentos como estos que no sea la dedicada.
+13. Si en un proyecto esta explicito que la poblacion beneficiada es "La población de tal lugar" siendo el lugar una ubicación geográfica o similares, es aceptable asumir que "Población residente" es la beneficiada.
+14. Asegurate siempre que la justificación prueba que la categoria está presente en el texto. Queremos explicitud considerando la variabilidad semantica.
+15. Para las etiquetas de "Educacion primaria", "Educacion secundaria" y "Educación superior" es correcto asumir que si se benefician estudiantes de grupos de edad que cubren tales etiquetas y el proyecto indica que se benefician mediante su educación entonces marcar en 1.
+Además, recuerda que Escuela tiene que ver con "Educación primaria" ya que es educación infantil, colegio con "Educacion secundaria" y universidad con "Educación superior" en Costa Rica.
+16. Para la etiqueta de "Personas en situación de vulnerabilidad" no asumas que por que el grupo beneficiado pertenece a una ubicación o situación economica es vulnerable. Se necesita más justificación que esa.
 CATEGORÍAS DISPONIBLES:
 <<<ETIQUETAS>>>
 
