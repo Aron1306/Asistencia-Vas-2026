@@ -3,10 +3,11 @@ import json
 import re
 import pandas as pd
 import argparse
+import time
 
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "qwen3.5:9b"
+MODEL = "gemma4:12b"
 
 COLUMNAS_PROYECTO = [
     "Beneficios para la UCR",
@@ -14,6 +15,7 @@ COLUMNAS_PROYECTO = [
     "Beneficiarios según propuesta de proyecto",
     "Población"
 ]
+
 
 def construir_proyecto(fila):
     partes = []
@@ -26,11 +28,13 @@ def construir_proyecto(fila):
 
     return "\n".join(partes)
 
+
 def cargar_beneficiados(ruta):
     with open(ruta, "r", encoding="utf-8") as archivo:
         config = json.load(archivo)
 
     return config["beneficiados"]
+
 
 def preguntar_ollama(prompt: str) -> str:
     response = requests.post(
@@ -46,7 +50,8 @@ def preguntar_ollama(prompt: str) -> str:
             "think": False,
             "stream": False,
             "options": {
-                "temperature": 0
+                "temperature": 0,
+                "seed": 42
             }
         },
         timeout=600
@@ -55,6 +60,7 @@ def preguntar_ollama(prompt: str) -> str:
     response.raise_for_status()
 
     return response.json()["message"]["content"]
+
 
 def limpiar_respuesta_json(respuesta: str):
     """
@@ -69,9 +75,11 @@ def limpiar_respuesta_json(respuesta: str):
 
     return respuesta.strip()
 
+
 def cargar_prompt(ruta):
     with open(ruta, "r", encoding="utf-8") as archivo:
         return archivo.read()
+
 
 def crear_prompt(plantilla, proyecto, etiquetas):
     return (
@@ -80,71 +88,91 @@ def crear_prompt(plantilla, proyecto, etiquetas):
         .replace("<<<PROYECTO>>>", proyecto)
     )
 
-def procesar_respuesta(respuesta, conteos):
+
+def procesar_respuesta(respuesta, poblaciones_predefinidas, archivo_log):
     """
-    Procesa el JSON devuelto por Ollama y actualiza los conteos.
+    Procesa el JSON devuelto por Ollama.
+
+    Formato esperado:
+
+    {
+        "poblacion": [
+            "Estudiantes",
+            "Docentes"
+        ]
+    }
+
+    Las poblaciones que no existan en el catálogo son ignoradas
+    y registradas en el log.
     """
 
     respuesta = limpiar_respuesta_json(respuesta)
 
     datos = json.loads(respuesta)
 
-    if not isinstance(datos, list):
-        raise ValueError("La respuesta de Ollama no contiene una lista JSON.")
+    if not isinstance(datos, dict):
+        raise ValueError(
+            "La respuesta de Ollama no contiene un objeto JSON."
+        )
+
+    poblaciones = datos.get("poblacion")
+
+    if poblaciones is None:
+        raise ValueError(
+            'La respuesta JSON no contiene la clave "poblacion".'
+        )
+
+    if not isinstance(poblaciones, list):
+        raise ValueError(
+            'La clave "poblacion" no contiene una lista.'
+        )
 
     poblaciones_proyecto = set()
 
-    for poblacion in datos:
-        nombre = poblacion.get("poblacion")
+    for poblacion in poblaciones:
+
+        if not isinstance(poblacion, str):
+            archivo_log.write(
+                "ADVERTENCIA: Ollama devolvió una población "
+                "que no es texto. Se ignora.\n"
+            )
+            continue
+
+        nombre = poblacion.strip()
 
         if not nombre:
             continue
 
-        nombre = nombre.strip()
-
-        # Evitar contar dos veces la misma población
-        # dentro del mismo proyecto.
         if nombre in poblaciones_proyecto:
+            continue
+
+        if nombre not in poblaciones_predefinidas:
+            archivo_log.write(
+                f"ADVERTENCIA: Ollama devolvió una población "
+                f"que no está en el catálogo: {nombre}\n"
+            )
             continue
 
         poblaciones_proyecto.add(nombre)
 
-        # Solo se aceptan categorías del catálogo.
-        if nombre in conteos:
-            conteos[nombre]["conteo"] += 1
-            continue
-
-        print(
-            f"ADVERTENCIA: Ollama devolvió una población "
-            f"que no está en el catálogo: {nombre}"
-        )
+    return poblaciones_proyecto
 
 
-def guardar_resultado(conteos, ruta_salida):
+def guardar_conteos(df, poblaciones, ruta_salida):
     """
-    Guarda el conteo de las poblaciones del catálogo.
+    Calcula los conteos a partir de las columnas binarias
+    y los guarda en un archivo de texto.
     """
-
-    resultado = {
-        "beneficiados": []
-    }
-
-    for nombre, datos in conteos.items():
-        resultado["beneficiados"].append({
-            "poblacion": nombre,
-            "conteo": datos["conteo"]
-        })
 
     with open(ruta_salida, "w", encoding="utf-8") as archivo:
-        json.dump(
-            resultado,
-            archivo,
-            ensure_ascii=False,
-            indent=4
-        )
+        for poblacion in poblaciones:
+            conteo = int(df[poblacion].sum())
+            archivo.write(f"{poblacion}: {conteo}\n")
 
 
 def main():
+    inicio = time.perf_counter()
+
     parser = argparse.ArgumentParser(
         description="Procesa proyectos de un Excel utilizando Ollama."
     )
@@ -163,108 +191,227 @@ def main():
 
     parser.add_argument(
         "--salida",
-        default="conteo_poblaciones.json",
-        help="Archivo JSON donde se guardará el resultado."
+        default="proyectos_clasificados.xlsx",
+        help="Archivo Excel donde se guardará el resultado."
+    )
+
+    parser.add_argument(
+        "--conteos",
+        default="conteo_poblaciones.txt",
+        help="Archivo de texto donde se guardarán los conteos."
+    )
+
+    parser.add_argument(
+        "--log",
+        default="log.txt",
+        help="Archivo de texto donde se guardará el detalle del procesamiento."
     )
 
     args = parser.parse_args()
 
-    # Cargar catálogo de poblaciones
-    poblaciones_predefinidas = cargar_beneficiados("beneficiados.json")
+    poblaciones_predefinidas = cargar_beneficiados(
+        "beneficiados.json"
+    )
 
     plantilla_prompt = cargar_prompt("prompt.txt")
 
     etiquetas = list(poblaciones_predefinidas)
 
-    # Crear estructura de conteos
-    conteos = {
-        poblacion: {
-            "conteo": 0
-        }
-        for poblacion in poblaciones_predefinidas
-    }
+    with open(args.log, "w", encoding="utf-8") as archivo_log:
 
-    # Leer Excel
-    print(f"Leyendo Excel: {args.excel}")
+        archivo_log.write(
+            f"Excel de entrada: {args.excel}\n"
+        )
+        archivo_log.write(
+            f"Modelo: {MODEL}\n"
+        )
+        archivo_log.write("\n")
 
-    df = pd.read_excel(args.excel, skiprows=[1])
+        print(f"Leyendo Excel: {args.excel}")
 
-    total_proyectos = len(df)
-
-    if args.debug > 0:
-        cantidad = min(args.debug, total_proyectos)
-        df = df.head(cantidad)
-    else:
-        cantidad = total_proyectos
-
-    print(f"Proyectos encontrados: {total_proyectos}")
-    print(f"Proyectos a procesar: {cantidad}")
-    print()
-
-    # Procesar proyectos uno por uno
-    for indice, (_, fila) in enumerate(df.iterrows(), start=1):
-
-        print("=" * 70)
-        print(f"Procesando proyecto {indice}/{cantidad}")
-
-        proyecto = construir_proyecto(fila)
-
-        if not proyecto.strip():
-            print("Proyecto vacío. Se omite.")
-            continue
-
-        print("-" * 70)
-        print(proyecto)
-        print("-" * 70)
-
-        prompt = crear_prompt(
-            plantilla_prompt,
-            proyecto,
-            etiquetas
+        df = pd.read_excel(
+            args.excel,
+            skiprows=[1]
         )
 
-        try:
-            respuesta = preguntar_ollama(prompt)
+        total_proyectos = len(df)
 
-            print(respuesta)
+        if args.debug > 0:
+            cantidad = min(args.debug, total_proyectos)
+            df = df.head(cantidad).copy()
+        else:
+            cantidad = total_proyectos
 
-            procesar_respuesta(
-                respuesta,
-                conteos
+        print(f"Proyectos encontrados: {total_proyectos}")
+        print(f"Proyectos a procesar: {cantidad}")
+        print()
+
+        archivo_log.write(
+            f"Proyectos encontrados: {total_proyectos}\n"
+        )
+
+        archivo_log.write(
+            f"Proyectos a procesar: {cantidad}\n\n"
+        )
+
+        for poblacion in poblaciones_predefinidas:
+            df[poblacion] = 0
+
+        for posicion, (indice, fila) in enumerate(
+            df.iterrows(),
+            start=1
+        ):
+            print(
+                f"Procesando proyecto {posicion}/{cantidad}..."
             )
 
-            print("Respuesta procesada correctamente.")
+            archivo_log.write("=" * 70 + "\n")
+            archivo_log.write(
+                f"Procesando proyecto {posicion}/{cantidad}\n"
+            )
+            archivo_log.write("-" * 70 + "\n")
 
-        except json.JSONDecodeError as error:
-            print("ERROR: Ollama no devolvió JSON válido.")
-            print(f"Detalle: {error}")
-            print("Respuesta recibida:")
-            print(respuesta)
+            proyecto = construir_proyecto(fila)
 
-        except requests.RequestException as error:
-            print("ERROR de conexión con Ollama.")
-            print(error)
+            if not proyecto.strip():
+                print("  Proyecto vacío. Se omite.")
 
-        except Exception as error:
-            print("ERROR procesando el proyecto.")
-            print(error)
+                archivo_log.write(
+                    "Proyecto vacío. Se omite.\n\n"
+                )
+                continue
 
-    # Guardar resultados
-    guardar_resultado(
-        conteos,
-        args.salida
+            archivo_log.write(proyecto)
+            archivo_log.write("\n")
+            archivo_log.write("-" * 70 + "\n")
+
+            prompt = crear_prompt(
+                plantilla_prompt,
+                proyecto,
+                etiquetas
+            )
+
+            try:
+                respuesta = preguntar_ollama(prompt)
+
+                archivo_log.write(
+                    "RESPUESTA DE OLLAMA:\n"
+                )
+                archivo_log.write(respuesta)
+                archivo_log.write("\n")
+
+                poblaciones_proyecto = procesar_respuesta(
+                    respuesta,
+                    poblaciones_predefinidas,
+                    archivo_log
+                )
+
+                for poblacion in poblaciones_proyecto:
+                    df.at[indice, poblacion] = 1
+
+                archivo_log.write(
+                    "Respuesta procesada correctamente.\n\n"
+                )
+
+            except json.JSONDecodeError as error:
+                print(
+                    "  ERROR: Ollama no devolvió JSON válido."
+                )
+
+                archivo_log.write(
+                    "ERROR: Ollama no devolvió JSON válido.\n"
+                )
+                archivo_log.write(
+                    f"Detalle: {error}\n"
+                )
+                archivo_log.write(
+                    "Respuesta recibida:\n"
+                )
+                archivo_log.write(
+                    respuesta
+                )
+                archivo_log.write("\n\n")
+
+            except requests.RequestException as error:
+                print(
+                    "  ERROR de conexión con Ollama."
+                )
+
+                archivo_log.write(
+                    "ERROR de conexión con Ollama.\n"
+                )
+                archivo_log.write(
+                    f"{error}\n\n"
+                )
+
+            except Exception as error:
+                print(
+                    "  ERROR procesando el proyecto."
+                )
+
+                archivo_log.write(
+                    "ERROR procesando el proyecto.\n"
+                )
+                archivo_log.write(
+                    f"{error}\n\n"
+                )
+
+        df.to_excel(
+            args.salida,
+            index=False
+        )
+
+        guardar_conteos(
+            df,
+            poblaciones_predefinidas,
+            args.conteos
+        )
+
+        archivo_log.write("=" * 70 + "\n")
+        archivo_log.write(
+            "Procesamiento terminado.\n"
+        )
+
+        archivo_log.write(
+            f"Excel guardado en: {args.salida}\n"
+        )
+
+        archivo_log.write(
+            f"Conteos guardados en: {args.conteos}\n"
+        )
+
+        archivo_log.write(
+            f"Log guardado en: {args.log}\n"
+        )
+
+        archivo_log.write("\n")
+        archivo_log.write("CONTEOS:\n")
+
+        for poblacion in poblaciones_predefinidas:
+            conteo = int(df[poblacion].sum())
+
+            if conteo > 0:
+                archivo_log.write(
+                    f"{poblacion}: {conteo}\n"
+                )
+
+    fin = time.perf_counter()
+    duracion = fin - inicio
+
+    horas = int(duracion // 3600)
+    minutos = int((duracion % 3600) // 60)
+    segundos = duracion % 60
+
+    tiempo_formateado = (
+        f"{horas:02d}:{minutos:02d}:{segundos:05.2f}"
     )
 
     print()
-    print("=" * 70)
     print("Procesamiento terminado.")
-    print(f"Resultado guardado en: {args.salida}")
-    print()
-
-    print("CONTEOS:")
-    for nombre, datos in conteos.items():
-        if datos["conteo"] > 0:
-            print(f"{nombre}: {datos['conteo']}")
+    print(f"Excel guardado en: {args.salida}")
+    print(f"Conteos guardados en: {args.conteos}")
+    print(f"Log guardado en: {args.log}")
+    print(f"Tiempo total: {tiempo_formateado}")
 
 
 if __name__ == "__main__":
