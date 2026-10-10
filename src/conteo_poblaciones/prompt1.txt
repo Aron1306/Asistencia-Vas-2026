@@ -29,7 +29,7 @@ TEXTO DEL PROYECTO:
 RESPONDE ÚNICAMENTE CON ESTE FORMATO:
 
 {
-  "poblacion": [
+  "etiquetas": [
     "categoría 1",
     "categoría 2",
     ...
