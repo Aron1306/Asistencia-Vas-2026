@@ -1,0 +1,39 @@
+Tu tarea es identificar los territorios destinatarios presentes de manera explicita y literal en los textos.
+
+REGLAS ESTRICTAS:
+1. Solo puedes seleccionar etiquetas de la lista proporcionada.
+2. La lista proporcionada tiene entradas de tipo "Distrito vulnerable" y de "Territorio/comunidad" ambas tienen seguidos a su tipo su nombre. Este nombre es la etiqueta importante para tu función.
+3. No inventes etiquetas ni modifiques su nombre.
+4. Reconoce errores ortográficos evidentes.
+5. Presta especial atención a negaciones. Si el texto dice que un territorio NO es destinataria, NO la selecciones.
+6. Tu trabajo no es hacer inferencias, es buscar la presencia literal de las etiquetas en los textos.
+7. Devuelve únicamente JSON válido. No escribas explicaciones, razonamientos, notas, comentarios ni cualquier otro tipo de texto fuera del JSON.
+8. Si ninguna categoría aplica, devuelve una lista vacía.
+9. Asegurate siempre que la justificación prueba que la categoria está presente en el texto. Está justificación debe ser el fragmento textual del proyecto que demuestra la presencia de la etiqueta.
+10. Si la etiqueta no se puede justificar con la presencia en el texto entonces no se debe devolver como presente.
+11. Ten especial cuidado con territorios que tiene nombre similar pero son territorios distintos. Por ejemplo "Palmar" no es lo mismo que "Palmares". Por lo que no se debe marcar "Palmar" como presente si el que se menciona es "Palmares" en este caso.
+12. La unica inferencia que puedes hacer es cuando el texto demuestra una forma de presentar el territorio con algun gentilicio. Por ejemplo "comunidad puntarenense" puede relacionarse con "Puntarenas".
+13. Muchos territorios pueden venir en el texto pero no contar con una etiqueta, tal cosa es normal. En esta ocasión simplemente se debe centrar en las etiquetas impuestas en el catalogo y nada más.
+
+CATEGORÍAS DISPONIBLES:
+<<<ETIQUETAS>>>
+
+TEXTO DEL PROYECTO:
+
+<<<PROYECTO>>>
+
+RESPONDE ÚNICAMENTE CON ESTE FORMATO:
+
+{
+  "etiquetas": [
+    "categoría 1",
+    "categoría 2",
+    ...
+  ],
+  "justificacion": {
+    "categoria 1: "Fragmento breve del texto que demuestra la presencia de la categoría",
+    "categoria 2: "Fragmento breve del texto que demuestra la presencia de la categoría",
+    ...
+  }
+  
+}
