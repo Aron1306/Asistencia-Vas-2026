@@ -29,11 +29,11 @@ def construir_proyecto(fila):
     return "\n".join(partes)
 
 
-def cargar_beneficiados(ruta):
+def cargar_catalogo(ruta):
     with open(ruta, "r", encoding="utf-8") as archivo:
         config = json.load(archivo)
 
-    return config["beneficiados"]
+    return config["etiquetas"]
 
 
 def preguntar_ollama(prompt: str) -> str:
@@ -89,20 +89,20 @@ def crear_prompt(plantilla, proyecto, etiquetas):
     )
 
 
-def procesar_respuesta(respuesta, poblaciones_predefinidas, archivo_log):
+def procesar_respuesta(respuesta, etiquetas_predefinidas, archivo_log):
     """
     Procesa el JSON devuelto por Ollama.
 
     Formato esperado:
 
     {
-        "poblacion": [
+        "etiquetas": [
             "Estudiantes",
             "Docentes"
         ]
     }
 
-    Las poblaciones que no existan en el catálogo son ignoradas
+    Las etiquetas que no existan en el catálogo son ignoradas
     y registradas en el log.
     """
 
@@ -115,59 +115,59 @@ def procesar_respuesta(respuesta, poblaciones_predefinidas, archivo_log):
             "La respuesta de Ollama no contiene un objeto JSON."
         )
 
-    poblaciones = datos.get("poblacion")
+    etiquetas = datos.get("etiquetas")
 
-    if poblaciones is None:
+    if etiquetas is None:
         raise ValueError(
-            'La respuesta JSON no contiene la clave "poblacion".'
+            'La respuesta JSON no contiene la clave "etiquetas".'
         )
 
-    if not isinstance(poblaciones, list):
+    if not isinstance(etiquetas, list):
         raise ValueError(
-            'La clave "poblacion" no contiene una lista.'
+            'La clave "etiqueta" no contiene una lista.'
         )
 
-    poblaciones_proyecto = set()
+    etiquetas_proyecto = set()
 
-    for poblacion in poblaciones:
+    for etiqueta in etiquetas:
 
-        if not isinstance(poblacion, str):
+        if not isinstance(etiqueta, str):
             archivo_log.write(
-                "ADVERTENCIA: Ollama devolvió una población "
+                "ADVERTENCIA: Ollama devolvió algo "
                 "que no es texto. Se ignora.\n"
             )
             continue
 
-        nombre = poblacion.strip()
+        nombre = etiqueta.strip()
 
         if not nombre:
             continue
 
-        if nombre in poblaciones_proyecto:
+        if nombre in etiquetas_proyecto:
             continue
 
-        if nombre not in poblaciones_predefinidas:
+        if nombre not in etiquetas_predefinidas:
             archivo_log.write(
-                f"ADVERTENCIA: Ollama devolvió una población "
+                f"ADVERTENCIA: Ollama devolvió una etiqueta "
                 f"que no está en el catálogo: {nombre}\n"
             )
             continue
 
-        poblaciones_proyecto.add(nombre)
+        etiquetas_proyecto.add(nombre)
 
-    return poblaciones_proyecto
+    return etiquetas_proyecto
 
 
-def guardar_conteos(df, poblaciones, ruta_salida):
+def guardar_conteos(df, etiquetas, ruta_salida):
     """
     Calcula los conteos a partir de las columnas binarias
     y los guarda en un archivo de texto.
     """
 
     with open(ruta_salida, "w", encoding="utf-8") as archivo:
-        for poblacion in poblaciones:
-            conteo = int(df[poblacion].sum())
-            archivo.write(f"{poblacion}: {conteo}\n")
+        for etiqueta in etiquetas:
+            conteo = int(df[etiqueta].sum())
+            archivo.write(f"{etiqueta}: {conteo}\n")
 
 
 def main():
@@ -197,7 +197,7 @@ def main():
 
     parser.add_argument(
         "--conteos",
-        default="conteo_poblaciones.txt",
+        default="conteo_etiquetas.txt",
         help="Archivo de texto donde se guardarán los conteos."
     )
 
@@ -207,15 +207,23 @@ def main():
         help="Archivo de texto donde se guardará el detalle del procesamiento."
     )
 
-    args = parser.parse_args()
-
-    poblaciones_predefinidas = cargar_beneficiados(
-        "beneficiados.json"
+    parser.add_argument(
+        "--prompt",
+        default="prompt1.txt",
+        help="Archivo de texto con el prompt a ejectutar."
     )
 
-    plantilla_prompt = cargar_prompt("prompt.txt")
+    parser.add_argument(
+        "--catalogo",
+        default="beneficiados.json",
+        help="Archivo JSON con las etiquetas predefinidas."
+    )
 
-    etiquetas = list(poblaciones_predefinidas)
+    args = parser.parse_args()
+
+    plantilla_prompt = cargar_prompt(args.prompt)
+
+    etiquetas_predefinidas = cargar_catalogo(args.catalogo)
 
     with open(args.log, "w", encoding="utf-8") as archivo_log:
 
@@ -254,8 +262,8 @@ def main():
             f"Proyectos a procesar: {cantidad}\n\n"
         )
 
-        for poblacion in poblaciones_predefinidas:
-            df[poblacion] = 0
+        for etiqueta in etiquetas_predefinidas:
+            df[etiqueta] = 0
 
         for posicion, (indice, fila) in enumerate(
             df.iterrows(),
@@ -288,7 +296,7 @@ def main():
             prompt = crear_prompt(
                 plantilla_prompt,
                 proyecto,
-                etiquetas
+                etiquetas_predefinidas
             )
 
             try:
@@ -300,14 +308,14 @@ def main():
                 archivo_log.write(respuesta)
                 archivo_log.write("\n")
 
-                poblaciones_proyecto = procesar_respuesta(
+                etiquetas_proyecto = procesar_respuesta(
                     respuesta,
-                    poblaciones_predefinidas,
+                    etiquetas_predefinidas,
                     archivo_log
                 )
 
-                for poblacion in poblaciones_proyecto:
-                    df.at[indice, poblacion] = 1
+                for etiqueta in etiquetas_proyecto:
+                    df.at[indice, etiqueta] = 1
 
                 archivo_log.write(
                     "Respuesta procesada correctamente.\n\n"
@@ -363,7 +371,7 @@ def main():
 
         guardar_conteos(
             df,
-            poblaciones_predefinidas,
+            etiquetas_predefinidas,
             args.conteos
         )
 
@@ -387,12 +395,12 @@ def main():
         archivo_log.write("\n")
         archivo_log.write("CONTEOS:\n")
 
-        for poblacion in poblaciones_predefinidas:
-            conteo = int(df[poblacion].sum())
+        for etiqueta in etiquetas_predefinidas:
+            conteo = int(df[etiqueta].sum())
 
             if conteo > 0:
                 archivo_log.write(
-                    f"{poblacion}: {conteo}\n"
+                    f"{etiqueta}: {conteo}\n"
                 )
 
     fin = time.perf_counter()
