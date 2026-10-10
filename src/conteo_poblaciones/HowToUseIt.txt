@@ -1,0 +1,1 @@
+python conteo_poblaciones.py proyectos.xlsx --catalogo ubicaciones.json --prompt prompt_ubicaciones.txt --salida resultados_ubicaciones.xlsx --conteos conteos_ubicaciones.txt --log log_ubicaciones.txt --debug 10
